@@ -1,0 +1,73 @@
+Origin: Bintray
+Label: Bintray
+Suite: stable
+Codename: stable
+Date: Thu, 28 Nov 2019 22:37:00 UTC
+Components: main
+Architectures: aarch64 amd64 arm i386 i686 x86_64
+MD5Sum:
+ 8178165f4f85564032aa989fd4af2173           451709 main/binary-aarch64/Packages
+ 6a299938e30a98996d276662466b722d           104103 main/binary-aarch64/Packages.bz2
+ 38191519775a46ed149246d01a3662c5           138449 main/binary-aarch64/Packages.gz
+ ad097ccf08bacce1b3a536e5295d7b13            47863 main/binary-all/Packages
+ e071dc9f7459444008885f9a509a9975            12043 main/binary-all/Packages.bz2
+ 8e699890cd6bf64ef759087f99715a18            13926 main/binary-all/Packages.gz
+ ad097ccf08bacce1b3a536e5295d7b13            47863 main/binary-amd64/Packages
+ e071dc9f7459444008885f9a509a9975            12043 main/binary-amd64/Packages.bz2
+ 8e699890cd6bf64ef759087f99715a18            13926 main/binary-amd64/Packages.gz
+ 07dd14f41719d08d1a046ce908f052e0           440361 main/binary-arm/Packages
+ f1b8e2a6162006d00b78a465b9f1e9bd           104174 main/binary-arm/Packages.bz2
+ 21342e8063e69bf2452b7573d9625e68           137880 main/binary-arm/Packages.gz
+ ad097ccf08bacce1b3a536e5295d7b13            47863 main/binary-i386/Packages
+ e071dc9f7459444008885f9a509a9975            12043 main/binary-i386/Packages.bz2
+ 8e699890cd6bf64ef759087f99715a18            13926 main/binary-i386/Packages.gz
+ 41ec6d8a4178ec45303644a1616a465d           443116 main/binary-i686/Packages
+ b5c0067108199b0ba6b98db7020cad0c           104169 main/binary-i686/Packages.bz2
+ b5d77627adf5328d2938302600e193ea           138075 main/binary-i686/Packages.gz
+ e887ce0d8a2d5b9be0eaaf2d2d284cdc           448633 main/binary-x86_64/Packages
+ 2440f7cca4eb2e6d3e75ef6241e009d8           104143 main/binary-x86_64/Packages.bz2
+ 25b08a96857b57fe69aa064720fdf2f6           137937 main/binary-x86_64/Packages.gz
+SHA1:
+ 22c4c36035a5f628cede123737113799023044f5           451709 main/binary-aarch64/Packages
+ 387d2225037ae5f305fb036afec48afa5f7e3def           104103 main/binary-aarch64/Packages.bz2
+ 406a8d7618374cee378842ba9f593aec18f4a37e           138449 main/binary-aarch64/Packages.gz
+ 025c066bfe4296a34db3afb0623c36a702411f6c            47863 main/binary-all/Packages
+ bd40479580a78c1dd695d3661b1292434d216893            12043 main/binary-all/Packages.bz2
+ 12915f30222002829404eb2a92137102b073bc67            13926 main/binary-all/Packages.gz
+ 025c066bfe4296a34db3afb0623c36a702411f6c            47863 main/binary-amd64/Packages
+ bd40479580a78c1dd695d3661b1292434d216893            12043 main/binary-amd64/Packages.bz2
+ 12915f30222002829404eb2a92137102b073bc67            13926 main/binary-amd64/Packages.gz
+ 0c457b73e0ecd57bd5e2228e276cabedf2925c2a           440361 main/binary-arm/Packages
+ 5b2225df909eafd4ecb91ec55087a7c1a6072732           104174 main/binary-arm/Packages.bz2
+ 9c8765ae31db1c1358fe0a1fe4ee2b73ba3226c0           137880 main/binary-arm/Packages.gz
+ 025c066bfe4296a34db3afb0623c36a702411f6c            47863 main/binary-i386/Packages
+ bd40479580a78c1dd695d3661b1292434d216893            12043 main/binary-i386/Packages.bz2
+ 12915f30222002829404eb2a92137102b073bc67            13926 main/binary-i386/Packages.gz
+ 17512be2b4e30b1f45fbaa338b68ce246457235a           443116 main/binary-i686/Packages
+ 7468ade9840d7ec64dc26d2762b8c77f29a4b235           104169 main/binary-i686/Packages.bz2
+ 09abab3d2330edb6d55c1638c1afac1c7a1bf992           138075 main/binary-i686/Packages.gz
+ 03905547a1035cc42202ceadaa0aa40367b79507           448633 main/binary-x86_64/Packages
+ d3cc3a7f9c917adbb3659bc4de7e3fb68d8428e9           104143 main/binary-x86_64/Packages.bz2
+ 8d2efe5c242b98c3b8d7ab8f3ee76de601ff147a           137937 main/binary-x86_64/Packages.gz
+SHA256:
+ 3101aa6f2748e68881b3cc94404df1a6e32c183ff272e38faee3b6fdb235c9b6           451709 main/binary-aarch64/Packages
+ 06a66453f8a22a6bbe5eba29f6c957c0b885e2102755ece1952c7102d0e28e77           104103 main/binary-aarch64/Packages.bz2
+ 5c1530fa5ae76c2901b226a2377da2125f58f5b87b388b121cf307060b53f7a1           138449 main/binary-aarch64/Packages.gz
+ 4f71d52c91b6944538ff5ccbdc777fa0cecfb1705b1a8476db7fd7110cb0ca56            47863 main/binary-all/Packages
+ eef92d74ee241ec0352fb2c5050b83c626e7119177b5aa7ca0256db4bfb955c7            12043 main/binary-all/Packages.bz2
+ f04c216723750fedbf3dedbbad1303f6f9f2fba0ccc90c5f7a02341ebb8a8094            13926 main/binary-all/Packages.gz
+ 4f71d52c91b6944538ff5ccbdc777fa0cecfb1705b1a8476db7fd7110cb0ca56            47863 main/binary-amd64/Packages
+ eef92d74ee241ec0352fb2c5050b83c626e7119177b5aa7ca0256db4bfb955c7            12043 main/binary-amd64/Packages.bz2
+ f04c216723750fedbf3dedbbad1303f6f9f2fba0ccc90c5f7a02341ebb8a8094            13926 main/binary-amd64/Packages.gz
+ efec866aa97fa2059946f7373e496594826c32001ef02ff83a8b632efc17f930           440361 main/binary-arm/Packages
+ a8ef3d84504ba5a6f5db5e24a74f49e21f09b9f1760cc55c72be202e8ccf2258           104174 main/binary-arm/Packages.bz2
+ b1ca7a68a59f6a852e757f6120ff4c244579e44f609bce8337f40afe6955459c           137880 main/binary-arm/Packages.gz
+ 4f71d52c91b6944538ff5ccbdc777fa0cecfb1705b1a8476db7fd7110cb0ca56            47863 main/binary-i386/Packages
+ eef92d74ee241ec0352fb2c5050b83c626e7119177b5aa7ca0256db4bfb955c7            12043 main/binary-i386/Packages.bz2
+ f04c216723750fedbf3dedbbad1303f6f9f2fba0ccc90c5f7a02341ebb8a8094            13926 main/binary-i386/Packages.gz
+ 5e270d0bf4b8dd6636a3f392a6b0dbd2cbe630814943e6b856d5502dbc995595           443116 main/binary-i686/Packages
+ bfea9a420ff9a5591e2de09c8d8b9d82105d08de9ac6f18ad57e3d56b8740e09           104169 main/binary-i686/Packages.bz2
+ 8c9e5bd5bf8eab3c3d4af1ee164528dec2e11d2da66420890e2127a0abfd7261           138075 main/binary-i686/Packages.gz
+ 743f7785050f8e69c9f7543e7159124af4b5aa6b6c5b36852605649f01f2815d           448633 main/binary-x86_64/Packages
+ fb1bfdede8cc57e338ab474747cede3d467a5d1c3d2f837764c6aacc0b36b7ec           104143 main/binary-x86_64/Packages.bz2
+ a42de402057cd00965d476ecb6e10abb11e9a2d7f2ffaa7fa49079a2cb74287c           137937 main/binary-x86_64/Packages.gz
