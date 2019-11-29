@@ -3008,7 +3008,7 @@ Version: 2:1.13.4
 Homepage: https://golang.org/
 Depends: clang
 Description: Go programming language compiler
-Filename: arm/golang_2:1.13.4_arm.deb
+Filename: arm/golang_2_1.13.4_arm.deb
 SHA1: 38835b8313d9caac93dfa141fbb90b0cc2a2e0cd
 SHA256: ea11b5e3e1913d9611ff4c1d23d0a647376a0c70f8e49675e7972c59dcbfd88a
 Size: 52231136
