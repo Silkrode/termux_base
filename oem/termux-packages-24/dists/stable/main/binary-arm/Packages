@@ -3004,7 +3004,7 @@ Package: golang
 Architecture: arm
 Installed-Size: 285980
 Maintainer: Fredrik Fornwall @fornwall
-Version: 2:1.13.4
+Version: 2_1.13.4
 Homepage: https://golang.org/
 Depends: clang
 Description: Go programming language compiler
@@ -3017,11 +3017,11 @@ Package: golang-doc
 Architecture: arm
 Installed-Size: 4676
 Maintainer: Fredrik Fornwall @fornwall
-Version: 2:1.13.4
+Version: 2_1.13.4
 Homepage: https://golang.org/
-Depends: golang (= 2:1.13.4)
+Depends: golang (= 2_1.13.4)
 Description: Go programming language - documentation
-Filename: arm/golang-doc_2:1.13.4_arm.deb
+Filename: arm/golang-doc_2_1.13.4_arm.deb
 SHA1: f2b02222c688a9bc72bdd1b0c55a3fa0fe631984
 SHA256: ea5c08dc68a6141ad7a3c024dc02078ea765017b51ba4b7fb8bb0b51fa553d3f
 Size: 2512086
