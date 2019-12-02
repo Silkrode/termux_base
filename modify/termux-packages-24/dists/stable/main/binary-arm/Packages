@@ -210,8 +210,9 @@ Replaces: apt-transport-https, libapt-pkg
 Suggests: gnupg, unstable-repo, x11-repo
 Description: Front-end for the dpkg package manager
 Filename: arm/apt_1.4.9-24_arm.deb
-SHA1: abb5bc8c03eec5af919d156f400659ac6da52043
-SHA256: 11f99aec3d16602f647721108a3396598b5aed9735cea31207d9fb9c86072ea9
+MD5sum: 0675cb3d099439aa77aeffa6e6c47fbf
+SHA1: 07bfd7786a4ad9ecbf52b2cf8fa5dd9291517574
+SHA256: f2f14441cbfb52e8eeefa76d28a01911062dc05e25185b0bd74fe01cc1aed715
 Size: 859440
 
 Package: apt-ftparchive
@@ -223,8 +224,9 @@ Homepage: https://packages.debian.org/apt
 Depends: libdb, apt (= 1.4.9-24)
 Description: apt-ftparchive is the command line tool that generates the index files that APT uses to access a distribution source
 Filename: arm/apt-ftparchive_1.4.9-24_arm.deb
-SHA1: 4a0cbded7cf9bdacac6aa036a63cbe8c2afa37d6
-SHA256: ef612b4d1e5ee1f27fc50ba3192dda39a03a372df6dd132abe1bf1b22517127d
+MD5sum: b90c664387ab57acd551c38d803d7d3f
+SHA1: 0e2140d8b8f2a21977573be1d74a74d83b7feb48
+SHA256: 6750641067a9a49259bee0a8b9ee3319d603e99b562e452252a6e3732634af08
 Size: 800
 
 Package: apt-transport-tor
@@ -236,8 +238,9 @@ Homepage: https://packages.debian.org/apt
 Depends: tor, apt (= 1.4.9-24)
 Description: APT transport for anonymous package downloads via Tor
 Filename: all/apt-transport-tor_1.4.9-24_all.deb
-SHA1: 7de3d669176c3069a529bd4b5548eee26c1b23be
-SHA256: af58b1b95a010a37cac88413674bd0edfeec96f21f3610730290f352ebb1ee0f
+MD5sum: fc7dc3e238273769957f6f2fa13f2979
+SHA1: a324af94d407687ad10e39f1f7f02ffdd0e57532
+SHA256: c79a272b01379e7f28729d80111d8418351f72ec8adefd6a3a829c158e2e7fd3
 Size: 844
 
 Package: aptly
@@ -476,8 +479,9 @@ Recommends: command-not-found
 Replaces: bash-dev
 Description: A sh-compatible shell that incorporates useful features from the Korn shell (ksh) and C shell (csh)
 Filename: arm/bash_5.0.11_arm.deb
-SHA1: 9c681e3235740f272bcad233dade2ac924fb89d5
-SHA256: 2c8d5c88deea52045f302912c4c857f98e5f521aa7f730977afb9fa873874c02
+MD5sum: 1230545acf7915fd6d78d3ac7f9205f3
+SHA1: e112681b16c979635490d3bab02f16444ed16745
+SHA256: 42469a868ae4bbfd5fbba53917f9d09c42b359a0b4259e046c6cc4f8ddd77327
 Size: 792262
 
 Package: bash-completion
@@ -715,8 +719,9 @@ Homepage: https://busybox.net/
 Conflicts: coreutils (<< 8.25-4)
 Description: Tiny versions of many common UNIX utilities into a single small executable
 Filename: arm/busybox_1.31.1-2_arm.deb
-SHA1: 87284398d8770841fa06eb996ec5c37af5331084
-SHA256: 1a5b3e92c1eecf6629301a7855998fd51251bd59b80d2baed9d84566aad01e1c
+MD5sum: 5551e902a033b78fb740c508bb3ef491
+SHA1: 7c7a2f982838b17405b12b59de25b32260a4aab8
+SHA256: 506d67421a632d4f8b7d89da78b3eb87b6992835ac4f7dd2e7c6426d91af2609
 Size: 421670
 
 Package: bvi
@@ -755,8 +760,9 @@ Essential: yes
 Depends: libbz2 (= 1.0.8-5)
 Description: Tools for working with bzip2 compression
 Filename: arm/bzip2_1.0.8-5_arm.deb
-SHA1: 40a6738e8565db3382cc36b9ede21b21738a61bb
-SHA256: 35c0d55311c3b2ab633fc03998a653713f1a7c8ba08b3145e9c8666cffc8ad89
+MD5sum: 2ddeb15cf1863ff3538e674699693aa5
+SHA1: 51cfba9c023746d470fbf65491c923b1caa0d2c3
+SHA256: 63ee99fd4d1087f42153a2a0481fd023d5cf56747573842ac5298871f8795347
 Size: 29278
 
 Package: c-ares
@@ -821,8 +827,9 @@ Version: 20191129
 Homepage: https://curl.haxx.se/docs/caextract.html
 Description: Common CA certificates
 Filename: all/ca-certificates_20191129_all.deb
-SHA1: ee8287916ad68f578af293a89acb8b7ddfc7b3aa
-SHA256: caebd05fe60725a5fc96721907e142123e311ea11088cabc4e0f61cd4b08f77e
+MD5sum: d786e547e8259e4e37beeba5645be2f0
+SHA1: a8c10ad9426ce68c8eaa68e226d373ce5d8c6bad
+SHA256: d4c9f590485a238d44ea55b4df2e22544410b19c3e0ef97361306a9c93a58ade
 Size: 120408
 
 Package: ca-certificates-java
@@ -847,8 +854,9 @@ Homepage: https://curl.haxx.se/docs/caextract.html
 Depends: ca-certificates (= 20191129)
 Description: Common CA certificates (java keystore format)
 Filename: all/ca-certificates-java_20191129_all.deb
-SHA1: 1b9c0c1a3f76b797dface2ab27e35067cebc79c3
-SHA256: 56860eae35f4c21e9ab82a0fdce2a130b73f7551a9836c79a7e848c03187d88b
+MD5sum: 9056c34c38e48d7232c3d351c0066540
+SHA1: 9d2cf3ba0d2838f351ea9ce019c1a81a7def8045
+SHA256: 2d8b329379163ccd793847950e9b0c5ead4b20b9fcd0ad2714910a7f9bb4ce1d
 Size: 109164
 
 Package: cabextract
@@ -1175,8 +1183,9 @@ Version: 1.42
 Homepage: https://github.com/termux/command-not-found
 Description: Suggest installation of packages in interactive shell sessions
 Filename: arm/command-not-found_1.42_arm.deb
-SHA1: eb976552756a53105fdcacc76f81d910892f20ed
-SHA256: 19a95fa1335bc31edc7210954dc6d4d40ba5969777237433160a7c2c51b46a30
+MD5sum: b5c5ff3a247ae8ffbb783d1e2303502b
+SHA1: f8aedd05d5705330f14c0948c9a8443d1e74c203
+SHA256: 2c5643ca6010a67699249e9a61b1d2d64ddb4b23a2415f48df03a6a9391e2b3f
 Size: 44448
 
 Package: coreutils
@@ -1191,8 +1200,9 @@ Essential: yes
 Replaces: chroot, busybox (<< 1.30.1-4)
 Description: Basic file, shell and text manipulation utilities from the GNU project
 Filename: arm/coreutils_8.31-8_arm.deb
-SHA1: b3e3349c787787bbd78ae93bd01fe6ef4e8e50c0
-SHA256: 3e8a4c48093f939a544db04b7f4e369fa8d6bf2f06fd953fc06bbadb0bbc10de
+MD5sum: 385744b684631a5a6acf14cfdfc6dca4
+SHA1: 75a8a6631002c5142c78a50c4c9d552c9fb11655
+SHA256: a349f0e11930c5d730957e2efd9e4529d6d9e97e2b2ab6318dffeb661a1cbc57
 Size: 708332
 
 Package: corkscrew
@@ -1308,8 +1318,9 @@ Essential: yes
 Depends: libcurl (= 7.67.0)
 Description: Command line tool for transferring data with URL syntax
 Filename: arm/curl_7.67.0_arm.deb
-SHA1: 054669a086ac3790a7caf7f239e6cc2ff6629ed1
-SHA256: 830ccf4306db11b5450bf2757e9c5c529ccb1132da36891aeda4989943dac7de
+MD5sum: 984a2f8d5cc8e167f08bf06b9e2a2e4e
+SHA1: e4f9a21974292c155aa90be14ae25f859a2149e8
+SHA256: 2ce82e64ba6c3d243d40755a6efaae31b3875cc7f2ebac8b8501b0ed0813f2d5
 Size: 96592
 
 Package: cvs
@@ -1371,8 +1382,9 @@ Homepage: http://gondor.apana.org.au/~herbert/dash/
 Essential: yes
 Description: Small POSIX-compliant implementation of /bin/sh
 Filename: arm/dash_0.5.10.2-2_arm.deb
-SHA1: 67ef95b91afa3001583efb6ee7a651dc29653ca9
-SHA256: acc7c0b128e2a54535cb9f0b58700c8ba9a7dfdb29d7cf7999b6660707ed5c43
+MD5sum: cc44a2af802c3c9445db0889ef563ba0
+SHA1: 24fefbff047941c2ca3f9814284f86b0caffc0ec
+SHA256: a2812b9b80e20d02d1c9a5cb93e6e5ec21644673e854e7731ee4e9a41383b576
 Size: 63002
 
 Package: dasm
@@ -1408,8 +1420,9 @@ Homepage: https://www.oracle.com/database/berkeley-db
 Depends: libdb (= 18.1.32-3)
 Description: The Berkeley DB embedded database system
 Filename: arm/db_18.1.32-3_arm.deb
-SHA1: c9133c2ebe0bc4df5eabfb2250240984314f8caf
-SHA256: 2898a1230d4e119c2edca8359d00a9c1444ca3b6172c56ae8ec63511f74f5eac
+MD5sum: e1acc7f6d23f590428f2c525771818ca
+SHA1: 9611be02318ddc64151b0340426c4f868fbda41d
+SHA256: 86e3ae0e3d99b652740adeae511642ab6f659854cc15cf15e1abd8c508de34a4
 Size: 40840
 
 Package: dcraw
@@ -1525,8 +1538,9 @@ Depends: libiconv
 Essential: yes
 Description: Programs (cmp, diff, diff3 and sdiff) related to finding differences between files
 Filename: arm/diffutils_3.7-2_arm.deb
-SHA1: 193ff0fd3c454faf3ed9ac024a32339a7065ca68
-SHA256: 7bdad61ea484cfc284fbae7b909fa2886ce616a79345a4ac8149bec7ebc9043f
+MD5sum: f304d9b9a2112a68cdd9992488842bd8
+SHA1: a60a014a42f8ef43ae23ea21b8bcdc28096577de
+SHA256: 254f9f2a1574890d461aaf30bda4e8b5477344f4eb97a175314996cda5461a35
 Size: 144344
 
 Package: direnv
@@ -1629,8 +1643,9 @@ Homepage: https://waterlan.home.xs4all.nl/dos2unix.html
 Depends: libandroid-support
 Description: Converts between DOS and Unix text files
 Filename: arm/dos2unix_7.4.1_arm.deb
-SHA1: bebf928a2fbae592120b35dd5576725e9f513aa6
-SHA256: 115f527ae73e7a3033ff94a1be809285384c7b532d66625768e313d29ab6ede4
+MD5sum: 7679e8d57153b3c702c8e12b26e1abf9
+SHA1: af929d76502554af73dd40acdb74f87012341713
+SHA256: 3da8d9506780486424ab4ea17201799cc3834b4e89cee7c3cbdb71c1686e459f
 Size: 59334
 
 Package: double-conversion
@@ -1670,8 +1685,9 @@ Essential: yes
 Replaces: dpkg-dev
 Description: Debian package management system
 Filename: arm/dpkg_1.19.7-9_arm.deb
-SHA1: d41029ba57420538c220390ef0ae240af0bb09b4
-SHA256: 2ff806e0a538340f9fb96c55c892c70204de899a02964e75423ee25e16ad0de5
+MD5sum: bb4156256f58d7e14719f702ff6118a6
+SHA1: 9dafe48baf8765b0b4b805b2718ba476b916db0a
+SHA256: 9638a15430092cce7ab2a91ebab40372e96ed54eb94b772ada9a85caa6c3a115
 Size: 198518
 
 Package: dropbear
@@ -1815,8 +1831,9 @@ Version: 1.15
 Homepage: https://www.gnu.org/software/ed/
 Description: Classic UNIX line editor
 Filename: arm/ed_1.15_arm.deb
-SHA1: f4e06447b4f84df4434102933453b5eb365c5d9c
-SHA256: b3fc6d734dd5348351339a03eaabe4996ad6cea0b324085a0b2b486c34d3b1a8
+MD5sum: cffca00f01626bf3e202cac99d6a3b8b
+SHA1: 21c05255442f8059512953e62f0874b85945e6dc
+SHA256: c6621fd4ec9d25f2c104e2fa132e5dc603f36e8b741dc1ee44deeb71953eb57b
 Size: 18274
 
 Package: elinks
@@ -2245,8 +2262,9 @@ Depends: libandroid-support
 Essential: yes
 Description: Utilities to find files meeting specified criteria and perform various actions on the files which are found
 Filename: arm/findutils_4.7.0_arm.deb
-SHA1: 7083fef94f3e654e45882a3614608e722766e134
-SHA256: 4190651ab64072101ab34541412893fe0a40abb36a094521d0c5970f2538fa91
+MD5sum: 98f0a3c5add258e17a8129e1750f5fd0
+SHA1: 375d2687d74f28ffc2ab958106aa77a7182d773b
+SHA256: 74e74a72aab394ca860184b605218b57a3d03d96c0eca10732ba6e51916cbf09
 Size: 234288
 
 Package: fish
@@ -2500,8 +2518,9 @@ Homepage: https://github.com/termux/game-packages
 Depends: termux-keyring
 Description: Package repository containing games for termux
 Filename: all/game-repo_1.1_all.deb
-SHA1: 923db3fa3b16ab7581a47bdb88bb5b265ebcbbf4
-SHA256: abd71e1063503a5ca764e282ae7e55d04940884065d32aa84fa623deb6d679dc
+MD5sum: 32810355c55de014e43165c202ad5640
+SHA1: 56cac018e9ddaefbe81408d55870058bcce00c24
+SHA256: 02a043b04b88b264f21dac4f59e431bf8393fe180f030517885c043528e8ff20
 Size: 970
 
 Package: gawk
@@ -2516,8 +2535,9 @@ Essential: yes
 Replaces: gawk-dev
 Description: Programming language designed for text processing
 Filename: arm/gawk_5.0.1-4_arm.deb
-SHA1: 13f6a94fa1c1a0fe80d832ef6d5abb979b55763f
-SHA256: 628643c7350d21aa3d10dc15a56c7f30c28cb0464d4f5ef08dd58fa254522117
+MD5sum: 99d97425d24dddb001da1f5b4a7c1d3a
+SHA1: 281b72a0dc75761c3773f6292431d4ce7a907de4
+SHA256: 41d200085599be5f265d53e9cf12f476fabc6eeb0f47fb2297d55bb1006697f1
 Size: 691368
 
 Package: gawk-static
@@ -2529,8 +2549,9 @@ Homepage: https://www.gnu.org/software/gawk/
 Depends: gawk (= 5.0.1-4)
 Description: Static libraries for gawk
 Filename: arm/gawk-static_5.0.1-4_arm.deb
-SHA1: 7501b113553563541d8db37687a2dced8adf5f8f
-SHA256: 6f304e81b3de168f68e1e0aed5602f40fe777ece98642065a222beaa9f60a6a6
+MD5sum: 75066df486d2521850d032c9dc5b912f
+SHA1: ae16b0a121f9c2ff9116f208eea5a3a21727c984
+SHA256: 12ccda9dda30e2709738ebdf03d5301326676c1f6866982c11c45ec34c86efbb
 Size: 22242
 
 Package: gbt
@@ -3010,8 +3031,9 @@ Conflicts: gnupg2 (<< 2.2.9-1), dirmngr (<< 2.2.17-1)
 Replaces: gnupg2 (<< 2.2.9-1), dirmngr (<< 2.2.17-1)
 Description: Implementation of the OpenPGP standard for encrypting and signing data and communication
 Filename: arm/gnupg_2.2.18_arm.deb
-SHA1: d0fe13920e3ca14b81fc78810afa6cf6a526efcb
-SHA256: fb4ad91c776ba8f04ba05231d713bd0ecd8da5de28bf1e9118a1cd6365b37e51
+MD5sum: 31059cee4b4c9ca18d5db47778ede6fd
+SHA1: d9dbdcefe5b35500adbbb142f158301eb1c13d49
+SHA256: 83e7d7b24f40fa1e951b612fa211fbfcf052955f4819ebef90e7830659bd5157
 Size: 1113720
 
 Package: gnuplot
@@ -3036,8 +3058,9 @@ Homepage: https://www.gnutls.org/
 Depends: libgnutls (= 3.6.10)
 Description: Commandline utilities for interfacing with the gnutls library
 Filename: arm/gnutls_3.6.10_arm.deb
-SHA1: 1424c05260939da3cf8a389516c3f6f4a059b9d9
-SHA256: ba5f97a6a80e4fd6489667652ee29ea186b288ea7145eaec1dbacf7182af3d8c
+MD5sum: e06d0eb3200207d328f5c2f434a7ed0c
+SHA1: f05b6120fb83491e58d9a0a83189bec816cf2663
+SHA256: 0c4660e2864253afa595eb03e6e1aed2ed36f68f446d5e0daa6eb44cec79a082
 Size: 237128
 
 Package: go-findimagedupes
@@ -3184,8 +3207,9 @@ Homepage: https://www.gnupg.org/
 Depends: libbz2, libgcrypt, libgpg-error, zlib
 Description: GNU privacy guard - signature verification tool
 Filename: arm/gpgv_2.2.18_arm.deb
-SHA1: f281ee2e824c31fbaf1de000ac1aaf64033836dd
-SHA256: ab989b6e6262ca2db6c64dcdb59a14f6f8eb6ae3264c03c600b95345e26bb74b
+MD5sum: f0e0a7be14a1358b52a1cc04a5fd9308
+SHA1: 5ffb97465b18c63e005c6673439a60f1d612fbc8
+SHA256: 075a18a08a64cb9f0fd3c0afc4f49dd0f7a5bb44fade1f9cc8f1fb9b78188f3f
 Size: 141834
 
 Package: gpsbabel
@@ -3267,8 +3291,9 @@ Depends: libandroid-support, pcre
 Essential: yes
 Description: Command which searches one or more input files for lines containing a match to a specified pattern
 Filename: arm/grep_3.3-2_arm.deb
-SHA1: 1415f3dbf6fb1053c34e96750feebbcaf67dfb4d
-SHA256: 77037848a6a11c79caa29da62dca8c3ecd24e9b415500da8f68f7b149c592a3b
+MD5sum: 74d95cfd94a87a070ee20a0a7eab8f4b
+SHA1: 97b8522de4e0771c91eab588016b19b23e9796f2
+SHA256: 8a6a9a9a254cb8c7e2ce8119e97139f0d9515f5f5ca2911745894273c3c56abc
 Size: 109156
 
 Package: gsl
@@ -3481,8 +3506,9 @@ Homepage: https://www.gnu.org/software/gzip/
 Essential: yes
 Description: Standard GNU file compression utilities
 Filename: arm/gzip_1.10-2_arm.deb
-SHA1: c6785dfddb529d8dc401c24afdc1a14b7fe44515
-SHA256: 3eaad8fcf7941c59a72811964339bf55afe23b2db6f87bbf8f8b407d024f7f7f
+MD5sum: 1b3e4aa26673fb27331453b1632df8ce
+SHA1: 47c0631a181b90f95b260912051504da49484d24
+SHA256: 8caae3371a7017a8fbc569456d436bca5ef089159118eb6e641d0d530b139557
 Size: 74884
 
 Package: harfbuzz
@@ -3859,8 +3885,9 @@ Homepage: https://www.gnu.org/software/libiconv/
 Depends: libiconv (= 1.16-3)
 Description: Utility converting between different character encodings
 Filename: arm/iconv_1.16-3_arm.deb
-SHA1: 54274744b30829164478cb0dd2c8feaa4e960d9c
-SHA256: 0dbd638fd6cc82c5cba5717bbd9fed1fdabb92e77f5da118feb66a37e757fc6b
+MD5sum: 0a1df404c1ab21094a1899409b6f283e
+SHA1: 2ce1d2896cfbd4bbc5a9ec62083dc9e301e71fd0
+SHA256: 40f660ac17ae816d397f8813062c420c2ee7968c8d73ad871e06728cf05f7ac8
 Size: 10968
 
 Package: icu-devtools
@@ -3965,8 +3992,9 @@ Homepage: https://www.gnu.org/software/inetutils/
 Depends: readline
 Description: Collection of common network programs
 Filename: arm/inetutils_1.9.4-7_arm.deb
-SHA1: 5261ce63430fdaea9ecb73bff9aed560c7e2d22e
-SHA256: 7ec6dc9e20e18fb01bb5f63280aaed1adc4209201a31cd959d71bae1d96dca3b
+MD5sum: 75b0b17094631ce239b0b219bdb3c7eb
+SHA1: 98d72475410c2bba5714253d4d5a16d2ddd083da
+SHA256: e0759f8a6f0a3574c0af2d87431a6161489a8340f2f6f70f0ed58a74c573b17c
 Size: 189426
 
 Package: inotify-tools
@@ -4483,8 +4511,9 @@ Depends: ncurses
 Essential: yes
 Description: Terminal pager program used to view the contents of a text file one screen at a time
 Filename: arm/less_551-1_arm.deb
-SHA1: 70e657efa079c99d3b21a5e4dca4308f3fb786da
-SHA256: d2df14d4abda263775441586063428996e632977e680037ef56a6b38627727d4
+MD5sum: 647ff10964fcbce27b8842798a6f6b83
+SHA1: d815c833cc74b7af5b6309888ca4c57a7c00dc4d
+SHA256: 5ecdbeb4e8038ef175d19e5bb4a840ee1e422d10e3f8c9681c61645cef61ab29
 Size: 81832
 
 Package: leveldb
@@ -4565,8 +4594,9 @@ Breaks: libandroid-glob-dev
 Replaces: libandroid-glob-dev
 Description: Shared library for the glob(3) system function
 Filename: arm/libandroid-glob_0.6_arm.deb
-SHA1: f530edd7cf9b7042b200344856e5e6322d0ccc58
-SHA256: e00d68af8b73a241e19a002163101f0d2c707687a0a974c880a747999347f184
+MD5sum: 911319bf95f66b6972644838e09d86e3
+SHA1: 1dab5683295b493e8d5e08a15186a072bce3feea
+SHA256: ae4607755fb5dd1c62a997299f7057d3db1c132a5a35fa8aff2ffe19c99050de
 Size: 6616
 
 Package: libandroid-glob-static
@@ -4578,8 +4608,9 @@ Homepage: http://man7.org/linux/man-pages/man3/glob.3.html
 Depends: libandroid-glob (= 0.6)
 Description: Static libraries for libandroid-glob
 Filename: arm/libandroid-glob-static_0.6_arm.deb
-SHA1: e6a66b835dfb27e5ef37bdbad935a02c8f76ebb6
-SHA256: 040b007a428392524903f617d02ba6194151312a57e80e85afd3d0d0b89bafab
+MD5sum: 85b4f2d4a36f9b02ca9f941a7b04dfb3
+SHA1: e684f6705f20b8fde2964063e467dce22f69b82e
+SHA256: 7e10ac85bde54f703e315bf6113475611ca21a42b7640b97731ae65f97113ced
 Size: 4382
 
 Package: libandroid-shmem
@@ -4644,8 +4675,9 @@ Pre-Depends: dpkg (>= 1.19.4-3)
 Essential: yes
 Description: Library extending the Android C library (Bionic) for additional multibyte, locale and math support
 Filename: arm/libandroid-support_25-2_arm.deb
-SHA1: fbd0342ff126840e52fac3b113494b4283a3a2eb
-SHA256: 6992dac8cc64191c0cbea3789d7ad58c309ee9365d527fa9f65a19b4f04196ad
+MD5sum: a39af93ff958abbcb6d28aa6d3d593b0
+SHA1: 0be41855bb2168782c340533c27ed3b06576818e
+SHA256: 4a6f6adbdaa0a1a889a6175ff29b7c058de51411785a187430c2dc5423dcad37
 Size: 7278
 
 Package: libandroid-support-static
@@ -4657,8 +4689,9 @@ Homepage: https://github.com/termux/libandroid-support
 Depends: libandroid-support (= 25-2)
 Description: Static libraries for libandroid-support
 Filename: arm/libandroid-support-static_25-2_arm.deb
-SHA1: 63a173f48092371dc733ad4e0fed54daf11dc8a2
-SHA256: 39837222215cc6af322938f1ca81e3f31ce1a161f4ee8acc89f29809e45c46c9
+MD5sum: af728d92619cda92e7cd915f17078bfe
+SHA1: 498bedf83bbcb892c4fd9d82fd86560e3f4b3806
+SHA256: 7578b8f218867bd9c0bf04690a89149582e10eaa57f0c886e8e606755425fa19
 Size: 8128
 
 Package: libao
@@ -4754,8 +4787,9 @@ Depends: libgpg-error
 Replaces: libassuan-dev
 Description: Library implementing the Assuan IPC protocol used between most newer GnuPG components
 Filename: arm/libassuan_2.5.3-1_arm.deb
-SHA1: 3b1979135336dd66840713de3666e9a5989156f8
-SHA256: 9151e93d187dca7e0ed82853a6ed788ffcf550621f8bb1b2c918fc9b33dab668
+MD5sum: 2246928a01e85d6e89fa185f3626201d
+SHA1: db13f7cbec4417ab2c4faf1841f6e45e5f9d58f8
+SHA256: aa08f18c57a78debd3bfcf5e03438b326d4fb3ee1dcd906517f361a30c8ab4ba
 Size: 70428
 
 Package: libassuan-static
@@ -4767,8 +4801,9 @@ Homepage: https://www.gnupg.org/related_software/libassuan/
 Depends: libassuan (= 2.5.3-1)
 Description: Static libraries for libassuan
 Filename: arm/libassuan-static_2.5.3-1_arm.deb
-SHA1: 46ab0b2730ab26d5c82c4dfd3ca060de8a35bf44
-SHA256: 9975a78cbf99d001954f5efad096dc217be45682a9949e8373435c1055dd5206
+MD5sum: 34b1927f70227f595f8e85db6444d177
+SHA1: 07ce300122a07a2a973375742da9dc5435e777ef
+SHA256: 84d2c2ba1a52d69aba558b17db65a1faf6c5ea22ceabebec9fb18a85b329a7d1
 Size: 29058
 
 Package: libbsd
@@ -4809,8 +4844,9 @@ Essential: yes
 Replaces: libbz2-dev
 Description: BZ2 format compression library
 Filename: arm/libbz2_1.0.8-5_arm.deb
-SHA1: 5d208789b09c44c48e825439c5c02a12a041858d
-SHA256: 7fef6b866e38fc5f2db0a97956a7038b74ead66c88488070f08e55c0d9a1f74f
+MD5sum: e7819eff428ac0f0bac336d02bdca68c
+SHA1: b220a00f595b900b0c882e2875bb2c614637b5d2
+SHA256: 3b134ce685ed1c1e893e273ded2e85cf7a15f644ee4e2035db8160a6330f8919
 Size: 27696
 
 Package: libc++
@@ -4822,8 +4858,9 @@ Homepage: https://libcxx.llvm.org/
 Essential: yes
 Description: C++ Standard Library
 Filename: arm/libc++_20_arm.deb
-SHA1: bd6b311d4acd3912ae88c4ea71eb05d824455d7a
-SHA256: 66320c4d7288b2283b68a8c3fb72d812bc9f381a49a6df3ca351472a8c213b1c
+MD5sum: 1bcc8aa18bf7e8c23d3c3a676a038a4e
+SHA1: 9f3480f88a9aa0932b311a68df2080a08e53bc5f
+SHA256: 9a622d7fe4fa0caaea75efc3fdfa36d790fe446d4d8ce06acf77ff23cc9266dc
 Size: 164196
 
 Package: libcaca
@@ -5088,8 +5125,9 @@ Depends: openssl
 Replaces: libcrypt-dev
 Description: A crypt(3) implementation
 Filename: arm/libcrypt_0.2-2_arm.deb
-SHA1: 5001a39932a9e73aee61ba54afb4942192978df7
-SHA256: a0f14ef1d157d421782d02bc8dc96cfec0bed12cf7239c38dc935e17f56ad8d2
+MD5sum: 590958ed7ef7b95dbedd158eb575f2e8
+SHA1: 106b5c5ac46be71d942c2851c5e1d0c855c731e5
+SHA256: 36634e7ac711f23180cc4d7ef4b1642948bd8855d55da896df211bef9311742d
 Size: 10530
 
 Package: libcue
@@ -5119,8 +5157,9 @@ Conflicts: apt (<< 1.4.8-8)
 Replaces: libcurl-dev
 Description: Easy-to-use client-side URL transfer library
 Filename: arm/libcurl_7.67.0_arm.deb
-SHA1: e2f25e54e680ab61f2f0cdaabc62f05156af088c
-SHA256: 5c89a97a71be6998dfd533c7bc93e1953b9985b48fc98ad799408dd42a5503f5
+MD5sum: 85b0cfa2c9e75434fbd9ad200af4f28c
+SHA1: 79fc465815f2c9bf957df2f182e1d6952f72d858
+SHA256: 424465efebb4c859a28014221593c2aeb2cf03e5b38df82557f0b4ca83cd5386
 Size: 813230
 
 Package: libcurl-static
@@ -5132,8 +5171,9 @@ Homepage: https://curl.haxx.se/
 Depends: libcurl (= 7.67.0)
 Description: Static libraries for libcurl
 Filename: arm/libcurl-static_7.67.0_arm.deb
-SHA1: 0b1f17f92e7fefa099e141e8065623e331a17945
-SHA256: 57072b01c8f899f6e75f15a4c6ac6afd5178f1491bdd9205c73d17e018294914
+MD5sum: 66c71a8b11eb917e1af1223ebbdfd55d
+SHA1: 010199be194685b971b8e301f4a0d7d8e9c313f1
+SHA256: 9cd3441ec8f5723433042824b37ea47a881c9ec236ed961849ae1961b5603928
 Size: 215070
 
 Package: libdav1d
@@ -5158,8 +5198,9 @@ Breaks: libdb-dev
 Replaces: libdb-dev
 Description: The Berkeley DB embedded database system (library)
 Filename: arm/libdb_18.1.32-3_arm.deb
-SHA1: 67e0972b65aafb31aa9c10a69bbf5d7a74d0fba2
-SHA256: 897e41879c476de9d3a51ea46f135deacb88ab4135d7b5c47b05d6552f9f4e01
+MD5sum: 6f9641b505ce1d7fd61c281d35ae450f
+SHA1: af3654a6a7ba584ce7c77cf75a0b2038ebab9638
+SHA256: 53b4e392c256735bb1fbe8693a8e0a6c063237b449a39830d59fd2ab85d209af
 Size: 446500
 
 Package: libdb-static
@@ -5171,8 +5212,9 @@ Homepage: https://www.oracle.com/database/berkeley-db
 Depends: libdb (= 18.1.32-3)
 Description: Static libraries for libdb
 Filename: arm/libdb-static_18.1.32-3_arm.deb
-SHA1: 4dd5c60c3af8d5ea441cab688ec8f66e99f9b17f
-SHA256: 2e5a32d66ea363e2a7430f3f633ab395a8909ff377d700ae1ea4495de3177b47
+MD5sum: d45440041a2757922de5784b6294e9c8
+SHA1: 3fa0fafa021ada8d8529538d45e90a4d532176c3
+SHA256: fdf54a799f287460b5d17da28b46b14aa424715357ec21084019ef9298fbcab9
 Size: 425304
 
 Package: libdispatch
@@ -5295,8 +5337,9 @@ Breaks: libevent-dev
 Replaces: libevent-dev
 Description: Library that provides asynchronous event notification
 Filename: arm/libevent_2.1.11-1_arm.deb
-SHA1: 8428c7a652b4e707c307ca063b2136c308a1a2fa
-SHA256: 9987d7f750ff07865bff655ba4be68dac8c3f6f5981a0f707827b7ba92954a53
+MD5sum: 14f53472c5323d5622e36bfccc245b93
+SHA1: ce8b1601d70f405368a58cb987902ad09e399a53
+SHA256: a552ed73532bb7fda46f6829a5a38b3563a7b4980c8f32d7cab176da9af29187
 Size: 175952
 
 Package: libexif
@@ -5473,8 +5516,9 @@ Depends: libgpg-error
 Replaces: libgcrypt-dev
 Description: General purpose cryptographic library based on the code from GnuPG
 Filename: arm/libgcrypt_1.8.5_arm.deb
-SHA1: cc78b610cd53199f4095a0d05e55d5f9f530ad3f
-SHA256: c5b3eb83e548388a2d3f95d058db73a489e87ef587456d8f2aed038caa2850f7
+MD5sum: 12f2338735d16343c2a3e22fda656924
+SHA1: 2013092a87ce2a4b173df8fb513f15788ff73a8e
+SHA256: 35e29eb93274e6ef0230832ea48a939878b128aa09eeaab57ed6a997a8256e20
 Size: 382338
 
 Package: libgcrypt-static
@@ -5486,8 +5530,9 @@ Homepage: https://www.gnu.org/software/libgcrypt/
 Depends: libgcrypt (= 1.8.5)
 Description: Static libraries for libgcrypt
 Filename: arm/libgcrypt-static_1.8.5_arm.deb
-SHA1: 8712b4c9c5049c8489e883eb9af0f86aca34692a
-SHA256: 14b564e4a5c3919739b6e3242ea22106d63dbf42b262199d4c75b7fb1f4a0e13
+MD5sum: be60392007cd7f89f0350efb863a8db1
+SHA1: 7877fcd2562c7ea1a0e383253f8617230ccb1378
+SHA256: 691bc344f515b6d75111e61c92c10cb2f5e25f1cb9d664edfa873a3810b19cf5
 Size: 346478
 
 Package: libgd
@@ -5598,8 +5643,9 @@ Breaks: libgmp-dev
 Replaces: libgmp-dev
 Description: Library for arbitrary precision arithmetic
 Filename: arm/libgmp_6.1.2-4_arm.deb
-SHA1: bef1baae699c6ae809300715acb135151ef09d51
-SHA256: cbefdc0e418e980ce199be1708d1c8c82833a828e998384e884d66b7a380babc
+MD5sum: 4892a51a5c32d1d79dd436aa76918de7
+SHA1: 11f9c7256e1aa9bf32ffdbb082afe2186665ca03
+SHA256: 415d76d80b3860d9338f7aeb667fd1d3d92b9c30b553b783f79480c82b01fc9f
 Size: 295334
 
 Package: libgmp-static
@@ -5611,8 +5657,9 @@ Homepage: https://gmplib.org/
 Depends: libgmp (= 6.1.2-4)
 Description: Static libraries for libgmp
 Filename: arm/libgmp-static_6.1.2-4_arm.deb
-SHA1: 48821c290da62244f97908442728af532612801c
-SHA256: a1d226067f956e92a40af8332c1bf3f5c263c638dff258c614684361968e7161
+MD5sum: 43568c4ede725a1d4f4911d1231906fe
+SHA1: cee0f2f2e2f5a9dccea10d9edd64e6e5f105a1e6
+SHA256: 192bb4107a6c3c4a081ae023b58289fe08a627dd87e72d00db08aba3d905b7c9
 Size: 201112
 
 Package: libgnutls
@@ -5626,8 +5673,9 @@ Depends: libgmp, libnettle, ca-certificates, libidn2, libunistring
 Replaces: libgnutls-dev
 Description: Secure communications library implementing the SSL, TLS and DTLS protocols and technologies around them
 Filename: arm/libgnutls_3.6.10_arm.deb
-SHA1: 809665059d29c709d16bf21f8e9612905336725e
-SHA256: 067547f14d9e0e735b41e7a4ece55ff5545b42a5902dd42405017dfeb7d25176
+MD5sum: 979ce662c3b7ef5bb1c328cd33bf7dc0
+SHA1: 8c51c4bb5069af09939053083533aa03d06fc43f
+SHA256: 60b5dcb2797ac392d0d748dcde80dd614c764d0965929450d3226d10e92f27ad
 Size: 1916632
 
 Package: libgnutls-static
@@ -5639,8 +5687,9 @@ Homepage: https://www.gnutls.org/
 Depends: libgnutls (= 3.6.10)
 Description: Static libraries for libgnutls
 Filename: arm/libgnutls-static_3.6.10_arm.deb
-SHA1: 6b40038b36e325b8b15fa5fcb655edaa95c016ff
-SHA256: 9dbec1298c92671d37bcfe62b35a251e6bebbf027df4a3a1a51f88747a049952
+MD5sum: 18e4af07e30f1fa177bc4c764ea8f293
+SHA1: 23144e63e330ab5a3c84a34609084ef909a0035d
+SHA256: 617aec40bc30bdbee291df6d434703cd02fd6a1079256d3630100f9ee1b65521
 Size: 672988
 
 Package: libgpg-error
@@ -5653,8 +5702,9 @@ Breaks: libgpg-error-dev
 Replaces: libgpg-error-dev
 Description: Small library that defines common error values for all GnuPG components
 Filename: arm/libgpg-error_1.36-1_arm.deb
-SHA1: e654f8c5521ac7d3aed35d3fa4a3483689587538
-SHA256: 90f458654625b046541c20f7b8cd6bd6c67a75e0ef605004f4640ffecf23c0db
+MD5sum: a8b2be46cfb0189b3d59a4fe967dd37e
+SHA1: 3f47a390f02497fbdef650cea11374574d9f60f7
+SHA256: 51015b10a77a7ed9d2d1b114a9305d959903e2048851b48890c01cabe1d0634c
 Size: 92274
 
 Package: libgpg-error-static
@@ -5666,8 +5716,9 @@ Homepage: https://www.gnupg.org/related_software/libgpg-error/
 Depends: libgpg-error (= 1.36-1)
 Description: Static libraries for libgpg-error
 Filename: arm/libgpg-error-static_1.36-1_arm.deb
-SHA1: d40cbd6e92e72e674087c6dd34f2147867db50b9
-SHA256: 48f1d1e79d7650198a001021ead9c426e309df750f68ac67c49c220e3880fc69
+MD5sum: 73e4f1f60e9e27ae52fee7ca16b4dd13
+SHA1: 0edbbe0c917cb2caa57f959be775ee220391b0c8
+SHA256: 9dc526196f86749c64e6f54db8447fdecd95d8c45d6816f7ca789842b2721ac0
 Size: 45052
 
 Package: libgraphite
@@ -5753,8 +5804,9 @@ Breaks: libandroid-support (<= 24), libiconv-dev, libandroid-support-dev
 Replaces: libandroid-support (<= 24), libiconv-dev, libandroid-support-dev
 Description: An implementation of iconv()
 Filename: arm/libiconv_1.16-3_arm.deb
-SHA1: 3948724b5864c007751c7061fa302a382bb4aaaa
-SHA256: 756f66b9d96d9111dd2bf3a670151bd798d05459a4cdc8288623df4209950313
+MD5sum: 8513a9c714f0b4a122c0e98b7775f857
+SHA1: 78a5ad9a7d1ecdd24deb60aa8a892ab38b69e7ce
+SHA256: de99e472be752b465829ff51c112009183ab1f63c7d1df5d017e408f75395b6b
 Size: 546460
 
 Package: libiconv-static
@@ -5766,8 +5818,9 @@ Homepage: https://www.gnu.org/software/libiconv/
 Depends: libiconv (= 1.16-3)
 Description: Static libraries for libiconv
 Filename: arm/libiconv-static_1.16-3_arm.deb
-SHA1: c00100e9e5330c992979082b62090f65111298e6
-SHA256: e6b56d68b26a403f7b322cd7572219f054aff8971e2307b6e91259a0a074ef2d
+MD5sum: 64f633a5b81d48e34342a89329e3cffc
+SHA1: 7460c43e8ad57bc47769c51cdfce1bf7f9be0b42
+SHA256: da61282c417fead9fb1052a965f228dc77ad79741a022d67b4056429c1b2c4e0
 Size: 540698
 
 Package: libicu
@@ -5865,8 +5918,9 @@ Depends: libunistring, libandroid-support
 Replaces: libidn2-dev
 Description: Free software implementation of IDNA2008, Punycode and TR46
 Filename: arm/libidn2_2.3.0_arm.deb
-SHA1: 3f1c2e72275cf2c2a6b1cc256ae7818bfad57f62
-SHA256: 12da87c41ab9548021dd4ed14daee95e548bd20bff85aab8e8810fc2f1577281
+MD5sum: 525c0b60abf7274c5b2fe8847c3952a9
+SHA1: 138423a0d3763339a1d56580d98403013d68f95e
+SHA256: 4a5aff938d411ce8484d6ddf11735dedc8f14d5cfbdf80e4652fb8de0b7ef432
 Size: 85476
 
 Package: libidn2-static
@@ -5878,8 +5932,9 @@ Homepage: https://www.gnu.org/software/libidn/#libidn2
 Depends: libidn2 (= 2.3.0)
 Description: Static libraries for libidn2
 Filename: arm/libidn2-static_2.3.0_arm.deb
-SHA1: a0b4cc1b599205baea1f8bd40567c1b0fd7f6af9
-SHA256: 954ae25284c37b2657728e6bda2bcc2bdf894cff146b99e8678739251c8a9798
+MD5sum: 8e669de7a83dae86d81d3af9abe85b67
+SHA1: 76ee409c25031244d2417dc5148cee34d20390f9
+SHA256: 7257724a76c4050b0bd92a0a0da73bdff518df59077a38b948721fccc466c02b
 Size: 43666
 
 Package: libisl
@@ -6016,8 +6071,9 @@ Depends: libgpg-error
 Replaces: libksba-dev
 Description: Library for using X.509 certificates and CMS (Cryptographic Message Syntax) easily accessible
 Filename: arm/libksba_1.3.5-2_arm.deb
-SHA1: b8958fbb534f2eb03f7aea5b9aa7f7b8c2fbf149
-SHA256: 9b3114a5163c38fe93a36ff400a9c1cbcd420b7b1f4756aeba2544897f6c516f
+MD5sum: 9cdee3a30ce68da96340d0d49ce4d655
+SHA1: 45862d82ea36f8f8e069ff4c3d415201f14ce876
+SHA256: 81998e6c955e80efa9842bd074a2e3bb101b26023e67454cae42173803bc57f3
 Size: 91912
 
 Package: libksba-static
@@ -6029,8 +6085,9 @@ Homepage: https://gnupg.org/related_software/libksba/
 Depends: libksba (= 1.3.5-2)
 Description: Static libraries for libksba
 Filename: arm/libksba-static_1.3.5-2_arm.deb
-SHA1: 7d0d5a75fb044bee72d7e1f6962856a26027a36f
-SHA256: 2d7957e93576b7cc35c51e2e004724af8966f4481b790ca38ee5be480f679789
+MD5sum: 9b6c6c338dd98064ad36bcbef8bf8477
+SHA1: 87ef67993753b1c76963c3e1b1b79aadfba5e66a
+SHA256: 61c4e88e7865c398d7b127942529b690143561106b4edf7b9682e0f347c7e9d3
 Size: 79514
 
 Package: libllvm
@@ -6168,8 +6225,9 @@ Essential: yes
 Replaces: liblzma-dev
 Description: XZ-format compression library
 Filename: arm/liblzma_5.2.4-7_arm.deb
-SHA1: 4e1917e9370d95063c86d61b2a6f21dcadd19a7d
-SHA256: 03684b5b5bba9f9a6dc2d24428b0b4a855a9e5fcc31630baa7a57bc4752d58d1
+MD5sum: 135e517442bd71e97f8c925bb4448040
+SHA1: 5059bbe0343586ded79d3ffd968e0c3002c5b639
+SHA256: 885b934cfbcf868b578f2fbc97945535ff680907dc0a7f14f4a1b0b68aab5542
 Size: 138422
 
 Package: liblzma-static
@@ -6181,8 +6239,9 @@ Homepage: https://tukaani.org/xz/
 Depends: liblzma (= 5.2.4-7)
 Description: Static libraries for liblzma
 Filename: arm/liblzma-static_5.2.4-7_arm.deb
-SHA1: 75c005cc4f97add2345c873cec8b05b9bcb8c610
-SHA256: a0420f563d73991a2f3c41dfbcf1ec158542544f199391f051baa939d05ac80e
+MD5sum: c8f64fd5ccdeeb975cbe6999784ccc80
+SHA1: 5dcb23713b4e4d85ce25f7066aa57245a67aaaab
+SHA256: 4576aa479940dda2f2c3e46f330d2b6f3306da7517885918fe3f7bc4a09d76a4
 Size: 72488
 
 Package: liblzo
@@ -6619,8 +6678,9 @@ Depends: libgmp
 Replaces: libmpfr-dev
 Description: C library for multiple-precision floating-point computations with correct rounding
 Filename: arm/libmpfr_4.0.2-2_arm.deb
-SHA1: 6ad3cca646e3f3d9d000e8003362e21d5e31f83e
-SHA256: bfb5840a62e46a141d39c93e5d704ea6adfd437f261c2636c7533496afa21c16
+MD5sum: a31e479d1e573b2e5eae98b0c56a99cb
+SHA1: 85aab368c3c0cc654ca5072c928bed0ef02f2aa6
+SHA256: 1e3ba84d29aaf9429572d7697cb8200fb67bdeeb6bdfe88695c91b682a5dd042
 Size: 246428
 
 Package: libmpfr-static
@@ -6632,8 +6692,9 @@ Homepage: https://www.mpfr.org/
 Depends: libmpfr (= 4.0.2-2)
 Description: Static libraries for libmpfr
 Filename: arm/libmpfr-static_4.0.2-2_arm.deb
-SHA1: c9cca3878f43593099207b7ac4304b337af9b33a
-SHA256: 8b47b0054eb8512117e4a9c9a881378ffdac44eba9d6890c23133c254c55f7a2
+MD5sum: 6944ef337d51fa3e8f766e97a56113c9
+SHA1: c32c0049529398175c837eeadf1e19461c47f6fd
+SHA256: cebfbdb1bbd99db7cd370894d1e6de776dde9df40350da41b2ad77a260f44bd0
 Size: 179490
 
 Package: libmsgpack
@@ -6699,8 +6760,9 @@ Depends: libgmp
 Replaces: libnettle-dev
 Description: Cryptographic library that is designed to fit easily in more or less any context
 Filename: arm/libnettle_3.5.1-2_arm.deb
-SHA1: 75fa74d32530f7bc136b062d4df844bf2c7a7af4
-SHA256: 5043a909fb3d4f356c9e53f62623007c0b2a4b9a864e434cfef85e092eda719d
+MD5sum: 9cfa0201fbe132e5f907737bc1d85d2a
+SHA1: 95c043c5536b7c4c21e724e230d0a079040e65da
+SHA256: 8b1022428f9d3ebb2218f29220bae29973f438c8421bfcf933d6b7746ec18f48
 Size: 294550
 
 Package: libnettle-static
@@ -6712,8 +6774,9 @@ Homepage: https://www.lysator.liu.se/~nisse/nettle/
 Depends: libnettle (= 3.5.1-2)
 Description: Static libraries for libnettle
 Filename: arm/libnettle-static_3.5.1-2_arm.deb
-SHA1: 25e691127906193522cf247d5d3b5529ec877ede
-SHA256: f7ed1ea2eaf7b3cd853d6b705905d75aee0677d0806579781371bb1145d1f201
+MD5sum: 8b6918cb60edeff596a0a06892d69fc8
+SHA1: 2fa899e5e0c6540b257ac92dc17181d3114a2b4f
+SHA256: af1fbf6899b40c4509e2797b6cac6ac379d741709e401a0bd6c6b48c5cac3e64
 Size: 436230
 
 Package: libnfs
@@ -6781,8 +6844,9 @@ Breaks: libnghttp2-dev
 Replaces: libnghttp2-dev
 Description: nghttp HTTP 2.0 library
 Filename: arm/libnghttp2_1.40.0_arm.deb
-SHA1: 74a8d9d08748b021cb0d5f69f60eb37862a4a4be
-SHA256: bd5c1f2e549f3cf20470a9cf53561c06e89fa4c49a7a427decad3fe4122d5700
+MD5sum: 5b2d10d51fd6a4e350933e8e03189c7f
+SHA1: 51f731b94e5820683e84243a1df010deb2972dff
+SHA256: 4e1598f5ec44c125ced3654d7ab96cf4c98a8049be18c476e67bd2dbe8a9f936
 Size: 88224
 
 Package: libnghttp2-static
@@ -6794,8 +6858,9 @@ Homepage: https://nghttp2.org/
 Depends: libnghttp2 (= 1.40.0)
 Description: Static libraries for libnghttp2
 Filename: arm/libnghttp2-static_1.40.0_arm.deb
-SHA1: 213e1ee4b32e4471c9b2d47daf3516571cbf65cd
-SHA256: d2b380c3101194f7ae972dcbf0a61ee4991aa41ed5737ea9080be764273d5573
+MD5sum: 1e9c5856f210237ec9aff6c0f147f188
+SHA1: a52127416406ecd27593b8e2bf955f9bffd267af
+SHA256: d9e844e1a7911ae1c39387b743ed94c5262b4cd1367f701842ecce5bd973e13f
 Size: 56496
 
 Package: libnl
@@ -6835,8 +6900,9 @@ Breaks: libnpth-dev
 Replaces: libnpth-dev
 Description: New GNU Portable Threads Library
 Filename: arm/libnpth_1.6-1_arm.deb
-SHA1: 91f3ff90c30569f3d0da4e8688b659e25c407e98
-SHA256: 7ad0b7d1454c4e850832bb9deb097c8fad99a8142666a96a8602cbff6c3c04ae
+MD5sum: da4dab2b5e4c46183d875056a0cce2ce
+SHA1: f2607a1a6135b757e3603dc1d0936b47a90250e0
+SHA256: ef812ea50df734fe8ca6edf6b8a7e124f8bd535cf922aab313ff6662f3e3add6
 Size: 10438
 
 Package: libnpth-static
@@ -6848,8 +6914,9 @@ Homepage: https://www.gnupg.org/related_software/npth/
 Depends: libnpth (= 1.6-1)
 Description: Static libraries for libnpth
 Filename: arm/libnpth-static_1.6-1_arm.deb
-SHA1: 178825436f1539327940c12d7406d5c5ec967306
-SHA256: a94ef5f30c9a2c5157502396adcac6d5cfee65f0082041d572b4b8a420ec34e3
+MD5sum: 6beedfea457a1928dbb89fd96b000eea
+SHA1: 8f4959a763a68cd6483c9874a5b48a9eefd6f90e
+SHA256: d22dac30500bc6a6936f6362a2d4017fcaf6e3c27a43f0da5e3e394eb94ca2d9
 Size: 4240
 
 Package: libogg
@@ -7026,8 +7093,9 @@ Homepage: https://www.pcre.org
 Depends: pcre (= 8.43-5)
 Description: Posix-compatible runtime libraries for libpcre
 Filename: arm/libpcreposix_8.43-5_arm.deb
-SHA1: 377aa2de8a7fc3484cb20d15e54bc209a8508d33
-SHA256: 1352ad3331675a343664045c661a5735a0a7c57d53d3ac78f10f700bcc84ae7f
+MD5sum: abf22360612a3124479d1b0574500b40
+SHA1: 4672d3ffc3cd7020614f87a0cf095a84a2d13e87
+SHA256: af042be0c5cff980b4c113cc96e08d2d33aeb0c51583d676fc45699d58b89093
 Size: 2958
 
 Package: libpipeline
@@ -7459,8 +7527,9 @@ Depends: zlib
 Replaces: libsqlite-dev
 Description: Library implementing a self-contained and transactional SQL database engine
 Filename: arm/libsqlite_3.30.1_arm.deb
-SHA1: 20b712dffdfc7284a368954f0d84054316076594
-SHA256: b6dde3fc7b5c086dcdd1b813a7b5c7f22a2e1de19dc285e76ccbc8c37d8cd3b8
+MD5sum: ce4d9e67761bedd00f589291d71a9df7
+SHA1: 6ae1e666cee0abc6af612028817aadf9f6bb5cb8
+SHA256: bd7ec8d8f5f76fe97d8bdcac88b6bb9fbbddc06abf1af66bbf8f6026227a991c
 Size: 521268
 
 Package: libsqlite-static
@@ -7472,8 +7541,9 @@ Homepage: https://www.sqlite.org
 Depends: libsqlite (= 3.30.1)
 Description: Static libraries for libsqlite
 Filename: arm/libsqlite-static_3.30.1_arm.deb
-SHA1: b27cdc88006ff6ce2f1fd23200776f946cb79518
-SHA256: b6246fc4d9110c18afa60f96955373504eb028965303f81542dbd637e2cbe43c
+MD5sum: 780c746b95534cddd06aaf3b1fceb1a8
+SHA1: 331e979299783e42398ccfbdbdd3104adcb259f1
+SHA256: b1bae406a460f08420c7cf4896bea81f617e3e8f2ad25b0d433eb0136d8729b8
 Size: 422680
 
 Package: libssh
@@ -7655,8 +7725,9 @@ Depends: libandroid-support, libiconv
 Replaces: libunistring-dev
 Description: Library providing functions for manipulating Unicode strings
 Filename: arm/libunistring_0.9.10-3_arm.deb
-SHA1: c5dd0e013065ff71afd03e0052a0920814ce27fc
-SHA256: a1dd10b2ccfc9bea64affe55cce3ad4135db19a5964c38defb91d643dc71e9e0
+MD5sum: 4897be3c85ac67324284367647008117
+SHA1: 08c81878ddc55e5b237913ff6139e5a7948a9893
+SHA256: cc5eeb25e8bf92e1c1a6c820b0dffc2ca58b355e64ec31dc8e17b8bd613bab7a
 Size: 472744
 
 Package: libunistring-static
@@ -7668,8 +7739,9 @@ Homepage: https://www.gnu.org/software/libunistring/
 Depends: libunistring (= 0.9.10-3)
 Description: Static libraries for libunistring
 Filename: arm/libunistring-static_0.9.10-3_arm.deb
-SHA1: 6a49a9bb16da53eaf19c0fe3d74aaadedc847bc2
-SHA256: 70c7a1e62df408090f0a7a324ab2f76980e1907cd9c456f39fdb322abd71d36d
+MD5sum: 50e640972151598ff5b669413378775d
+SHA1: 6c7158a54115dded64d569b65524d18b93de9898
+SHA256: 35ff02aefcb5af00a0856dbd429768e9f87f1ad41efeddc4c10777c7aa1d057c
 Size: 389386
 
 Package: libusb
@@ -9262,8 +9334,9 @@ Breaks: ncurses-dev, ncurses-utils (<< 6.1.20190511-4)
 Replaces: ncurses-dev, ncurses-utils (<< 6.1.20190511-4)
 Description: Library for text-based user interfaces in a terminal-independent manner
 Filename: arm/ncurses_6.1.20190928_arm.deb
-SHA1: 1527a16c73710f456e1c11eaa777370d38fa806a
-SHA256: 0aaa54c393a321daf2d9e0da0f58a4efaa9093036efd38afee2ba8da5ae017e7
+MD5sum: 3bc99f939163b24a7cc70cbbcce90cdb
+SHA1: 47e951b9a4ef868a738bd3d9521191c0563ab9f7
+SHA256: b267775a15bd0e7ec1099ac2ee2061df45b1b887eff8e89ebb044d9d8e75128c
 Size: 479916
 
 Package: ncurses-static
@@ -9275,8 +9348,9 @@ Homepage: https://invisible-island.net/ncurses/
 Depends: ncurses (= 6.1.20190928)
 Description: Static libraries for ncurses
 Filename: arm/ncurses-static_6.1.20190928_arm.deb
-SHA1: 7ddb849f1a8597b160f13fd604b2740ff51a34b7
-SHA256: 494c04eb6c59f43db9632cd6b8aa5b89862310fe6b8630f0f69877fe30d57b02
+MD5sum: 7d1357d42cb02bcc58a37364998b56cc
+SHA1: 4a4589524dff2e39ab0d092b8f468169059fbeae
+SHA256: da106d385809546faa89e7b337d9710ab2dfb54ab9271b0fca3301f630081220
 Size: 146746
 
 Package: ncurses-ui-libs
@@ -9288,8 +9362,9 @@ Homepage: https://invisible-island.net/ncurses/
 Depends: ncurses (= 6.1.20190928)
 Description: Libraries for terminal user interfaces based on ncurses
 Filename: arm/ncurses-ui-libs_6.1.20190928_arm.deb
-SHA1: 6b9f3b24cebdac2afa277f70bfe6d032b98154c7
-SHA256: fb0ef8c4009d4660d79a0de3ad52fd3ccd3ab45c53af46f788bf7a7667753798
+MD5sum: 8130c1afc46837506c494e522fdd07c8
+SHA1: d9f81e58e76610f348401c575f2850b163ddcdc2
+SHA256: c9942152ae8d1f565aeab4d73aa880663acb2b84af80fdb4d2dd2ffb65bfce37
 Size: 31002
 
 Package: ncurses-ui-libs-static
@@ -9301,8 +9376,9 @@ Homepage: https://invisible-island.net/ncurses/
 Depends: ncurses (= 6.1.20190928)
 Description: Static libraries for terminal user interfaces based on ncurses
 Filename: arm/ncurses-ui-libs-static_6.1.20190928_arm.deb
-SHA1: f070abbefad09c1bca6069ce076d8cd14c0eb9d9
-SHA256: 7de5b054eb7ab94aed9885c11690414a006580272f78bc817b0c9d0b7bd71d86
+MD5sum: 9153a145f9d2487c108f95f4d4830fcb
+SHA1: 4ecbe49ddf1447fba76a9a1b5e45e6a032e0f802
+SHA256: 610c49c3e90ded5f93aeae968f96212253eac24e751b29d321aac0ac4595f87c
 Size: 35488
 
 Package: ncurses-utils
@@ -9314,8 +9390,9 @@ Homepage: https://invisible-island.net/ncurses/
 Depends: ncurses (= 6.1.20190928)
 Description: Tools for working with terminals
 Filename: arm/ncurses-utils_6.1.20190928_arm.deb
-SHA1: 27c10aa2a6b001e1598bf5f34e0b7cc3f3b54af8
-SHA256: 1a210e849d743c07444b951b0a489c43ca7a31ab557383ef2db850fba19e4e7a
+MD5sum: 40f5336691c99761a02b46e206487608
+SHA1: 52807757ffb3b2a9f4bfc8e9f4c0f008ed842729
+SHA256: 740e73fd27a63a2df4ba212d0fe9e351c5bee376681bd237140e8004ea3ffc75
 Size: 81814
 
 Package: ndk-multilib
@@ -9391,8 +9468,9 @@ Version: 1.60.2017.02.21-2
 Homepage: http://net-tools.sourceforge.net/
 Description: Configuration tools for Linux networking
 Filename: arm/net-tools_1.60.2017.02.21-2_arm.deb
-SHA1: a7e9c5e118c890e46486b0acfdb889a148b0cd0d
-SHA256: 5fb75f8fac8605ee5363d35bf1722fb6d2625ba743c7e065f2a996a5a8246a2a
+MD5sum: 388705bf8962358cc1809ba9f8f0486d
+SHA1: bc94d137d8d37b3f7d32368070576e153a9b39fb
+SHA256: 859e914fb6c5878b6aa49b11baa0c1da69dce2c897c4b0f84aaada87903f1130
 Size: 107748
 
 Package: netcat
@@ -9444,8 +9522,9 @@ Homepage: https://www.lysator.liu.se/~nisse/nettle/
 Depends: libnettle (= 3.5.1-2)
 Description: Low level cryptographic tools
 Filename: arm/nettle_3.5.1-2_arm.deb
-SHA1: a4dc9b2a789b3632357ee6defc27c067e95f017e
-SHA256: 3d57549bca73e575e0928583ff83fa88a5522a47e334b2d17d531ac8b3465a35
+MD5sum: 347bbcfd10b3241967d0afa4f48f29ef
+SHA1: cba676334b9e41bc513ddfe64377c2e0f6ad5a35
+SHA256: a1ec4bb8bf014dc49db5cb26facfbf95b981c1b875d56267b52535c30ff32ceb
 Size: 18658
 
 Package: newsboat
@@ -9777,8 +9856,9 @@ Conflicts: libcurl (<< 7.61.0-1)
 Replaces: openssl-tool (<< 1.1.1b-1), openssl-dev
 Description: Library implementing the SSL and TLS protocols as well as general purpose cryptography functions
 Filename: arm/openssl_1.1.1d-1_arm.deb
-SHA1: 675cfd2f44954879219d755829d9d96b85ac3d4e
-SHA256: 1167260a463817d03e38d9b09b7cbd782dab90e63ab700e8cdbe0a2861a42b60
+MD5sum: 013d080a6f96179e57bbbdc19f573a1e
+SHA1: 6e5649c36cee2a212907518abdf5661f6b019a37
+SHA256: 317b3efa403bf7935acd0fd89bb881543eff19e61b966d1762e34a4c935c2161
 Size: 1134506
 
 Package: openssl-static
@@ -9790,8 +9870,9 @@ Homepage: https://www.openssl.org/
 Depends: openssl (= 1.1.1d-1)
 Description: Static libraries for openssl
 Filename: arm/openssl-static_1.1.1d-1_arm.deb
-SHA1: 41d5f72c4ef044ac0ebbe5d637184806bbf4556d
-SHA256: 0cbaea59c52efbce98a496f5a1f4488d2daee7490833576e5f05a715cbca1e71
+MD5sum: f4563463e506424ff1750b2bd3594ac5
+SHA1: 04f1ee0c7cbbfba513e36541a471dd939f37c64b
+SHA256: 9949599b07f43caba62cb291aa270908110500e55e7918d32657476a1a354196
 Size: 1125136
 
 Package: openssl-tool
@@ -9803,8 +9884,9 @@ Homepage: https://www.openssl.org/
 Depends: openssl (= 1.1.1d-1)
 Description: The openssl command line cryptographic tool
 Filename: arm/openssl-tool_1.1.1d-1_arm.deb
-SHA1: 3322f42b34b9d7742d3fed07d3994df4e0529fcd
-SHA256: e91468ec3fb6e3491e7fd725d454e0cf42cbc7418b6c0f3debe09b064b8e17bf
+MD5sum: b71574f26b92e73668e220973a877830
+SHA1: 4494a0347b0ab695420fa4dba90e6c971734f89a
+SHA256: 603c5cb4545b3763e6211530524de3f42f12d7d710429ab3a7775fa5dce0a9f7
 Size: 184402
 
 Package: optipng
@@ -10019,8 +10101,9 @@ Version: 2.7.6-3
 Homepage: https://savannah.gnu.org/projects/patch/
 Description: GNU patch which applies diff files to create patched files
 Filename: arm/patch_2.7.6-3_arm.deb
-SHA1: cda22685ab1131e9af9ebff8a6ea7ba459a9bbcd
-SHA256: 071f50bc79c18053c52e374156cfcbd4e36cc4e1e54c5b9dd119f537b93dedb5
+MD5sum: 2701079c00662bf8bbf5223c4f0881a4
+SHA1: 6fa7aca2b95062e5bfdb371e331304db992558bd
+SHA256: a6d4f639ac0e6db7b214bdc7d333b2a28d8b2ccd4b0bd648f0bc99f17d5fdf8a
 Size: 82602
 
 Package: patchelf
@@ -10072,8 +10155,9 @@ Homepage: https://www.pcre.org
 Depends: pcre (= 8.43-5)
 Description: Static libraries for pcre
 Filename: arm/pcre-static_8.43-5_arm.deb
-SHA1: 88dec701b423a5f7932d957d1156e5cd5287999e
-SHA256: 684f724f932356236c530d34374f2979b11d2bcfdafcae76a6abbc8b0da05178
+MD5sum: 47249a23abd4c7294aa6d3d4570e55d5
+SHA1: 4166f0d0749a5de200e0553ec27fa64dbb4e77f0
+SHA256: acfc119ec8bc2bc766a6034584bb8c8da62b3e25844856760175eafd9bf3a391
 Size: 140396
 
 Package: pcre2
@@ -10242,8 +10326,9 @@ Homepage: https://www.gnupg.org/related_software/pinentry/index.html
 Depends: libandroid-support, libassuan, libiconv, ncurses
 Description: Dialog allowing secure password entry
 Filename: arm/pinentry_1.1.0-4_arm.deb
-SHA1: efa4b686592dc88c5598d83a73b372b0b32419bb
-SHA256: 5d2b59f201b6e6478eb4b046c46730b7d4d7ee055140eaba17104569198ddb66
+MD5sum: 73e011c127d97f2efd4991bc248db5f8
+SHA1: 72e95a8cf1f49cc647e83e028ac6a40cc334954f
+SHA256: e62c38cccdcac9110f11a391324fe8fe84b1f590eb0ba61e5dc49ad7d70cadc8
 Size: 20470
 
 Package: pkg-config
@@ -10379,8 +10464,9 @@ Essential: yes
 Replaces: procps-dev
 Description: Utilities that give information about processes using the /proc filesystem
 Filename: arm/procps_3.3.15-6_arm.deb
-SHA1: f6611e7af08332083e8bd5a03d655b99f0c83089
-SHA256: dc257dc8acf3578e7b8a9b9f0aa5229b03f06f02400fdef8330611f40dfb5d75
+MD5sum: d85525a3d45b9140682badf9e495c42b
+SHA1: bd94f985c86d5ab8fe74bacb317d7c5829ef5c66
+SHA256: 2752febc8d73f115a12ed57b8c2e4c360fe6f27104513d625ee9386c668b10ed
 Size: 133266
 
 Package: procps-static
@@ -10392,8 +10478,9 @@ Homepage: https://gitlab.com/procps-ng/procps
 Depends: procps (= 3.3.15-6)
 Description: Static libraries for procps
 Filename: arm/procps-static_3.3.15-6_arm.deb
-SHA1: 979b0f465e9ff7c8dc3186dc2cb1247312baf37f
-SHA256: 7696136a030b494162bb839b8472e56fac4382254e4381f6624758fff2161745
+MD5sum: bac38a73b3f5305c4c2ff1b621d6dcaa
+SHA1: febb6d28ba46804d72fbe3de3d73573b62441c56
+SHA256: ddf1c90e29eaa16e96b3178677ac492e9c15a5ee6dffc9d07a58bbbf4790cfb5
 Size: 28020
 
 Package: profanity
@@ -10487,8 +10574,9 @@ Depends: ncurses
 Essential: yes
 Description: Some small useful utilities that use the proc filesystem
 Filename: arm/psmisc_23.3_arm.deb
-SHA1: 7f832935cb05e666fa681316bb17c54c18b8ff39
-SHA256: 92e7a09366a24d5b30ec8a3132b718918f4cc9e51424eafbe047054170477cdd
+MD5sum: 53c287ffb29ee5eed89d07b565926f86
+SHA1: 9fcea3bda162e2460c40ad166aaf714277ae7c31
+SHA256: a90a148d671fc2348b00ec7faf4283442cad122d1dd4da48558e7a0080aaf019
 Size: 41612
 
 Package: pulseaudio
@@ -10815,8 +10903,9 @@ Depends: libandroid-support, ncurses
 Replaces: readline-dev
 Description: Library that allow users to edit command lines as they are typed in
 Filename: arm/readline_8.0.1_arm.deb
-SHA1: ea085f3eb115c2181b118b9538b586046a870055
-SHA256: f26daf71de16fd4bd70727ce985b49e727bb58bdd9e30711d4c2ab6818cee0cf
+MD5sum: 27312d1b06995b35b143b5bf9c1ba5de
+SHA1: bc22abf5bc489a6aa7a9abb507e10d822ee676c7
+SHA256: 31c38947aa211ce86b7e287564a3108796deb7545e1be6d7c12a6c40c069df9f
 Size: 218674
 
 Package: readline-static
@@ -10828,8 +10917,9 @@ Homepage: https://tiswww.case.edu/php/chet/readline/rltop.html
 Depends: readline (= 8.0.1)
 Description: Static libraries for readline
 Filename: arm/readline-static_8.0.1_arm.deb
-SHA1: 2f32997c0a98984bd7e496549f6c9ee9da950d3e
-SHA256: b8a6113a0fca2a2cbfed7646074ef20900a152944eaaf9f38aad8a5500e652ce
+MD5sum: a6443cfca55c4d54c9a5f7795d546de3
+SHA1: 1fa08f75fae3dfaefc382324db47703e75be9559
+SHA256: 02575f1ffed43b1ad29349e7e44eb3d8f1c3bee92c0520409ef377f74623ce0c
 Size: 107334
 
 Package: redir
@@ -10890,8 +10980,9 @@ Version: 1.2
 Homepage: http://man7.org/linux/man-pages/man5/resolv.conf.5.html
 Description: Resolver configuration file
 Filename: arm/resolv-conf_1.2_arm.deb
-SHA1: 6f8984e986dc1975f8620074f41601559794bc73
-SHA256: ff35966682d37bb92513905d088befffd38e6adfad20b9a57450e126d87ba1ff
+MD5sum: d7c5c21fe333d11e0235ea46ecd12409
+SHA1: fb24e7cebe4a7cf847e1666d883997cee3f81853
+SHA256: cb180aec74e6366e1012fd612a580abea9b32660e42ed5bbd47c767f2dfff549
 Size: 844
 
 Package: restic
@@ -11142,8 +11233,9 @@ Homepage: https://github.com/termux/science-packages
 Depends: termux-keyring
 Description: Package repository containing science software
 Filename: all/science-repo_1.0_all.deb
-SHA1: 619dc636f9c1f7d742cfdf40985d0f3cee27b5cc
-SHA256: 2d92330c7f99f8a77e45e1a010f8a9eb734c712daa38db54b703e948f717506a
+MD5sum: 6f41992e1d9915635882129c0ce4b072
+SHA1: b1f04b6c282a5925255faeb7f8951202096ce07d
+SHA256: 1a356dfee55994516399010a88cbae27197bdda917f540b610a58c96dbf55c57
 Size: 972
 
 Package: screen
@@ -11260,8 +11352,9 @@ Homepage: https://www.gnu.org/software/sed/
 Essential: yes
 Description: GNU stream editor for filtering/transforming text
 Filename: arm/sed_4.7-1_arm.deb
-SHA1: 7cc5f90015c6ef5089173f09f7a6dba9cacc1557
-SHA256: 401f5ed306c8c9dc021a74aee1a0c57a137c4f6c68e58a4570e80af450eb74b9
+MD5sum: f8b958bfac1d6d33e96e93ee7c31cfd8
+SHA1: 4d39816d544f0c74d51d2263ec4b36a8ee257603
+SHA256: 3126ebdebb547365fe71a1e2ae2174f4b2aea794acad321f0adec02debc24521
 Size: 111612
 
 Package: sensible-utils
@@ -11473,8 +11566,9 @@ Homepage: https://www.sqlite.org
 Depends: readline, libsqlite (= 3.30.1)
 Description: Command line shell for SQLite
 Filename: arm/sqlite_3.30.1_arm.deb
-SHA1: 36948694f97aa707be9c85cfa6ff5e75afefd2fe
-SHA256: 164cc97f32c41ea33b398c2cf912e1835b6916fa1d38364a77c3563afcc13490
+MD5sum: d1720eeef94e1183f1eb172deb144ffa
+SHA1: d1dd1745a47bd3b8caff33f3c709f413cab82a2e
+SHA256: 703d290128532be5db2a9264b09e37853e9d34f599f23a2cd84c174354e086c2
 Size: 446352
 
 Package: squid
@@ -11736,8 +11830,9 @@ Depends: libandroid-glob, libiconv
 Essential: yes
 Description: GNU tar for manipulating tar archives
 Filename: arm/tar_1.32-4_arm.deb
-SHA1: 810e285ff9291819331e7b6a41f70ff2d5dee5bc
-SHA256: da0027f14cb8f38f23e09a667e232b57e9b3253e7586cd573baecefcdbfa64ef
+MD5sum: 1407f2d14ed8ac44e48b7d466af61d8e
+SHA1: d7344a072ab0974f6330d9ad701888aee47d0d1d
+SHA256: 4092d8e91da8ebf8e0eabd1e15f8739d4e1ba8195dd4871b751afcfe5405748a
 Size: 325984
 
 Package: tar
@@ -11883,8 +11978,9 @@ Homepage: https://github.com/termux/TermuxAm
 Conflicts: termux-tools (<< 0.51)
 Description: Android Oreo-compatible am command reimplementation
 Filename: all/termux-am_0.3_all.deb
-SHA1: c27cb387077e87f4546228b70a5dba2327c15b17
-SHA256: bcf22a1fde775c66bb227f3254743f660a1169c3f7fcdce93644a8d21cbee3f7
+MD5sum: 8750c0d1df7ad1503883ebf1bef97589
+SHA1: fe02c69c657355e8a43231f1747a41b7bbb7f580
+SHA256: a80a7dd3ee18ffa12c1ee46606567d25eb4f094a843dfab579c4fda117a6d2b8
 Size: 17008
 
 Package: termux-api
@@ -11963,8 +12059,9 @@ Homepage: https://github.com/termux/termux-exec
 Essential: yes
 Description: An execve() wrapper to make /bin and /usr/bin shebangs work
 Filename: arm/termux-exec_0.4-1_arm.deb
-SHA1: 2e98082e0d24a4b7415cdf8671fd6e0885b2ecb9
-SHA256: 1acea0419e03ed78a2cc64e399f35358574378542ae5df9b09fcbd0a5a3e2cae
+MD5sum: 0273ec27617dac3f25d8aba9fcce5ae3
+SHA1: 301eaa3789af6f92a8c2f5ea36e3a477b65bbb89
+SHA256: b6e1fc17195520050cefd968743e7c102370b480f44d4c2aea00d48f7021d021
 Size: 2618
 
 Package: termux-keyring
@@ -11975,8 +12072,9 @@ Version: 1.2
 Homepage: https://github.com/termux
 Description: GPG public keys for the official Termux repositories
 Filename: all/termux-keyring_1.2_all.deb
-SHA1: 1da0e5c88b2449dad52fb11ab33563f6a6a2e0c7
-SHA256: 3fd5f932b6e69ac6d8b1ec4c4e1f1c0334a9b48c2fc5315fae827641e4b73d6b
+MD5sum: b47e19e70b7563175e9d4b6f025f8bea
+SHA1: cb15c0a6c643af364fb1d0e434ec2700299e2075
+SHA256: 9565c7bb6d1c2cd0cb8de498d9c470b9f990afbd5de20c0a0d390e578a1c06bd
 Size: 31676
 
 Package: termux-licenses
@@ -11988,8 +12086,9 @@ Homepage: https://termux.com
 Essential: yes
 Description: Contains LICENSE files for common licenses
 Filename: all/termux-licenses_1.0_all.deb
-SHA1: 0a43f1cfa39114e1efd61d8d3fba5a7e9d5895ce
-SHA256: f958d4f73c4d9f46b3fc959e990bfbcd66a6dda56b29efe348b80eb0eb62c5ce
+MD5sum: 0fd66c86dad7799a0607713dba0b3f67
+SHA1: a43302b7145ba0112e3b41b4285917d2f83998be
+SHA256: 9aebd01f0ba805d45565b797b974424b105ce2d1cc5b1a98be6e80faea76e9b1
 Size: 54728
 
 Package: termux-services
@@ -12018,8 +12117,9 @@ Recommends: ed, dos2unix, inetutils, net-tools, patch, unzip, util-linux
 Suggests: termux-api
 Description: Basic system tools for Termux
 Filename: all/termux-tools_0.74_all.deb
-SHA1: 23efd8fc7d42219e79bb56d3828f95bae680286f
-SHA256: 74c6a80a3b096317856f98d096795261e5f021a86f1264b91d8c59fac63caf90
+MD5sum: d2fbe5f28b64eda19e7fcf55d1bfbe32
+SHA1: be693ddf5e5b4236474b3f5235c2b71c77ea459d
+SHA256: 9daf71b4a6554de2f74419a6988204d0a320fe44c9cf04ac06521bfa7525dacd
 Size: 4844
 
 Package: teseq
@@ -12856,8 +12956,9 @@ Homepage: https://github.com/dgoulet/torsocks
 Depends: tor
 Description: Wrapper to safely torify applications
 Filename: arm/torsocks_2.3.0_arm.deb
-SHA1: cdca43024d7f59a4a8c40182853a3a0d87e32b35
-SHA256: 807dd91e8ee4d6bdee8ac08b87f3a71e7d43add4ae99573817ba8d6a50c65617
+MD5sum: 614cd64b5fb2213ed876273107efc05f
+SHA1: b0f2c48e14bca617847a68897df284c76acc5def
+SHA256: 024e96b8a5d7789eec9f109746fb1de2f3a8c13b47354fd2cc139f495241b3f1
 Size: 35810
 
 Package: toxic
@@ -13099,8 +13200,9 @@ Homepage: http://www.info-zip.org/
 Depends: libbz2
 Description: Tools for working with zip files
 Filename: arm/unzip_6.0-5_arm.deb
-SHA1: 6e99d1da3a0f693c51f380d3b57162879cd30264
-SHA256: fc735f78794a3f2247aaf239773dd15e3f94472e8ee82a2249cb3cea58a58b0e
+MD5sum: 5eaa9d2ff1715cb3a2b3cffe0eda5cfd
+SHA1: 0f984c2fd11bb3fe13f973cd12abba66f106f20e
+SHA256: d154525a97efb963ca9469b9bafdaa8ea78cf82d2d4b24a255edbae2318472df
 Size: 115238
 
 Package: utf8cpp
@@ -13166,8 +13268,9 @@ Depends: ncurses, libcrypt, zlib
 Replaces: util-linux-dev
 Description: Miscellaneous system utilities
 Filename: arm/util-linux_2.34-2_arm.deb
-SHA1: 70efbaeaa2009ffc3489474c46d2481a9e493e4c
-SHA256: 0096b42ec52275630d7c3381243162f00287334e73c923739727bf0bc60ec639
+MD5sum: 0b9e6ebf6497d4375ae37362598dbf05
+SHA1: aed0008bce1f89718a4dd2bd1257bb4b24aae2dd
+SHA256: fcdd33b4198eda64e9861cf788a433800c295735878cc4e6c3b4544117fa9aaa
 Size: 557674
 
 Package: util-linux-static
@@ -13179,8 +13282,9 @@ Homepage: https://en.wikipedia.org/wiki/Util-linux
 Depends: util-linux (= 2.34-2)
 Description: Static libraries for util-linux
 Filename: arm/util-linux-static_2.34-2_arm.deb
-SHA1: 7b666a572af88452fb9ba3d24535acc1e88ec54f
-SHA256: fa7bf6de20a250412c87b54dad3eeb9a09518aeb268dc356f4f36191d522dc23
+MD5sum: 50c0b3666f2c2b57965d0dfbecffc874
+SHA1: 96f59fc188d93ee7b46d7471f2e720ad8e413dec
+SHA256: 1b36abedc0216826079b4c80593686f1a1a4ac18c101cbfefa8c70659f59343c
 Size: 168564
 
 Package: valac
@@ -13764,8 +13868,9 @@ Essential: yes
 Depends: liblzma (= 5.2.4-7)
 Description: XZ-format compression tools
 Filename: arm/xz-utils_5.2.4-7_arm.deb
-SHA1: fe6a9146876ba8e41957e59519b8ce2bb6345fdf
-SHA256: 3a6bc41b57951269ec11c3db90aa3c8f6556e448841a857e5448e6364b958de8
+MD5sum: 75420cffc5206a47c571e825a79d9e12
+SHA1: 55dd1899e919448a06e70016889d6b7df1efd664
+SHA256: 165ac307fa9920a4e227cf6b45d39ebef07e37960733dd7b2ba547feaf99408c
 Size: 61890
 
 Package: yadm
@@ -13926,8 +14031,9 @@ Breaks: ndk-sysroot (<< 19b-3), zlib-dev
 Replaces: ndk-sysroot (<< 19b-3), zlib-dev
 Description: Compression library implementing the deflate compression method found in gzip and PKZIP
 Filename: arm/zlib_1.2.11-4_arm.deb
-SHA1: 684f90c0ee0d14d9838f2faacb9cf94d62cf6a02
-SHA256: 9001fc8a9521baec7ae86d9fa37598b3d45f17d9ce95a09b8c169085fcc83c77
+MD5sum: e93a4f3767d0f9322e6d78b74e9aa35b
+SHA1: 7dfb66b1a8d54fe52e7501c71787a2277522610b
+SHA256: b0b3e011d6e04e5e13feef9126496194ca2cf845e26bb271d5ec057bc5488cce
 Size: 66752
 
 Package: zlib-static
@@ -13939,8 +14045,9 @@ Homepage: https://www.zlib.net/
 Depends: zlib (= 1.2.11-4)
 Description: Static libraries for zlib
 Filename: arm/zlib-static_1.2.11-4_arm.deb
-SHA1: 0b25680a3fa6530bec376ae3634227cca2a8f7b4
-SHA256: 6c7194de8082d625f6e49ab41fb8fe673ee2729973739e16937662815eb0aa2b
+MD5sum: 3c6aa5ad495a023d3909176c64ad08b4
+SHA1: ac387937923502661118ec56de3c0c76295619fe
+SHA256: 4ba020684a08f0b1ddac41add268025e53744d9aeea922db51482e01b106cba5
 Size: 38162
 
 Package: zopfli
