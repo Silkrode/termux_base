@@ -1389,7 +1389,6 @@ Essential: yes
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 68
 Filename: arm/termux-exec_0.4-1_arm.deb
-Filename: arm/termux-exec_0.4-1_arm.deb
 Size: 2714
 MD5sum: aacfe2ff0c12e8b12d64100bdda83d08
 SHA1: 3b1886776951790a23bd58edb2ed4dd2e120e5f1
