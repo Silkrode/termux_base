@@ -3216,11 +3216,11 @@ Package: gpgv
 Architecture: arm
 Installed-Size: 300
 Maintainer: Fredrik Fornwall @fornwall
-Version: 2.2.18
+Version: 2.2.17
 Homepage: https://www.gnupg.org/
 Depends: libbz2, libgcrypt, libgpg-error, zlib
 Description: GNU privacy guard - signature verification tool
-Filename: arm/gpgv_2.2.18_arm.deb
+Filename: arm/gpgv_2.2.17_arm.deb
 MD5sum: f0e0a7be14a1358b52a1cc04a5fd9308
 SHA1: 5ffb97465b18c63e005c6673439a60f1d612fbc8
 SHA256: 075a18a08a64cb9f0fd3c0afc4f49dd0f7a5bb44fade1f9cc8f1fb9b78188f3f
