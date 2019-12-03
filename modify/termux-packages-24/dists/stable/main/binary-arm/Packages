@@ -1423,7 +1423,7 @@ SHA1: 0e008e54eaddf0227d97632c002807ef7f97b1cd
 SHA256: dbdeb9e3bf8c5e97517c0f5cc9bc83aed9d950f43251aa647a9cafefaab7bc9e
 Homepage: https://termux.com
 Description: Contains LICENSE files for common licenses
- 
+
 Package: termux-tools
 Architecture: all
 Installed-Size: 144
