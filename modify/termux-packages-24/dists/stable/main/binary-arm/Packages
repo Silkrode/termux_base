@@ -200,7 +200,7 @@ Package: apt
 Architecture: arm
 Installed-Size: 2848
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.4.9-24
+Version: 1.4.9-19
 Homepage: https://packages.debian.org/apt
 Depends: coreutils, dpkg, findutils, gpgv, grep, libc++, libcurl, liblzma, sed, termux-licenses, zlib
 Essential: yes
@@ -209,7 +209,7 @@ Recommends: game-repo, science-repo
 Replaces: apt-transport-https, libapt-pkg
 Suggests: gnupg, unstable-repo, x11-repo
 Description: Front-end for the dpkg package manager
-Filename: arm/apt_1.4.9-24_arm.deb
+Filename: arm/apt_1.4.9-19_arm.deb
 MD5sum: 0675cb3d099439aa77aeffa6e6c47fbf
 SHA1: 07bfd7786a4ad9ecbf52b2cf8fa5dd9291517574
 SHA256: f2f14441cbfb52e8eeefa76d28a01911062dc05e25185b0bd74fe01cc1aed715
@@ -219,7 +219,7 @@ Package: apt-ftparchive
 Architecture: arm
 Installed-Size: 24
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.4.9-24
+Version: 1.4.9-19
 Homepage: https://packages.debian.org/apt
 Depends: libdb, apt (= 1.4.9-24)
 Description: apt-ftparchive is the command line tool that generates the index files that APT uses to access a distribution source
@@ -233,11 +233,11 @@ Package: apt-transport-tor
 Architecture: all
 Installed-Size: 36
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.4.9-24
+Version: 1.4.9-19
 Homepage: https://packages.debian.org/apt
 Depends: tor, apt (= 1.4.9-24)
 Description: APT transport for anonymous package downloads via Tor
-Filename: all/apt-transport-tor_1.4.9-24_all.deb
+Filename: all/apt-transport-tor_1.4.9-19_all.deb
 MD5sum: fc7dc3e238273769957f6f2fa13f2979
 SHA1: a324af94d407687ad10e39f1f7f02ffdd0e57532
 SHA256: c79a272b01379e7f28729d80111d8418351f72ec8adefd6a3a829c158e2e7fd3
