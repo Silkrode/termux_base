@@ -11849,20 +11849,6 @@ SHA1: d7344a072ab0974f6330d9ad701888aee47d0d1d
 SHA256: 4092d8e91da8ebf8e0eabd1e15f8739d4e1ba8195dd4871b751afcfe5405748a
 Size: 325984
 
-Package: tar
-Architecture: arm
-Installed-Size: 1052
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.32-5
-Homepage: https://www.gnu.org/software/tar/
-Depends: libandroid-glob, libiconv
-Essential: yes
-Description: GNU tar for manipulating tar archives
-Filename: arm/tar_1.32-5_arm.deb
-SHA1: 88186a1fd4171134278bebc2f98e88bfeb9d980f
-SHA256: 5a32427032014130c280bd637842254a7f49ab0aeb98e9c72b80fe74b29df07a
-Size: 331252
-
 Package: tasksh
 Architecture: arm
 Installed-Size: 236
