@@ -6852,12 +6852,12 @@ Package: libnghttp2
 Architecture: arm
 Installed-Size: 408
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.40.0
+Version: 1.39.2
 Homepage: https://nghttp2.org/
 Breaks: libnghttp2-dev
 Replaces: libnghttp2-dev
 Description: nghttp HTTP 2.0 library
-Filename: arm/libnghttp2_1.40.0_arm.deb
+Filename: arm/libnghttp2_1.39.2_arm.deb
 MD5sum: 5b2d10d51fd6a4e350933e8e03189c7f
 SHA1: 51f731b94e5820683e84243a1df010deb2972dff
 SHA256: 4e1598f5ec44c125ced3654d7ab96cf4c98a8049be18c476e67bd2dbe8a9f936
@@ -6867,11 +6867,11 @@ Package: libnghttp2-static
 Architecture: arm
 Installed-Size: 220
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.40.0
+Version: 1.39.2
 Homepage: https://nghttp2.org/
 Depends: libnghttp2 (= 1.40.0)
 Description: Static libraries for libnghttp2
-Filename: arm/libnghttp2-static_1.40.0_arm.deb
+Filename: arm/libnghttp2-static_1.39.2_arm.deb
 MD5sum: 1e9c5856f210237ec9aff6c0f147f188
 SHA1: a52127416406ecd27593b8e2bf955f9bffd267af
 SHA256: d9e844e1a7911ae1c39387b743ed94c5262b4cd1367f701842ecce5bd973e13f
