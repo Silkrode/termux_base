@@ -1543,6 +1543,20 @@ SHA1: a60a014a42f8ef43ae23ea21b8bcdc28096577de
 SHA256: 254f9f2a1574890d461aaf30bda4e8b5477344f4eb97a175314996cda5461a35
 Size: 144344
 
+Package: dirmngr
+Version: 2.2.17
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 444
+Depends: libgnutls, resolv-conf, gnupg (= 2.2.17)
+Filename: arm/dirmngr_2.2.17_arm.deb
+Size: 173124
+MD5sum: ce2dc9e0369254b5703ab44b38048930
+SHA1: d27fb79edf9284bbb742930d01607d7ea47f9c37
+SHA256: 9646abfd7429a5b71af16c53256326f5bd842e4eca7e29983c81165b134b7a38
+Homepage: https://www.gnupg.org/
+Description: Server for managing certificate revocation lists
+
 Package: direnv
 Architecture: arm
 Installed-Size: 3848
