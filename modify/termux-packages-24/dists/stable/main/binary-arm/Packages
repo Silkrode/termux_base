@@ -1543,3 +1543,458 @@ SHA256: 1edbcfa316786d986e60ecab6ec7cd80e2a5976080528cce04f60ac9ed6e6c83
 Homepage: https://www.zlib.net/
 Description: Static libraries for zlib
 
+Package: bzip2
+Version: 1.0.8-5
+Architecture: arm
+Essential: yes
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 156
+Depends: libbz2 (= 1.0.8-5)
+Filename: arm/bzip2_1.0.8-5_arm.deb
+Size: 29516
+MD5sum: 70a8e419ffeb0a74201e0881cf0862eb
+SHA1: 30beb2c4628844a2ee366414f59210da5b3f974f
+SHA256: bdcc91bc4f6a154e06af88043df4f6d0be694ad872881315bf135898e1fd072a
+Homepage: http://www.bzip.org/
+Description: Tools for working with bzip2 compression
+
+Package: ca-certificates
+Version: 20191129
+Architecture: all
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 284
+Filename: all/ca-certificates_20191129_all.deb
+Size: 120504
+MD5sum: cee9c3f6625252cca2726ca8cb438b7d
+SHA1: 54e8a463dc15587d522543d9766aeaf6024b5168
+SHA256: 875def0418d82d8a7766d7fea3cb4a68961fc45a72c92e993e6255f9cffdc6ac
+Homepage: https://curl.haxx.se/docs/caextract.html
+Description: Common CA certificates
+
+Package: ca-certificates-java
+Version: 20191129
+Architecture: all
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 228
+Depends: ca-certificates (= 20191129)
+Filename: all/ca-certificates-java_20191129_all.deb
+Size: 109352
+MD5sum: f06d9bababf4a042f613a94c8d5f9954
+SHA1: 382a604ede3daca686a44c14ae5d4e15a7d276e0
+SHA256: 68dc64d8f42ed17ef7dd3ecf8d631c75384f35c8f78a04e09c82a535c84ad2b5
+Homepage: https://curl.haxx.se/docs/caextract.html
+Description: Common CA certificates (java keystore format)
+
+Package: gdbm
+Version: 1.18.1-2
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 412
+Breaks: gdbm-dev
+Replaces: gdbm-dev
+Filename: arm/gdbm_1.18.1-2_arm.deb
+Size: 101724
+MD5sum: d735b833ced7988f8f918c6eb56264e3
+SHA1: 54346f059a2543d0845ce3197e1b7178dfcaeede
+SHA256: 4b975bdc02e38abdf2a84964760177d7db083e534c9b83f8357fa6807b180867
+Homepage: https://www.gnu.org.ua/software/gdbm/
+Description: Library of database functions that use extensible hashing
+
+Package: gdbm-static
+Version: 1.18.1-2
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 152
+Depends: gdbm (= 1.18.1-2)
+Filename: arm/gdbm-static_1.18.1-2_arm.deb
+Size: 24194
+MD5sum: 952d7713b1b0e0b22165c286677f3fda
+SHA1: 9e107a1343f49cedbd593e6aac69ca5c93b64170
+SHA256: 837a6387bc0c8d2756dd0e8866e368d67ed850dbaf3a42c0c05f346dbfd14d86
+Homepage: https://www.gnu.org.ua/software/gdbm/
+Description: Static libraries for gdbm
+
+Package: libandroid-support
+Version: 25-2
+Architecture: arm
+Essential: yes
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 84
+Pre-Depends: dpkg (>= 1.19.4-3)
+Filename: arm/libandroid-support_25-2_arm.deb
+Size: 7438
+MD5sum: 5943f03ec8586cb7b493571702183818
+SHA1: 57a739d9eb58bbbf02ffb938189c1dcd98543683
+SHA256: c6682327bff83b097040d45dc3070727241d394b0cb8ef0e5a5f57c7c0ce7d13
+Homepage: https://github.com/termux/libandroid-support
+Description: Library extending the Android C library (Bionic) for additional multibyte, locale and math support
+
+Package: libandroid-support-static
+Version: 25-2
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 84
+Depends: libandroid-support (= 25-2)
+Filename: arm/libandroid-support-static_25-2_arm.deb
+Size: 8240
+MD5sum: 5caf9b8c70125451bc3ff9a3f367cd7f
+SHA1: a8fc88adb84a22fa8e6e5cedb1f0021c22f9b908
+SHA256: 3a79fa1b7148537c585291a3234887988926bfb3a63c741064129cbf8404b8c9
+Homepage: https://github.com/termux/libandroid-support
+Description: Static libraries for libandroid-support
+
+Package: libbz2
+Version: 1.0.8-5
+Architecture: arm
+Essential: yes
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 124
+Breaks: libbz2-dev
+Replaces: libbz2-dev
+Filename: arm/libbz2_1.0.8-5_arm.deb
+Size: 27798
+MD5sum: 6c8b77c46fa7611f1cc2d13b5f21d2a4
+SHA1: ee042081b9f5ebf931cec52d1b9d763150686518
+SHA256: 0a4bccfd249f19d7179ab96b72489546cddec15759d03975794975f511880b42
+Homepage: http://www.bzip.org/
+Description: BZ2 format compression library
+
+Package: libcrypt
+Version: 0.2-2
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 88
+Depends: openssl
+Breaks: libcrypt-dev
+Replaces: libcrypt-dev
+Filename: arm/libcrypt_0.2-2_arm.deb
+Size: 10706
+MD5sum: 0bc28d529a9034af690cda73e389a13e
+SHA1: 453390088772acde3c827ff0f48f77ca9da430ef
+SHA256: 0bbaf2a85edcd65c16a917f91157af0baa633f116d5b89a3af1b72dc445a772f
+Homepage: http://michael.dipperstein.com/crypt/
+Description: A crypt(3) implementation
+
+Package: libffi
+Version: 3.2.1-4
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 172
+Breaks: libffi-dev
+Replaces: libffi-dev
+Filename: arm/libffi_3.2.1-4_arm.deb
+Size: 23428
+MD5sum: c47de364674823383fd11c1fafd055b9
+SHA1: 42b78f455bee077f913bb8bb12eb5e71528962a1
+SHA256: 5bd2bc9952f90e3ba5dc0c8d3281f0abe2937b036e79d6f8c9dba7396682c0a7
+Homepage: https://sourceware.org/libffi/
+Description: Library providing a portable, high level programming interface to various calling conventions
+
+Package: libffi-static
+Version: 3.2.1-4
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 72
+Depends: libffi (= 3.2.1-4)
+Filename: arm/libffi-static_3.2.1-4_arm.deb
+Size: 6368
+MD5sum: 67caeb6954adeb615e1df42611871f5a
+SHA1: 1453805758482bc3dba265f6fe7067a52fd096a0
+SHA256: 60aa6f00ee4e46ee0782f866196e9cf2f802044bba1bdc70104e2b43aa84c0c3
+Homepage: https://sourceware.org/libffi/
+Description: Static libraries for libffi
+
+Package: liblzma
+Version: 5.2.4-7
+Architecture: arm
+Essential: yes
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 596
+Breaks: liblzma-dev
+Replaces: liblzma-dev
+Filename: arm/liblzma_5.2.4-7_arm.deb
+Size: 138370
+MD5sum: 758ff4546988b594a3751905b3d59665
+SHA1: 2168bf1ef754f81aa001a2fcacf05d9a5c2d8d05
+SHA256: 95a0b7c3838b60ef3470a9128aaa4b7d76c1a231d9a621a4e84060c692f2c69b
+Homepage: https://tukaani.org/xz/
+Description: XZ-format compression library
+
+Package: liblzma-static
+Version: 5.2.4-7
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 260
+Depends: liblzma (= 5.2.4-7)
+Filename: arm/liblzma-static_5.2.4-7_arm.deb
+Size: 72578
+MD5sum: c4e1fa99129a491aa1a3b023f27caf98
+SHA1: 858bcac0f5e85079a3859fe8aacbd876855ec950
+SHA256: c49ef7740750519e576210c2310369a509fb05866265fc8a5dba076a0a43066c
+Homepage: https://tukaani.org/xz/
+Description: Static libraries for liblzma
+
+Package: libsqlite
+Version: 3.30.1
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 1392
+Depends: zlib
+Breaks: libsqlite-dev
+Replaces: libsqlite-dev
+Filename: arm/libsqlite_3.30.1_arm.deb
+Size: 521028
+MD5sum: c25406c58f407cd87044f6e37c04493f
+SHA1: 64b7a316e7ad40c499b00379d14b002fd41c07ae
+SHA256: 2a9658a20e7156842a152fcbf7632a310de0c7a5f2d7cbce0fe8895432f2c756
+Homepage: https://www.sqlite.org
+Description: Library implementing a self-contained and transactional SQL database engine
+
+Package: libsqlite-static
+Version: 3.30.1
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 896
+Depends: libsqlite (= 3.30.1)
+Filename: arm/libsqlite-static_3.30.1_arm.deb
+Size: 422588
+MD5sum: f0e175235ba247a6127721cc56353f8d
+SHA1: 90dd6f661a1ae5ac40a34a07e2d9a1dd35634135
+SHA256: 7ec8ffb6cc3eda4b642750fa4abd66c896221f46f7d1fa99c5ea8679e74940e6
+Homepage: https://www.sqlite.org
+Description: Static libraries for libsqlite
+
+Package: ncurses
+Version: 6.1.20190928
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 1416
+Breaks: ncurses-dev, ncurses-utils (<< 6.1.20190511-4)
+Replaces: ncurses-dev, ncurses-utils (<< 6.1.20190511-4)
+Filename: arm/ncurses_6.1.20190928_arm.deb
+Size: 485802
+MD5sum: 3b72ae9dc85c4b894abb9b5149b99b11
+SHA1: ef9399d358f46e0b6d145eb84515f7de71fc8e65
+SHA256: ac643ec3160f351464d0c0be18d92940956dab458e3e03a6210240a18c3de59e
+Homepage: https://invisible-island.net/ncurses/
+Description: Library for text-based user interfaces in a terminal-independent manner
+
+Package: ncurses-static
+Version: 6.1.20190928
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 604
+Depends: ncurses (= 6.1.20190928)
+Filename: arm/ncurses-static_6.1.20190928_arm.deb
+Size: 147234
+MD5sum: b35b515bc80dd507760e5196cb911f56
+SHA1: 8a8c03f377b5b57d9183391a357dbf1fc07af5da
+SHA256: a16dd034f18008a1b9c4c74d051351c3588aa975587fcccdc63cf76fb074c4e0
+Homepage: https://invisible-island.net/ncurses/
+Description: Static libraries for ncurses
+
+Package: ncurses-ui-libs
+Version: 6.1.20190928
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 128
+Depends: ncurses (= 6.1.20190928)
+Filename: arm/ncurses-ui-libs_6.1.20190928_arm.deb
+Size: 31050
+MD5sum: 2a0cbe28a51a8b37ee20a8a96adb734a
+SHA1: a0562442a0db82761fe0526c4341bbceb22a5b4e
+SHA256: 7edee17e8d94f5368d11bf34bda51ec4b0ff5c7113998b64d4a11949f04c9660
+Homepage: https://invisible-island.net/ncurses/
+Description: Libraries for terminal user interfaces based on ncurses
+
+Package: ncurses-ui-libs-static
+Version: 6.1.20190928
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 216
+Depends: ncurses (= 6.1.20190928)
+Filename: arm/ncurses-ui-libs-static_6.1.20190928_arm.deb
+Size: 35430
+MD5sum: e76aca8a0a30317beef9364e03f3a4c5
+SHA1: 2532b12369795d318749e89dc90d8cc4ecdcd01b
+SHA256: d3d2a0304e3f2df271782acb4cbf45fc2c924bbefa9938cf6ee5931c5cece473
+Homepage: https://invisible-island.net/ncurses/
+Description: Static libraries for terminal user interfaces based on ncurses
+
+Package: ncurses-utils
+Version: 6.1.20190928
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 252
+Depends: ncurses (= 6.1.20190928)
+Filename: arm/ncurses-utils_6.1.20190928_arm.deb
+Size: 81822
+MD5sum: 42213e3113ee39e8409b806068e6ef10
+SHA1: a974ee05b5de26a5aa94bc421339fd3d460eb4a5
+SHA256: f49799fffac65ad8853e65ee8426d9dbf620472e2fbc8eacef48cbce1e83343e
+Homepage: https://invisible-island.net/ncurses/
+Description: Tools for working with terminals
+
+Package: openssl
+Version: 1.1.1d-1
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 3548
+Depends: ca-certificates
+Conflicts: libcurl (<< 7.61.0-1)
+Breaks: openssl-tool (<< 1.1.1b-1), openssl-dev
+Replaces: openssl-tool (<< 1.1.1b-1), openssl-dev
+Filename: arm/openssl_1.1.1d-1_arm.deb
+Size: 1134690
+MD5sum: 48cc74104fb5853eccc6efe47148d626
+SHA1: a58ffb5f5928e7c4fd931c9f07f56ee072457d27
+SHA256: 536b2dde9995561a91c3fec65a23dd96d6d3aa9b02465eb70e62152ce0d05270
+Homepage: https://www.openssl.org/
+Description: Library implementing the SSL and TLS protocols as well as general purpose cryptography functions
+
+Package: openssl-static
+Version: 1.1.1d-1
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 4048
+Depends: openssl (= 1.1.1d-1)
+Filename: arm/openssl-static_1.1.1d-1_arm.deb
+Size: 1125232
+MD5sum: 2dd4733f3a36374b53e264de560c7f2c
+SHA1: d2aa77c4127f1ba1b81f9d9a499c9bb9150fb613
+SHA256: c0cecfecc5a458de6780652fa9655dc780936ae521dc9f4c8a35d43341fdc8a8
+Homepage: https://www.openssl.org/
+Description: Static libraries for openssl
+
+Package: openssl-tool
+Version: 1.1.1d-1
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 488
+Depends: openssl (= 1.1.1d-1)
+Filename: arm/openssl-tool_1.1.1d-1_arm.deb
+Size: 185262
+MD5sum: 7a5ae6df0834f9dc7e30a9d602d7b313
+SHA1: 876e2690f78b0df71ad98257e77f88c968d8786f
+SHA256: dc9c2a280ac6904172fbe84d0945b44574dcc29e67be98a8df576f0638da9916
+Homepage: https://www.openssl.org/
+Description: The openssl command line cryptographic tool
+
+Package: python
+Version: 3.7.4-1
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 21660
+Depends: libandroid-support, ncurses, readline, libffi, openssl, libbz2, libsqlite, gdbm, ncurses-ui-libs, libcrypt, liblzma, zlib
+Breaks: python2 (<= 2.7.15), python-dev
+Replaces: python-dev
+Filename: arm/python_3.7.4-1_arm.deb
+Size: 5832506
+MD5sum: bc5d4112aa26e0bf6f0dbe1dab2f9d27
+SHA1: b91e975554fe5410b7c76b8ddb384be03e32e198
+SHA256: 7a563b6fb1a61a7584e7470f6aa9efdc4512543d3f0ba7a0618f3a7a87fe6ee2
+Homepage: https://python.org/
+Description: Python 3 programming language intended to enable clear programs
+
+Package: python-static
+Version: 3.7.4-1
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 9572
+Depends: python (= 3.7.4-1)
+Filename: arm/python-static_3.7.4-1_arm.deb
+Size: 2379160
+MD5sum: 06d76b1ed8e34721b45cbaaef81e24ae
+SHA1: 65169ea7da7b6983692fc7a9089eeb4d7d9bb2a7
+SHA256: a7475fac60c4f8663b27c02736030ee332d92c237d3a7544e2ea951d9696ef6f
+Homepage: https://python.org/
+Description: Static libraries for python
+
+Package: readline
+Version: 8.0.1
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 1000
+Depends: libandroid-support, ncurses
+Breaks: bash (<< 5.0), readline-dev
+Replaces: readline-dev
+Filename: arm/readline_8.0.1_arm.deb
+Size: 217362
+MD5sum: ff2cd5ed07891730c44cb5dd130525a6
+SHA1: 17cb69a391bb42619849e99c6072f5ceb6d32806
+SHA256: 35530be7fc144c8247d40715601bf2b4d3d77434920f6acd8dffb55786f1dd62
+Homepage: https://tiswww.case.edu/php/chet/readline/rltop.html
+Description: Library that allow users to edit command lines as they are typed in
+
+Package: readline-static
+Version: 8.0.1
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 436
+Depends: readline (= 8.0.1)
+Filename: arm/readline-static_8.0.1_arm.deb
+Size: 107408
+MD5sum: a376e8728e7df6fba14a4d5393316c24
+SHA1: e66cce7374d4a815287dfe0693fd88ddbfbf3d7c
+SHA256: 51c70ee3741cf502094d4facf00cda8f985f89391d8577a7d1a06264d31d68ae
+Homepage: https://tiswww.case.edu/php/chet/readline/rltop.html
+Description: Static libraries for readline
+
+Package: sqlite
+Version: 3.30.1
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 792
+Depends: readline, libsqlite (= 3.30.1)
+Filename: arm/sqlite_3.30.1_arm.deb
+Size: 446412
+MD5sum: 38aafe5646ac8f7e0b80a2c58d71835f
+SHA1: 972ef647549719c346e6261a045f717709555fe0
+SHA256: 6bf0104adee368ac4d4876ae3540689b95cbe3f12ca8834a40e52213527efc00
+Homepage: https://www.sqlite.org
+Description: Command line shell for SQLite
+
+Package: xz-utils
+Version: 5.2.4-7
+Architecture: arm
+Essential: yes
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 220
+Depends: liblzma (= 5.2.4-7)
+Filename: arm/xz-utils_5.2.4-7_arm.deb
+Size: 62148
+MD5sum: 066722ae28e714f008859d82a6d3bbb7
+SHA1: 459c65b736740f90b7c3c1345d0c263147c23fe5
+SHA256: e1bb68fcef3892bb6a8a6715e946a4c6ea652a26ede95c27376cc607761fb1ea
+Homepage: https://tukaani.org/xz/
+Description: XZ-format compression tools
+
+Package: zlib
+Version: 1.2.11-4
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 260
+Breaks: ndk-sysroot (<< 19b-3), zlib-dev
+Replaces: ndk-sysroot (<< 19b-3), zlib-dev
+Filename: arm/zlib_1.2.11-4_arm.deb
+Size: 67212
+MD5sum: bf84b35b11289917ed317dd8de1a2324
+SHA1: f6884b11390a1ea2ed71dd5d2b470cb242ec87bb
+SHA256: 55e88575d9657b05598323daaa88d9dfa67f10437d7aff37cdf27e2340de7399
+Homepage: https://www.zlib.net/
+Description: Compression library implementing the deflate compression method found in gzip and PKZIP
+
+Package: zlib-static
+Version: 1.2.11-4
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 132
+Depends: zlib (= 1.2.11-4)
+Filename: arm/zlib-static_1.2.11-4_arm.deb
+Size: 38810
+MD5sum: cf5e91d592215af1586f72cb37595f57
+SHA1: 92404362c559489f23c40d0dacbe9c90c5361486
+SHA256: b4e253f2e14d9201c5f382bef462635ee773d178c757c54a5214fed0e974e2c4
+Homepage: https://www.zlib.net/
+Description: Static libraries for zlib
+
