@@ -698,7 +698,7 @@ Package: termux-tools
 Architecture: all
 Installed-Size: 144
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.74
+Version: 0.72
 Homepage: https://termux.com/
 Depends: bzip2, coreutils, curl, dash, diffutils, findutils, gawk, grep, gzip, less, procps, psmisc, sed, tar, termux-am, termux-exec, xz-utils
 Essential: yes
@@ -706,7 +706,7 @@ Conflicts: procps (<< 3.3.15-2)
 Recommends: ed, dos2unix, inetutils, net-tools, patch, unzip, util-linux
 Suggests: termux-api
 Description: Basic system tools for Termux
-Filename: all/termux-tools_0.74_all.deb
+Filename: all/termux-tools_0.72_all.deb
 SHA1: 23efd8fc7d42219e79bb56d3828f95bae680286f
 SHA256: 74c6a80a3b096317856f98d096795261e5f021a86f1264b91d8c59fac63caf90
 Size: 4844
