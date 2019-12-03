@@ -5162,7 +5162,7 @@ Package: libcurl
 Architecture: arm
 Installed-Size: 2412
 Maintainer: Fredrik Fornwall @fornwall
-Version: 7.67.0
+Version: 7.66.0-1
 Homepage: https://curl.haxx.se/
 Breaks: libcurl-dev
 Depends: libnghttp2, openssl (>= 1.1.1), zlib
@@ -5170,7 +5170,7 @@ Essential: yes
 Conflicts: apt (<< 1.4.8-8)
 Replaces: libcurl-dev
 Description: Easy-to-use client-side URL transfer library
-Filename: arm/libcurl_7.67.0_arm.deb
+Filename: arm/libcurl_7.66.0-1_arm.deb
 MD5sum: 85b0cfa2c9e75434fbd9ad200af4f28c
 SHA1: 79fc465815f2c9bf957df2f182e1d6952f72d858
 SHA256: 424465efebb4c859a28014221593c2aeb2cf03e5b38df82557f0b4ca83cd5386
@@ -5180,11 +5180,11 @@ Package: libcurl-static
 Architecture: arm
 Installed-Size: 684
 Maintainer: Fredrik Fornwall @fornwall
-Version: 7.67.0
+Version: 7.66.0-1
 Homepage: https://curl.haxx.se/
 Depends: libcurl (= 7.67.0)
 Description: Static libraries for libcurl
-Filename: arm/libcurl-static_7.67.0_arm.deb
+Filename: arm/libcurl-static_7.66.0-1_arm.deb
 MD5sum: 66c71a8b11eb917e1af1223ebbdfd55d
 SHA1: 010199be194685b971b8e301f4a0d7d8e9c313f1
 SHA256: 9cd3441ec8f5723433042824b37ea47a881c9ec236ed961849ae1961b5603928
