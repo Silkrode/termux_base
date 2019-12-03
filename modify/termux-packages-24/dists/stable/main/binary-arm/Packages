@@ -1432,6 +1432,7 @@ Installed-Size: 164
 Depends: bzip2, coreutils, curl, dash, diffutils, findutils, gawk, grep, gzip, less, procps, psmisc, sed, tar, termux-am, termux-exec, xz-utils
 Recommends: ed, dos2unix, inetutils, net-tools, patch, unzip, util-linux
 Conflicts: procps (<< 3.3.15-2)
+Suggests: termux-api
 Filename: all/termux-tools_0.72_all.deb
 Size: 4826
 MD5sum: 2b905ed898d0cd39cb5a696cb08984d4
