@@ -1389,6 +1389,7 @@ Essential: yes
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 68
 Filename: arm/termux-exec_0.4-1_arm.deb
+Filename: arm/termux-exec_0.4-1_arm.deb
 Size: 2714
 MD5sum: aacfe2ff0c12e8b12d64100bdda83d08
 SHA1: 3b1886776951790a23bd58edb2ed4dd2e120e5f1
@@ -1422,24 +1423,24 @@ SHA1: 0e008e54eaddf0227d97632c002807ef7f97b1cd
 SHA256: dbdeb9e3bf8c5e97517c0f5cc9bc83aed9d950f43251aa647a9cafefaab7bc9e
 Homepage: https://termux.com
 Description: Contains LICENSE files for common licenses
-
+ 
 Package: termux-tools
-Version: 0.72
 Architecture: all
-Essential: yes
+Installed-Size: 144
 Maintainer: Fredrik Fornwall @fornwall
-Installed-Size: 164
-Depends: bzip2, coreutils, curl, dash, diffutils, findutils, gawk, grep, gzip, less, procps, psmisc, sed, tar, termux-am, termux-exec, xz-utils
-Recommends: ed, dos2unix, inetutils, net-tools, patch, unzip, util-linux
-Conflicts: procps (<< 3.3.15-2)
-Suggests: termux-api
-Filename: all/termux-tools_0.72_all.deb
-Size: 4826
-MD5sum: 2b905ed898d0cd39cb5a696cb08984d4
-SHA1: c3b14588b3c80f9c83e742612ada6140b6ac78f3
-SHA256: 1442eb278b84efc352c812e013be6915f3a5a6f0864a107f87bffb0b355e0844
+Version: 0.72
 Homepage: https://termux.com/
+Depends: bzip2, coreutils, curl, dash, diffutils, findutils, gawk, grep, gzip, less, procps, psmisc, sed, tar, termux-am, termux-exec, xz-utils
+Essential: yes
+Conflicts: procps (<< 3.3.15-2)
+Recommends: ed, dos2unix, inetutils, net-tools, patch, unzip, util-linux
+Suggests: termux-api
 Description: Basic system tools for Termux
+Filename: all/termux-tools_0.72_all.deb
+MD5sum: d2fbe5f28b64eda19e7fcf55d1bfbe32
+SHA1: be693ddf5e5b4236474b3f5235c2b71c77ea459d
+SHA256: 9daf71b4a6554de2f74419a6988204d0a320fe44c9cf04ac06521bfa7525dacd
+Size: 4844
 
 Package: tor
 Version: 0.4.1.6
