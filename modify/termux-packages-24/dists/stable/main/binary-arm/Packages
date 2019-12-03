@@ -3026,7 +3026,7 @@ Installed-Size: 3656
 Maintainer: Fredrik Fornwall @fornwall
 Version: 2.2.18
 Homepage: https://www.gnupg.org/
-Depends: libassuan, libbz2, libgcrypt, libgnutls, libgpg-error, libksba, libnpth, libsqlite, readline, pinentry, resolv-conf, zlib
+Depends: libassuan,libbz2,libgcrypt,libksba,libsqlite,libnpth,readline,pinentry,libgpg-error,zlib
 Conflicts: gnupg2 (<< 2.2.9-1), dirmngr (<< 2.2.17-1)
 Replaces: gnupg2 (<< 2.2.9-1), dirmngr (<< 2.2.17-1)
 Description: Implementation of the OpenPGP standard for encrypting and signing data and communication
