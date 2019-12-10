@@ -1,0 +1,12 @@
+{
+  "open.times": -1,
+  "env.init": false,
+  "deb.repo_change": false,
+  "env.curl": -1,
+  "env.golang": -1,
+  "env.python": -1,
+  "check.state": false,
+  "state.code": 200,
+  "result.code": 200,
+  "state.error.message": "this check get error"
+}

@@ -1,1418 +1,1544 @@
-Package: ack-grep
-Architecture: all
-Installed-Size: 196
+Package: apt
+Version: 1.4.9-19
+Architecture: arm
+Essential: yes
 Maintainer: Fredrik Fornwall @fornwall
-Version: 3.2.0
-Homepage: https://beyondgrep.com/
-Depends: perl
-Description: Tool like grep optimized for programmers
-Filename: all/ack-grep_3.2.0_all.deb
-SHA1: 172f698aa65317ce85b26c47ba733ce635cef6c1
-SHA256: a31a667661d22aa881513035b5e19972344ba88abbe2869b984365206afc4ab1
-Size: 40108
-
-Package: apksigner
-Architecture: all
-Installed-Size: 1500
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.7-1
-Homepage: https://github.com/fornwall/apksigner
-Description: APK signing tool
-Filename: all/apksigner_0.7-1_all.deb
-SHA1: 1ab3b86dac0521ba57085c87c9da87e499d6a5d2
-SHA256: 0ff6863acedb3fdf3185aa71d90495eba3b6f57b80b461739c673226cec0cc3c
-Size: 1468588
+Installed-Size: 2148
+Depends: coreutils, dpkg, findutils, gpgv, grep, libc++, libcurl, liblzma, sed, termux-licenses, zlib
+Recommends: game-repo, science-repo
+Suggests: unstable-repo
+Conflicts: apt-transport-https
+Replaces: apt-transport-https
+Filename: arm/apt_1.4.9-19_arm.deb
+Size: 747490
+MD5sum: 370a5146dc752c34eef71df0826a3f29
+SHA1: 141243c99a41b2c24fa61d5c03d7ec77129413b3
+SHA256: d0e19f7ecc583a8cee0975c9a222387ba60cc0da30f74818fcd712ebe47a04a7
+Homepage: https://packages.debian.org/apt
+Description: Front-end for the dpkg package manager
 
 Package: apt-transport-tor
+Version: 1.4.9-19
 Architecture: all
-Installed-Size: 36
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.4.9-24
+Installed-Size: 56
+Depends: tor, apt (= 1.4.9-19)
+Filename: all/apt-transport-tor_1.4.9-19_all.deb
+Size: 996
+MD5sum: bd698201e4eb0a2b9a814a55387ac0ee
+SHA1: 3751aa048d981e66304d5e47bd01fb49cc6c9d89
+SHA256: 5f32b48111f766ee8d93d5a766b3c32981f179d61d9444b1ca1f351757a4210c
 Homepage: https://packages.debian.org/apt
-Depends: tor, apt (= 1.4.9-24)
 Description: APT transport for anonymous package downloads via Tor
-Filename: all/apt-transport-tor_1.4.9-24_all.deb
-SHA1: 7de3d669176c3069a529bd4b5548eee26c1b23be
-SHA256: af58b1b95a010a37cac88413674bd0edfeec96f21f3610730290f352ebb1ee0f
-Size: 844
 
-Package: asciinema
-Architecture: all
-Installed-Size: 136
+Package: bash
+Version: 5.0.11
+Architecture: arm
+Essential: yes
 Maintainer: Fredrik Fornwall @fornwall
-Version: 2.0.2-1
-Homepage: https://asciinema.org/
-Depends: python, ncurses-utils
-Description: Record and share your terminal sessions, the right way
-Filename: all/asciinema_2.0.2-1_all.deb
-SHA1: f1b4a930fe9982f3d00a06ef333f527b8ef0df07
-SHA256: fcccabf20ed68e4998aaf2c19b079b4a0b04545fc53b9456a69ade0dcc741d1b
-Size: 69724
+Installed-Size: 3664
+Depends: libandroid-support, libiconv, ncurses, readline (>= 8.0), termux-tools
+Recommends: command-not-found
+Breaks: bash-dev
+Replaces: bash-dev
+Filename: arm/bash_5.0.11_arm.deb
+Size: 790768
+MD5sum: 7b5f8ee01fac72ce366ebe11b44dc52f
+SHA1: 43a7a1e9dd4ad4f1fa9f131a2416ed68453b6d63
+SHA256: da8e57d5b8c20322dc011410b666e8584f75a3e76b0372f1685c922fd37169a0
+Homepage: https://www.gnu.org/software/bash/
+Description: A sh-compatible shell that incorporates useful features from the Korn shell (ksh) and C shell (csh)
 
-Package: autoconf
-Architecture: all
-Installed-Size: 1956
+Package: busybox
+Version: 1.30.1-9
+Architecture: arm
 Maintainer: Fredrik Fornwall @fornwall
-Version: 2.69
-Homepage: https://www.gnu.org/software/autoconf/autoconf.html
-Depends: m4, make, perl
-Description: Creator of shell scripts to configure source code packages
-Filename: all/autoconf_2.69_all.deb
-SHA1: 3df7c98320750c0209ac84f311b5125b2afbfeb7
-SHA256: 7b31fe4cffa997758f5135de9e7f0d98b7fa78b1f39f9b55852b274f8de343d3
-Size: 282656
+Installed-Size: 564
+Conflicts: coreutils (<< 8.25-4)
+Filename: arm/busybox_1.30.1-9_arm.deb
+Size: 288900
+MD5sum: 0b18b457d8c5cb65940938c85e68d278
+SHA1: 221f11e5012d3edb4f08231701dc30be11570da0
+SHA256: 0285dfa1fee0914417a618f6a02ebfc23f96c5e2f2f4a815d4d9cf70d72c2b58
+Homepage: https://busybox.net/
+Description: Tiny versions of many common UNIX utilities into a single small executable
 
-Package: automake
-Architecture: all
-Installed-Size: 1924
+Package: bzip2
+Version: 1.0.8-5
+Architecture: arm
+Essential: yes
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.16.1
-Homepage: https://www.gnu.org/software/automake/
-Depends: autoconf
-Description: Tool for automatically generating Makefile.in files
-Filename: all/automake_1.16.1_all.deb
-SHA1: 106fea39c5ec9d74f952ebcdc6cf99cc50fc0bcb
-SHA256: bc4f708fcb1e026f3752b8c91a72fab7e9d1c2e2f80a83b68a4cbbe3e2d916f1
-Size: 319240
-
-Package: bash-completion
-Architecture: all
-Installed-Size: 2244
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.9
-Homepage: https://github.com/scop/bash-completion
-Depends: bash
-Description: Programmable completion for the bash shell
-Filename: all/bash-completion_2.9_all.deb
-SHA1: f50bb83aa1a8f9c62a862f8791ff56e2805a8111
-SHA256: e96536793f641039075dad033bf8a3ccb147fdc60ca91303b5236f72e8c5a09a
-Size: 154980
-
-Package: beanshell
-Architecture: all
-Installed-Size: 276
-Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
-Version: 2.0b6-4
-Homepage: https://github.com/beanshell/beanshell
-Depends: dash, termux-tools
-Description: Small, free, embeddable, source level Java interpreter with object based scripting language features written in Java
-Filename: all/beanshell_2.0b6-4_all.deb
-SHA1: a8b54b693b0f2bc1f900b70ed91481e208ac59fd
-SHA256: c9b13625a7ced3cc9382b8b1c4f9cd4f6156f01d1efbdf8cb5b5396c8ef9b083
-Size: 224014
-
-Package: build-essential
-Architecture: all
-Installed-Size: 4
-Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
-Version: 3.1-4
-Homepage: https://github.com/termux/termux-packages
-Depends: autoconf, automake, bison, clang, cmake, flex, gperf, libtool, m4, make, ninja, pkg-config, bc, bzip2, coreutils, diffutils, ed, findutils, gawk, grep, gzip, lzip, lzop, patch, procps, psmisc, sed, tar, util-linux, xz-utils
-Suggests: git, golang, nodejs, patchelf, proot, python, python2, ruby, rust, subversion
-Description: A metapackage that installs essential development tools
-Filename: all/build-essential_3.1-4_all.deb
-SHA1: 87a89e9442eaadf4ad324bb1c305f60271645939
-SHA256: 6c4736a0b5118aec72e4117e259bc9a23bec54f08339ce4db4d3f96afa65d4d8
-Size: 872
-
-Package: byobu
-Architecture: all
-Installed-Size: 820
-Maintainer: Fredrik Fornwall @fornwall
-Version: 5.129
-Homepage: http://byobu.co/
-Depends: gawk, tmux
-Description: Byobu is a GPLv3 open source text-based window manager and terminal multiplexer
-Filename: all/byobu_5.129_all.deb
-SHA1: 1ac0b2efd2e3d1d641c079be83df715e25546bfe
-SHA256: 526a402358aabf38183a2d89ccbda43f1a92e88cc49bddf015419d74f31ea328
-Size: 86510
+Installed-Size: 156
+Depends: libbz2 (= 1.0.8-5)
+Filename: arm/bzip2_1.0.8-5_arm.deb
+Size: 29528
+MD5sum: 86a8d8628040f1db62bc06a7be6d26a7
+SHA1: becad3443c9a45e3211f3d2359a77579f3ce493a
+SHA256: 683f5adc48165b5c23c2319ee695908c0eb9a92ea5a9aa5c7c81c025885626d5
+Homepage: http://www.bzip.org/
+Description: Tools for working with bzip2 compression
 
 Package: ca-certificates
-Architecture: all
-Installed-Size: 264
-Maintainer: Fredrik Fornwall @fornwall
-Version: 20191016
-Homepage: https://curl.haxx.se/docs/caextract.html
-Description: Common CA certificates
-Filename: all/ca-certificates_20191016_all.deb
-SHA1: 9fee1dc16bc622522fd0e538aa6ba4c6b764aa13
-SHA256: 9c05a785b4e1735f09b0aa6637ccdc1750ff65bfdb31d00d9474e55165ba9207
-Size: 120442
-
-Package: ca-certificates
-Architecture: all
-Installed-Size: 264
-Maintainer: Fredrik Fornwall @fornwall
 Version: 20191129
-Homepage: https://curl.haxx.se/docs/caextract.html
-Description: Common CA certificates
+Architecture: all
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 284
 Filename: all/ca-certificates_20191129_all.deb
-SHA1: ee8287916ad68f578af293a89acb8b7ddfc7b3aa
-SHA256: caebd05fe60725a5fc96721907e142123e311ea11088cabc4e0f61cd4b08f77e
-Size: 120408
-
-Package: ca-certificates-java
-Architecture: all
-Installed-Size: 208
-Maintainer: Fredrik Fornwall @fornwall
-Version: 20191016
+Size: 120520
+MD5sum: b85960d24c598b5fd10e3cd9e8e434ee
+SHA1: 4df27d4834395673a1beb9238ffdaf7d591a87b6
+SHA256: 6a38839249a0101f40a5cc660c343453ba3194bff390c0da5ed9fb9f311083a6
 Homepage: https://curl.haxx.se/docs/caextract.html
-Depends: ca-certificates (= 20191016)
-Description: Common CA certificates (java keystore format)
-Filename: all/ca-certificates-java_20191016_all.deb
-SHA1: cdeda982f750d56a3539cc4850b8a2f6b4acd438
-SHA256: 3b44695a7d8776533c94df737dc9235b87c1d40f3a59d0baf3243c44f0bc80a3
-Size: 109174
+Description: Common CA certificates
 
 Package: ca-certificates-java
-Architecture: all
-Installed-Size: 208
-Maintainer: Fredrik Fornwall @fornwall
 Version: 20191129
-Homepage: https://curl.haxx.se/docs/caextract.html
+Architecture: all
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 228
 Depends: ca-certificates (= 20191129)
-Description: Common CA certificates (java keystore format)
 Filename: all/ca-certificates-java_20191129_all.deb
-SHA1: 1b9c0c1a3f76b797dface2ab27e35067cebc79c3
-SHA256: 56860eae35f4c21e9ab82a0fdce2a130b73f7551a9836c79a7e848c03187d88b
-Size: 109164
+Size: 109376
+MD5sum: d302c653a757ff5eec575d40450456da
+SHA1: dd6df7fef3c5026216f693c680173ef9ad86cd52
+SHA256: 4ea01180ab7ecfb4cd3ae220f37f574fe811398f3daa3df70572e274aee60284
+Homepage: https://curl.haxx.se/docs/caextract.html
+Description: Common CA certificates (java keystore format)
 
-Package: colordiff
-Architecture: all
-Installed-Size: 80
+Package: command-not-found
+Version: 1.42
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 236
+Filename: arm/command-not-found_1.42_arm.deb
+Size: 44756
+MD5sum: 1016e682a17336aef1d1f9c0eb5ae1e7
+SHA1: 1d6a79af0021661e26269ede7f2f6dbf8a396d00
+SHA256: 03d5986df55fd37131ccebe5a2f4b3ab4343df224acdee572aaca740a7deb54f
+Homepage: https://github.com/termux/command-not-found
+Description: Suggest installation of packages in interactive shell sessions
+
+Package: coreutils
+Version: 8.31-8
+Architecture: arm
+Essential: yes
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 2200
+Depends: libandroid-support, libgmp, libiconv
+Breaks: chroot, busybox (<< 1.30.1-4)
+Replaces: chroot, busybox (<< 1.30.1-4)
+Filename: arm/coreutils_8.31-8_arm.deb
+Size: 708986
+MD5sum: 7e26498d657bdc1b41899a4ee64d10d6
+SHA1: 3e1104c20c83b9c335136d7b26dc542693d1b41c
+SHA256: 209a481f7ed9e0717a992c2e5b630a848061da925cec6216723d89e33fa8051a
+Homepage: https://www.gnu.org/software/coreutils/
+Description: Basic file, shell and text manipulation utilities from the GNU project
+
+Package: curl
+Version: 7.66.0-1
+Architecture: arm
+Essential: yes
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 272
+Depends: libcurl (= 7.66.0-1)
+Filename: arm/curl_7.66.0-1_arm.deb
+Size: 145310
+MD5sum: d216908775702526a5e1e87f44702384
+SHA1: 0fdd8e38eb89825f9eadba1358d17e6750631754
+SHA256: 7fb6dc5b6f4c79e41153b97bffe1d4550e7d6e00fe3cab1af81021e2dc71ca2f
+Homepage: https://curl.haxx.se/
+Description: Command line tool for transferring data with URL syntax
+
+Package: dash
+Version: 0.5.10.2-2
+Architecture: arm
+Essential: yes
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 164
+Filename: arm/dash_0.5.10.2-2_arm.deb
+Size: 63112
+MD5sum: 8ec6dfb27e247b7c3f0874479b870f49
+SHA1: 6764fbdaa667f82cb21148aa36d970e66d3a5243
+SHA256: b9af5e8eda278a21c2486db413df4c22cf0136491a6d3b76dd1823e6eabde073
+Homepage: http://gondor.apana.org.au/~herbert/dash/
+Description: Small POSIX-compliant implementation of /bin/sh
+
+Package: diffutils
+Version: 3.7-2
+Architecture: arm
+Essential: yes
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 516
+Depends: libiconv
+Filename: arm/diffutils_3.7-2_arm.deb
+Size: 146304
+MD5sum: e1f651361420387ad1fbbfb950fab250
+SHA1: 9ee35217b23ab1fada76514c53199154157bc443
+SHA256: 9175f7b042f765f53e410f7ce2d9c9efbd5a0ff80cced3ef0258f30582b9e46e
+Homepage: https://www.gnu.org/software/diffutils/
+Description: Programs (cmp, diff, diff3 and sdiff) related to finding differences between files
+
+Package: dirmngr
+Version: 2.2.17
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 444
+Depends: libgnutls, resolv-conf, gnupg (= 2.2.17)
+Filename: arm/dirmngr_2.2.17_arm.deb
+Size: 173104
+MD5sum: d8649233bc0584137c1b5d07e5db83fe
+SHA1: 82376d2e83f808fbf31c70bc61b313b7950c2a43
+SHA256: dd62b0c851495971be02636731fa185412585d1a379fea7654feeacf54c725c8
+Homepage: https://www.gnupg.org/
+Description: Server for managing certificate revocation lists
+
+Package: dos2unix
+Version: 7.4.1
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 336
+Depends: libandroid-support
+Filename: arm/dos2unix_7.4.1_arm.deb
+Size: 59326
+MD5sum: 92ea6da163d96e501d124d0404aa32af
+SHA1: b11b824c3a7d4a824912d405e62b2e02e6ce56ba
+SHA256: 29e5f61a827928a3b6031e6bd4fddd46cf7617d6a9e23b81d7812e6f9910523c
+Homepage: https://waterlan.home.xs4all.nl/dos2unix.html
+Description: Converts between DOS and Unix text files
+
+Package: dpkg
+Version: 1.19.7-9
+Architecture: arm
+Essential: yes
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 772
+Depends: bzip2, coreutils, diffutils, gzip, less, libbz2, liblzma, tar, xz-utils, zlib
+Breaks: dpkg-dev
+Replaces: dpkg-dev
+Filename: arm/dpkg_1.19.7-9_arm.deb
+Size: 199200
+MD5sum: 372c18a4bc37c7510400d688093f7a87
+SHA1: 7f3aead608b9c1c78117d41bd01feaf6d51d7e0d
+SHA256: 981f191a81937af87f5f5add13ad6728f0704fad90f39d70b395c41f62092d62
+Homepage: https://packages.debian.org/dpkg
+Description: Debian package management system
+
+Package: ed
+Version: 1.15
+Architecture: arm
 Maintainer: Oliver Schmidhauser @Neo-Oli
-Version: 1.0.18-1
-Homepage: https://www.colordiff.org/
-Depends: perl
-Description: Tool to colorize 'diff' output
-Filename: all/colordiff_1.0.18-1_all.deb
-SHA1: 431ab8d5eee431547129c8b449dc3234434133e0
-SHA256: f259343948257e7f2909be7c6b52e31682a9cf1f4005cbebfed3590cf5ec6c3d
-Size: 9756
+Installed-Size: 176
+Filename: arm/ed_1.15_arm.deb
+Size: 36038
+MD5sum: 99161e45fb010a837d5f5307f9e5147d
+SHA1: f328ea23b362bab4784e9d21d5643afa0f96155c
+SHA256: 40b8d4b38f2ce357640193ad63440fc2d779166648cd18b491401996835b2153
+Homepage: https://www.gnu.org/software/ed/
+Description: Classic UNIX line editor
 
-Package: cowsay
-Architecture: all
-Installed-Size: 216
+Package: findutils
+Version: 4.7.0
+Architecture: arm
+Essential: yes
 Maintainer: Fredrik Fornwall @fornwall
-Version: 3.04
-Homepage: https://en.wikipedia.org/wiki/Cowsay
-Depends: perl
-Description: Program which generates ASCII pictures of a cow with a message
-Filename: all/cowsay_3.04_all.deb
-SHA1: f56a8f2c41c8685a24f59add15b0118daac0334e
-SHA256: 7eb13b7b437127e1b108796b1ca949a2cff2fefbf8e520b179759f1148f7315f
-Size: 10478
-
-Package: debootstrap
-Architecture: all
-Installed-Size: 280
-Maintainer: Pierre Rudloff @Rudloff
-Version: 1.0.116
-Homepage: https://wiki.debian.org/Debootstrap
-Depends: wget, proot, perl
-Description: Bootstrap a basic Debian system
-Filename: all/debootstrap_1.0.116_all.deb
-SHA1: 20778282123dfed5b5ef5b2ade84769d7189d403
-SHA256: 83ca21b32faa649b2d502c7c0e1880e575824a29e896cb98c85cbb0ed0ee1fe6
-Size: 29870
-
-Package: docbook-xml
-Architecture: all
-Installed-Size: 2408
-Maintainer: Fredrik Fornwall @fornwall
-Version: 4.5-2
-Homepage: https://www.oasis-open.org/docbook/
-Depends: libxml2-utils
-Description: A widely used XML scheme for writing documentation and help
-Filename: all/docbook-xml_4.5-2_all.deb
-SHA1: 7a1a7e549935542eee2215440b987b8130ac5c83
-SHA256: a751bd8c4e709e1d09f3f513eef903074f0582458c5b67d65f9d0aaa3978d7ea
-Size: 77892
-
-Package: docbook-xsl
-Architecture: all
-Installed-Size: 33396
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.79.2
-Homepage: https://docbook.org/
-Depends: docbook-xml, libxml2-utils, xsltproc
-Description: XML stylesheets for Docbook-xml transformations
-Filename: all/docbook-xsl_1.79.2_all.deb
-SHA1: 88eaf7aba3880e4142348d117abdef9d693c8777
-SHA256: 48152a5bd8c0acca585246a6368019002308375d2a2c41f2b6469dddd69031b2
-Size: 1239774
-
-Package: dx
-Architecture: all
-Installed-Size: 368
-Maintainer: Fredrik Fornwall @fornwall
-Version: 29.0.2
-Homepage: http://developer.android.com/tools/help/index.html
-Description: Command which takes in class files and reformulates them for usage on Android
-Filename: all/dx_29.0.2_all.deb
-SHA1: 3bdefc123ee8f98484952b9280146bda18f52b0d
-SHA256: b19eb5be8646afab033e5409c821312c30093ba66665869ed6b5a03ca474ab26
-Size: 327348
-
-Package: ecj
-Architecture: all
-Installed-Size: 8196
-Maintainer: Fredrik Fornwall @fornwall
-Version: 4.12-2
-Homepage: http://www.eclipse.org/jdt/core/
-Conflicts: ecj4.6
-Description: Eclipse Compiler for Java
-Filename: all/ecj_4.12-2_all.deb
-SHA1: 2bdaccc6a6c30a9628feb63c7bfb4f97acc26219
-SHA256: 0b7dcf0d63828b54c33453534d29faa26af3b55e5797087f83c3a6e8f0664f2c
-Size: 6783616
-
-Package: elixir
-Architecture: all
-Installed-Size: 10188
-Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
-Version: 1.9.2-3
-Homepage: http://elixir-lang.org/
-Depends: dash, erlang
-Suggests: clang, make
-Description: Elixir is a dynamic, functional language designed for building scalable and maintainable applications
-Filename: all/elixir_1.9.2-3_all.deb
-SHA1: d8a03e378c879b48ba55163ce294d74618dd27c7
-SHA256: 7f4611f8112ca43c7757646239f7f452745b1c591c6db787716960bcf4acc4ed
-Size: 4057226
+Installed-Size: 760
+Depends: libandroid-support
+Filename: arm/findutils_4.7.0_arm.deb
+Size: 234120
+MD5sum: cf264e36bb32ff6d1871599427fd85c6
+SHA1: 3381d53bd275408b1d33838b09c8bb4a83d26369
+SHA256: b061a8e7fe317e841ada964a83605432e12daec837925e47dd23a0eb55231f86
+Homepage: https://www.gnu.org/software/findutils/
+Description: Utilities to find files meeting specified criteria and perform various actions on the files which are found
 
 Package: game-repo
-Architecture: all
-Installed-Size: 80
-Maintainer: Henrik Grimler @Grimler91
 Version: 1.1
-Homepage: https://github.com/termux/game-packages
+Architecture: all
+Maintainer: Henrik Grimler @Grimler91
+Installed-Size: 72
 Depends: termux-keyring
-Description: Package repository containing games for termux
 Filename: all/game-repo_1.1_all.deb
-SHA1: 923db3fa3b16ab7581a47bdb88bb5b265ebcbbf4
-SHA256: abd71e1063503a5ca764e282ae7e55d04940884065d32aa84fa623deb6d679dc
-Size: 970
+Size: 1230
+MD5sum: 9b688693a98fe554fafa22d2fe8474b1
+SHA1: e915d0112a6dad13663c6f2c4ab24b1527a3c9a3
+SHA256: 239f2372a73539aca175c2301df0cefb4e619f88402dcbe67497451d07644b6e
+Homepage: https://github.com/termux/game-packages
+Description: Package repository containing games for termux
 
-Package: geoip2-database
-Architecture: all
-Installed-Size: 72188
-Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
-Version: 20191103
-Homepage: https://dev.maxmind.com/geoip/geoip2/geolite2/
-Description: GeoLite2 IP geolocation databases compiled by MaxMind
-Filename: all/geoip2-database_20191103_all.deb
-SHA1: b951f458917b7f604d2b0fa644c3b062e12065c8
-SHA256: ad4e393e2b1cf70ed3f30bfecf638b8a638d0b7d0c5efb87c542358b46e1c962
-Size: 23246964
-
-Package: getmail
-Architecture: all
-Installed-Size: 952
+Package: gawk
+Version: 5.0.1-4
+Architecture: arm
+Essential: yes
 Maintainer: Fredrik Fornwall @fornwall
-Version: 5.14
-Homepage: http://pyropus.ca/software/getmail/
-Depends: python2
-Description: fetchmail replacement relatively easy to configure
-Filename: all/getmail_5.14_all.deb
-SHA1: a9477deb141514dc818d5eb0e63e8e446a425a80
-SHA256: b0a08504231236f9740514f8afdcdfcf4310bc54a2a6eda71c0b1d842ce8f260
-Size: 140488
+Installed-Size: 2732
+Depends: libandroid-support, libgmp, libmpfr, readline
+Breaks: gawk-dev
+Replaces: gawk-dev
+Filename: arm/gawk_5.0.1-4_arm.deb
+Size: 690864
+MD5sum: 09fa18460c0440958655d87dc819d4c6
+SHA1: 4294dfeb6825f8811840b333fff86f3a08ee2280
+SHA256: 2029e3af589b62b767f30243499ed77d5a53db129a92d025331b7ee5887ab74f
+Homepage: https://www.gnu.org/software/gawk/
+Description: Programming language designed for text processing
 
-Package: help2man
-Architecture: all
-Installed-Size: 96
+Package: gawk-static
+Version: 5.0.1-4
+Architecture: arm
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.47.11
-Homepage: https://www.gnu.org/software/help2man/
-Depends: perl
-Description: Conversion tool to create man files.
-Filename: all/help2man_1.47.11_all.deb
-SHA1: 6acdc269a904f5371683360030e3935f5eade6af
-SHA256: 19140b993702ac4934071d4977f6253e46173a50d832da7ffd4c1582d0404aad
-Size: 15492
+Installed-Size: 148
+Depends: gawk (= 5.0.1-4)
+Filename: arm/gawk-static_5.0.1-4_arm.deb
+Size: 22376
+MD5sum: 16f975ab14a4381a4b081de4c146cb4f
+SHA1: 051c840e5056c596bf09f48ea1b1870b0a2e137f
+SHA256: 7db7547a4c068350bbac36d9827d56e3fc07691ba0cb315b2f00c4695b757282
+Homepage: https://www.gnu.org/software/gawk/
+Description: Static libraries for gawk
 
-Package: hunspell-en-us
-Architecture: all
-Installed-Size: 580
+Package: gnupg
+Version: 2.2.17
+Architecture: arm
 Maintainer: Fredrik Fornwall @fornwall
-Version: 20181025
-Homepage: https://hunspell.github.io
-Description: American english dictionary for hunspell
-Filename: all/hunspell-en-us_20181025_all.deb
-SHA1: 7eecf750d745295ee418e74080fad249d74c0f7e
-SHA256: f52c1d48684ada91daf706bb539183e2b7abec238984b90fce9f0d3dcccc85f9
-Size: 161110
+Installed-Size: 3296
+Depends: libassuan,libbz2,libgcrypt,libksba,libsqlite,libnpth,readline,pinentry,libgpg-error,zlib
+Conflicts: gnupg2 (<< 2.2.9-1)
+Replaces: gnupg2 (<< 2.2.9-1)
+Filename: arm/gnupg_2.2.17_arm.deb
+Size: 986112
+MD5sum: 68ed9a6f7a0a7163939eeb33cc1ed225
+SHA1: 771cfabd1430ec7d5c38eb7f0740723d06528c55
+SHA256: a4137ea11ddc175eb2b914e69683737f48385a6f8850c48da9e462e3dc158299
+Homepage: https://www.gnupg.org/
+Description: Implementation of the OpenPGP standard for encrypting and signing data and communication
 
-Package: hunspell-en-us
-Architecture: all
-Installed-Size: 584
+Package: gnutls
+Version: 3.6.10
+Architecture: arm
 Maintainer: Fredrik Fornwall @fornwall
-Version: 20181025-1
-Homepage: https://hunspell.github.io
-Description: American english dictionary for hunspell
-Filename: all/hunspell-en-us_20181025-1_all.deb
-SHA1: 92b8ec4439f880aab3874ad3025362ea86d2fe77
-SHA256: c4ed77771c5604f386d8041f0f248cdac02d1b0577193bd4ce907dc335f85845
-Size: 161848
+Installed-Size: 976
+Depends: libgnutls (= 3.6.10)
+Filename: arm/gnutls_3.6.10_arm.deb
+Size: 237968
+MD5sum: 70917a75083300724e229b2101c29b99
+SHA1: e49e0f162b0d7a4352e43509cb78e8d7e1f42f8d
+SHA256: 1a3aeb9132263322493fd88c79bd6beed8f56757e8391f3ba3a783e4074dab37
+Homepage: https://www.gnutls.org/
+Description: Commandline utilities for interfacing with the gnutls library
 
-Package: hunspell-ru
-Architecture: all
-Installed-Size: 2016
+Package: gpgv
+Version: 2.2.17
+Architecture: arm
 Maintainer: Fredrik Fornwall @fornwall
-Version: 20170303
-Homepage: https://hunspell.github.io
-Description: Russian dictionary for hunspell
-Filename: all/hunspell-ru_20170303_all.deb
-SHA1: 91a102b0dedb0160118743a398b543dce602cef6
-SHA256: ee107df858b652bff98d6693873707b92d1d9d1edc5752b2df463ae22dbbc1d1
-Size: 421526
+Installed-Size: 320
+Depends: libbz2, libgcrypt, libgpg-error, zlib
+Filename: arm/gpgv_2.2.17_arm.deb
+Size: 142012
+MD5sum: 5172e5565e7e839d10529e6dd7cfe30b
+SHA1: 624a167bb1fbd10ff06bdba35d1172a9e4a9d9de
+SHA256: 2baa76ba3a7be18dc5e1fb5034fc7e88cc8bb0600c2757968f3eeaac3c89d89d
+Homepage: https://www.gnupg.org/
+Description: GNU privacy guard - signature verification tool
 
-Package: linux-man-pages
-Architecture: all
-Installed-Size: 15880
+Package: grep
+Version: 3.3-2
+Architecture: arm
+Essential: yes
 Maintainer: Fredrik Fornwall @fornwall
-Version: 5.03
-Homepage: https://www.kernel.org/doc/man-pages/
-Depends: man
-Description: Man pages for linux kernel and C library interfaces
-Filename: all/linux-man-pages_5.03_all.deb
-SHA1: 420552830284ef1a786bc21fc976e812c2aa1209
-SHA256: e67751cdc937c45edaf95b6fe78ff547fcec020388d180a93b6f085455fc09c8
-Size: 5800686
-
-Package: luarocks
-Architecture: all
-Installed-Size: 912
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.1.3-3
-Homepage: https://luarocks.org/
-Depends: curl, lua
-Description: Deployment and management system for Lua modules
-Filename: all/luarocks_3.1.3-3_all.deb
-SHA1: 827e86dee4becf9ab4c6d5fcc2bdc8f0a02292e4
-SHA256: 65f36f575fe70cf160fa2403d3284892194439b74596a1a99082509df0464bfc
-Size: 113370
-
-Package: mime-support
-Architecture: all
-Installed-Size: 64
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.64
-Homepage: https://packages.debian.org/en/stretch/mime-support
-Conflicts: mutt (<< 1.8.3-1)
-Description: MIME type associations for file types
-Filename: all/mime-support_3.64_all.deb
-SHA1: 21c8abbf3b590145aac263521b0c4bbbf45b09c4
-SHA256: 68ffdea46cd7b3f3d9aedc7d1d415fa17fd7b293b004fe980dfa827edf472314
-Size: 7572
-
-Package: myrepos
-Architecture: all
-Installed-Size: 232
-Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
-Version: 1.20180726-4
-Homepage: https://myrepos.branchable.com/
-Depends: git, perl
-Description: Tool to manage all your version control repos
-Filename: all/myrepos_1.20180726-4_all.deb
-SHA1: 7dd67a461675c86a370ac4d71531ccf09ccd1a75
-SHA256: 60bfcc51b65fa04973181eb4c272b4dabc13229128952c29577df1ce401c1ede
-Size: 42820
-
-Package: ndk-multilib
-Architecture: all
-Installed-Size: 132876
-Maintainer: Fredrik Fornwall @fornwall
-Version: 20-4
-Homepage: https://developer.android.com/tools/sdk/ndk/index.html
-Description: Multilib binaries for cross-compilation
-Filename: all/ndk-multilib_20-4_all.deb
-SHA1: 016bab181792994ae7187457e33a47b2493e3a35
-SHA256: e1260f98d0b441478509ba0b7ed42113aedfb208717e20c4aa623f4ed5730df8
-Size: 20638048
-
-Package: neofetch
-Architecture: all
 Installed-Size: 340
-Maintainer: Muhammad Herdiansyah @konimex
-Version: 6.1.0
-Homepage: https://github.com/dylanaraps/neofetch
-Depends: bash
-Description: Simple system information script
-Filename: all/neofetch_6.1.0_all.deb
-SHA1: f2de1a16b931ffa499aba6d1e184f60599a8b9a4
-SHA256: 6b3841af04c08cfacfaa960492894752571503e973e9bf953501ce40c6f673d6
-Size: 69214
+Depends: libandroid-support, pcre
+Filename: arm/grep_3.3-2_arm.deb
+Size: 111192
+MD5sum: 7da5a83f3b40ea5539f62a9b4bad68c0
+SHA1: fa97a164471479b95ecee043c40cf3ab3059a91e
+SHA256: b4457088048b582463e6a97a8900eadf8a61fc7ff2191b45f43b07e581d4a9be
+Homepage: https://www.gnu.org/software/grep/
+Description: Command which searches one or more input files for lines containing a match to a specified pattern
 
-Package: parallel
-Architecture: all
-Installed-Size: 3440
+Package: gzip
+Version: 1.10-2
+Architecture: arm
+Essential: yes
 Maintainer: Fredrik Fornwall @fornwall
-Version: 20191022
-Homepage: https://www.gnu.org/software/parallel/
-Depends: perl
-Description: GNU Parallel is a shell tool for executing jobs in parallel using one or more machines
-Filename: all/parallel_20191022_all.deb
-SHA1: d37aa91613d58c401efcb2d1e7cf45af4b54ac34
-SHA256: a1e2df8a530fb72f5295f6e833fb1e7ed3511353f5ca1011db22088be3c45426
-Size: 1618238
+Installed-Size: 312
+Filename: arm/gzip_1.10-2_arm.deb
+Size: 75922
+MD5sum: 0d12db02018d601f8b612b21f20481a7
+SHA1: f05a0a0b8ea78edaf101d23bd4e4ff2ba3aafb53
+SHA256: 8e47eea1cc460ae9d0b9f27e2a10fd3f4b9a8d18c541e464f3699b45b61075c0
+Homepage: https://www.gnu.org/software/gzip/
+Description: Standard GNU file compression utilities
 
-Package: pass
-Architecture: all
-Installed-Size: 120
+Package: iconv
+Version: 1.16-3
+Architecture: arm
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.7.3-1
-Homepage: https://www.passwordstore.org
-Depends: bash, gnupg (>= 2.2.9-1), tree, coreutils
-Recommends: git
-Suggests: pass-otp
-Description: Lightweight directory-based password manager
-Filename: all/pass_1.7.3-1_all.deb
-SHA1: 1d2a1169f66afecc6c746c863d926fedde9815f8
-SHA256: 2161e29e3484285aedd8219095b97a0e4fbc5801ff41f9209b706a3a6f41983b
-Size: 16912
+Installed-Size: 72
+Depends: libiconv (= 1.16-3)
+Filename: arm/iconv_1.16-3_arm.deb
+Size: 10992
+MD5sum: 156ecfad93e6139e8e562bea40358de8
+SHA1: f88c3e2eaba3803e86f44a62b4b2631075832a21
+SHA256: ffd6b59e8bb6d1b4c73ec34900b798123a074191af2e83a843f35d7fc6eb9115
+Homepage: https://www.gnu.org/software/libiconv/
+Description: Utility converting between different character encodings
 
-Package: pass-otp
-Architecture: all
+Package: inetutils
+Version: 1.9.4-7
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 964
+Depends: readline
+Filename: arm/inetutils_1.9.4-7_arm.deb
+Size: 234478
+MD5sum: ef688855f65b3f57672741583fb06e8a
+SHA1: bbe5619668fcd38493a03b1b1f49a37c84d46477
+SHA256: db7121d02116452ba40e7d8fff6a7da6312db0cdf826bd048cca255809dbd39e
+Homepage: https://www.gnu.org/software/inetutils/
+Description: Collection of common network programs
+
+Package: less
+Version: 551-1
+Architecture: arm
+Essential: yes
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 228
+Depends: ncurses
+Filename: arm/less_551-1_arm.deb
+Size: 83740
+MD5sum: 51090b429b956e318907bb7c318923e3
+SHA1: 8ed9d02f691c478b5cd4ff097066d5069599b5ce
+SHA256: 628561595314108209ab1ed3593a6b7b553c3f1add621a8995f70e9e605c0c79
+Homepage: http://www.greenwoodsoftware.com/less/
+Description: Terminal pager program used to view the contents of a text file one screen at a time
+
+Package: libandroid-glob
+Version: 0.6
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 80
-Maintainer: Henrik Grimler @Grimler91
-Version: 1.2.0
-Homepage: https://github.com/tadfisher/pass-otp
-Depends: pass, oathtool
-Suggests: libqrencode
-Description: A pass extension for managing one-time-password (OTP) tokens
-Filename: all/pass-otp_1.2.0_all.deb
-SHA1: f35c52f33c748e2273026805ea19d605cf96be92
-SHA256: 3f1e37ff433ed7dfad7bf44ae4180b2a7d8b2c51a4bfe773291aef9ab4037e13
-Size: 6462
+Breaks: libandroid-glob-dev
+Replaces: libandroid-glob-dev
+Filename: arm/libandroid-glob_0.6_arm.deb
+Size: 6740
+MD5sum: a9ff99e362e8fa093d9983afdebc0467
+SHA1: 28b7c58c8d2e3ef08989bac94a5d1af0b3a48dae
+SHA256: 837ecf4ec2caa2dbb53d5652079b644978c6cfb35255ae5b02baf10dc1145282
+Homepage: http://man7.org/linux/man-pages/man3/glob.3.html
+Description: Shared library for the glob(3) system function
 
-Package: pastebinit
-Architecture: all
+Package: libandroid-glob-static
+Version: 0.6
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 56
+Depends: libandroid-glob (= 0.6)
+Filename: arm/libandroid-glob-static_0.6_arm.deb
+Size: 4492
+MD5sum: e599aa0981ecdce6913919d5f4561f8d
+SHA1: e3c7ad2dfd3ff5cc0edc823284161097847a006a
+SHA256: 69812162b4e9bc38488d97741b89362cc1b923d33605d031ba6491c607480199
+Homepage: http://man7.org/linux/man-pages/man3/glob.3.html
+Description: Static libraries for libandroid-glob
+
+Package: libandroid-support
+Version: 25-2
+Architecture: arm
+Essential: yes
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 84
+Pre-Depends: dpkg (>= 1.19.4-3)
+Filename: arm/libandroid-support_25-2_arm.deb
+Size: 7446
+MD5sum: e011b59aef12fe73b493b8f775aa0780
+SHA1: 8a4773f5b3b96d18ac67f301ab46b0258f13c2d9
+SHA256: 349d0735f049be72c33c6adfaf9f6e6fda43cb9e8e16fe3cc25232b1a9cf3b30
+Homepage: https://github.com/termux/libandroid-support
+Description: Library extending the Android C library (Bionic) for additional multibyte, locale and math support
+
+Package: libandroid-support-static
+Version: 25-2
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 84
+Depends: libandroid-support (= 25-2)
+Filename: arm/libandroid-support-static_25-2_arm.deb
+Size: 8248
+MD5sum: 7b4a89e679373743c4ac4064d3755e09
+SHA1: 40d39ff27021afe51f3c82b8ab6c2fbe5e9831ca
+SHA256: 7724d2af1c1de20dae53c669c4b914d8c10022a18e663245df58ac818a4b3852
+Homepage: https://github.com/termux/libandroid-support
+Description: Static libraries for libandroid-support
+
+Package: libassuan
+Version: 2.5.3-1
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 332
+Depends: libgpg-error
+Breaks: libassuan-dev
+Replaces: libassuan-dev
+Filename: arm/libassuan_2.5.3-1_arm.deb
+Size: 71218
+MD5sum: e55c2bc0c4cbb16563b7ce745d64c13f
+SHA1: 532e360c7d4664ee9d0cab10f37111b36a1fe936
+SHA256: f3ab9d73483916d2d435ae0a1053e5b2b6f8503a57504e5eb56433e4319a3261
+Homepage: https://www.gnupg.org/related_software/libassuan/
+Description: Library implementing the Assuan IPC protocol used between most newer GnuPG components
+
+Package: libassuan-static
+Version: 2.5.3-1
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 148
+Depends: libassuan (= 2.5.3-1)
+Filename: arm/libassuan-static_2.5.3-1_arm.deb
+Size: 30236
+MD5sum: 647faac4a4f063af5c08f7ee70cba1ce
+SHA1: 3c2e25033ef5ae890387993189104f29f78d4f0c
+SHA256: eb57f95b6889d934e53cc4fcd9752db3106658ac18aa282681eceed0fabacabb
+Homepage: https://www.gnupg.org/related_software/libassuan/
+Description: Static libraries for libassuan
+
+Package: libbz2
+Version: 1.0.8-5
+Architecture: arm
+Essential: yes
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 124
+Breaks: libbz2-dev
+Replaces: libbz2-dev
+Filename: arm/libbz2_1.0.8-5_arm.deb
+Size: 27814
+MD5sum: a0a0ee650c2018af66d165b9eab88741
+SHA1: d28c4de9937c1f602bdfb2a5f4fadea42d18760b
+SHA256: dc2e113fa75287fcdea4a007c7b0956c0bc05084e0f6be2d6dcf9579aae207e6
+Homepage: http://www.bzip.org/
+Description: BZ2 format compression library
+
+Package: libc++
+Version: 20
+Architecture: arm
+Essential: yes
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 608
+Filename: arm/libc++_20_arm.deb
+Size: 164126
+MD5sum: 13bf45204ab65c5e3682f858211e41a7
+SHA1: 7ce43139ecfb136213b69d5d97121628352be0d1
+SHA256: d1052c01650f2d89f2fd5b9b97768d8a2df332583c0b95ca0fece10041376fba
+Homepage: https://libcxx.llvm.org/
+Description: C++ Standard Library
+
+Package: libcrypt
+Version: 0.2-2
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 88
+Depends: openssl
+Breaks: libcrypt-dev
+Replaces: libcrypt-dev
+Filename: arm/libcrypt_0.2-2_arm.deb
+Size: 10746
+MD5sum: 567121fe9597a8579df1911219197afa
+SHA1: 2238d7f69bdf4b91a3d31a388e7e16e8536fa266
+SHA256: 49837b742c3afec196999d4e87c895f4015d30075cc97748f03ef46d16902d0d
+Homepage: http://michael.dipperstein.com/crypt/
+Description: A crypt(3) implementation
+
+Package: libcurl
+Version: 7.66.0-1
+Architecture: arm
+Essential: yes
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 2428
+Depends: libnghttp2, openssl (>= 1.1.1), zlib
+Conflicts: apt (<< 1.4.8-8)
+Breaks: libcurl-dev
+Replaces: libcurl-dev
+Filename: arm/libcurl_7.66.0-1_arm.deb
+Size: 814860
+MD5sum: 3994a929877e4749050754c72dcb7348
+SHA1: 2a31d0f9e0f2a815adcdfdeb1dba226d230f58d7
+SHA256: 073edefe6a923076bb1c56658fff8948a8143111ac0b403a0f61db711b4eaf2f
+Homepage: https://curl.haxx.se/
+Description: Easy-to-use client-side URL transfer library
+
+Package: libcurl-static
+Version: 7.66.0-1
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 704
+Depends: libcurl (= 7.66.0-1)
+Filename: arm/libcurl-static_7.66.0-1_arm.deb
+Size: 215230
+MD5sum: a4d152c845a2375ada90312e111f2fc3
+SHA1: 40d521e6455de3ca2110db274cba9cdb34393260
+SHA256: 66ff0886be2440f310c4704a46323e83f91f15583c495cc2ce7b8a366be32813
+Homepage: https://curl.haxx.se/
+Description: Static libraries for libcurl
+
+Package: libevent
+Version: 2.1.11-1
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 912
+Breaks: libevent-dev
+Replaces: libevent-dev
+Filename: arm/libevent_2.1.11-1_arm.deb
+Size: 176576
+MD5sum: e004a7b8e20ec2e41bb9ddc40943c13c
+SHA1: 4547be383497672ecdb29963e1facc0ea2052e7c
+SHA256: dd88bfdce94b05c090f5715366eec5918ed393fb3f7ed46af63f15808e5f3cc7
+Homepage: https://libevent.org/
+Description: Library that provides asynchronous event notification
+
+Package: libgcrypt
+Version: 1.8.5
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 1140
+Depends: libgpg-error
+Breaks: libgcrypt-dev
+Replaces: libgcrypt-dev
+Filename: arm/libgcrypt_1.8.5_arm.deb
+Size: 380508
+MD5sum: b1e3af106ea393db76bd9a2a5e96acb1
+SHA1: 71a3ec235c67ed3a1b780f93a28331a222a637af
+SHA256: 122b0a05c5b4253de0344da5cdaf1c7d925f40702b5f88c3aa4244112ce845be
+Homepage: https://www.gnu.org/software/libgcrypt/
+Description: General purpose cryptographic library based on the code from GnuPG
+
+Package: libgcrypt-static
+Version: 1.8.5
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 1076
+Depends: libgcrypt (= 1.8.5)
+Filename: arm/libgcrypt-static_1.8.5_arm.deb
+Size: 347430
+MD5sum: 9c1ed3387da28ce3ffe212a244069f84
+SHA1: fa013648f90200108fa23ec8307665476c9c8247
+SHA256: 742ddd3818480408a0c2c73600dcc6f9774a8da50dd0d5aae15d29e25ac0fb04
+Homepage: https://www.gnu.org/software/libgcrypt/
+Description: Static libraries for libgcrypt
+
+Package: libgmp
+Version: 6.1.2-4
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 1084
+Breaks: libgmp-dev
+Replaces: libgmp-dev
+Filename: arm/libgmp_6.1.2-4_arm.deb
+Size: 299150
+MD5sum: eddbf1cc6312d51173860fb96247fc7a
+SHA1: 32a20a31a315fa9019719eb22507c47f831311f4
+SHA256: e5b878996227f9ce36e7f6430cf89ba44e632ef9e977f9ad3b51e685cec1cab4
+Homepage: https://gmplib.org/
+Description: Library for arbitrary precision arithmetic
+
+Package: libgmp-static
+Version: 6.1.2-4
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 1064
+Depends: libgmp (= 6.1.2-4)
+Filename: arm/libgmp-static_6.1.2-4_arm.deb
+Size: 208084
+MD5sum: 6c963ef9cc1866c496432103584792a5
+SHA1: 95ed70f5215b21647490d46cf59d0e9855638c89
+SHA256: 8bdc0114e3ae8e73fa4780bad886fe0f936c56188ffb109ff87bd071b58b4c52
+Homepage: https://gmplib.org/
+Description: Static libraries for libgmp
+
+Package: libgnutls
+Version: 3.6.10
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 8600
+Depends: libgmp, libnettle, ca-certificates, libidn2, libunistring
+Breaks: libgnutls-dev
+Replaces: libgnutls-dev
+Filename: arm/libgnutls_3.6.10_arm.deb
+Size: 1920444
+MD5sum: c5cf58528588480791974ed6896259a5
+SHA1: 32034d66a2acd30c1c6a3f8996d1b47dda0835b7
+SHA256: 8e9b2a414781824cfc5469d4b5ac01b9d9843431f093f9be2e4653845b0d8631
+Homepage: https://www.gnutls.org/
+Description: Secure communications library implementing the SSL, TLS and DTLS protocols and technologies around them
+
+Package: libgnutls-static
+Version: 3.6.10
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 2396
+Depends: libgnutls (= 3.6.10)
+Filename: arm/libgnutls-static_3.6.10_arm.deb
+Size: 672846
+MD5sum: 8798bb7d2af22d113bc3fa6ecbbf574c
+SHA1: c53409d2e2c0df116f1ff5f73f1f7c5323bfd238
+SHA256: 023ac6bfee96525afe3a1717f02da5fa26bc4f0aaa1e797a0e4b08efe6fc697f
+Homepage: https://www.gnutls.org/
+Description: Static libraries for libgnutls
+
+Package: libgpg-error
+Version: 1.36-1
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 488
+Breaks: libgpg-error-dev
+Replaces: libgpg-error-dev
+Filename: arm/libgpg-error_1.36-1_arm.deb
+Size: 93382
+MD5sum: 4ae9fd008c0695859e998a9102fbc84b
+SHA1: 4367d55da7ee32209ee05b7d815c11eb9af7e41e
+SHA256: 4596a2d3488b5c1f77e52e710292af05218960497e23d25c064cdec338286b70
+Homepage: https://www.gnupg.org/related_software/libgpg-error/
+Description: Small library that defines common error values for all GnuPG components
+
+Package: libgpg-error-static
+Version: 1.36-1
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 188
+Depends: libgpg-error (= 1.36-1)
+Filename: arm/libgpg-error-static_1.36-1_arm.deb
+Size: 47268
+MD5sum: 0043a84889aee0657ab4088617a779b0
+SHA1: a3489c4cfd9db3e034d1b11e2c4d4d5013ab734c
+SHA256: 0fbd72fc84f42f440df901f2bc5559349f8556335a8463f30928131f79b41fab
+Homepage: https://www.gnupg.org/related_software/libgpg-error/
+Description: Static libraries for libgpg-error
+
+Package: libiconv
+Version: 1.16-3
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 1128
+Breaks: libandroid-support (<= 24), libiconv-dev, libandroid-support-dev
+Replaces: libandroid-support (<= 24), libiconv-dev, libandroid-support-dev
+Filename: arm/libiconv_1.16-3_arm.deb
+Size: 547114
+MD5sum: 603f9d56f941ccc8dd7577d79b384c71
+SHA1: 0f2ede6c19ac0c8b3d9686fa3ad2f8309f4afb4a
+SHA256: 1fa37c1458d5ba77f1b847dd0b454bc3263ee90d16c5ec438b3dd43a5428477e
+Homepage: https://www.gnu.org/software/libiconv/
+Description: An implementation of iconv()
+
+Package: libiconv-static
+Version: 1.16-3
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 1072
+Depends: libiconv (= 1.16-3)
+Filename: arm/libiconv-static_1.16-3_arm.deb
+Size: 541762
+MD5sum: a3f908888786804a7746e3de2a662999
+SHA1: fae7b5db4f33229b4f2a4bf89d6671bd5174da81
+SHA256: b5ec16ee61b3f51e34337fbdd88deaa0bd47dc4d63f0bea9a5c0c65a2c5d6623
+Homepage: https://www.gnu.org/software/libiconv/
+Description: Static libraries for libiconv
+
+Package: libidn2
+Version: 2.2.0-1
+Architecture: arm
+Maintainer: lokesh @hax4us
+Installed-Size: 388
+Depends: libunistring, libandroid-support
+Breaks: libidn2-dev
+Replaces: libidn2-dev
+Filename: arm/libidn2_2.2.0-1_arm.deb
+Size: 83148
+MD5sum: 8188cc5bf646ee9f56703249dbe8783c
+SHA1: 13892aeca9fc2145dd76e65248cb48988e4ac1f0
+SHA256: e10170d2e69b14ba76123c1e2fb19d6cde028c3af0ac760ec4d01b9c5e826216
+Homepage: https://www.gnu.org/software/libidn/#libidn2
+Description: Free software implementation of IDNA2008, Punycode and TR46
+
+Package: libidn2-static
+Version: 2.2.0-1
+Architecture: arm
+Maintainer: lokesh @hax4us
+Installed-Size: 192
+Depends: libidn2 (= 2.2.0-1)
+Filename: arm/libidn2-static_2.2.0-1_arm.deb
+Size: 41642
+MD5sum: e3127c3171ba77c6990a225495d78dd6
+SHA1: 5ee10d29a360959d60a73c0329614ed0c3faeeeb
+SHA256: f5c4a1b50b8944858b3e6f7e73adc5dcf12180039e8c2a9a757d9dab1a6235ec
+Homepage: https://www.gnu.org/software/libidn/#libidn2
+Description: Static libraries for libidn2
+
+Package: libksba
+Version: 1.3.5-2
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 336
+Depends: libgpg-error
+Breaks: libksba-dev
+Replaces: libksba-dev
+Filename: arm/libksba_1.3.5-2_arm.deb
+Size: 93842
+MD5sum: df4f75d61b82543775df835fed6951d1
+SHA1: d33539ea5f92b0ae60188e6165d682639efde6ce
+SHA256: 19fee72fb6e3840a33d64c0eb958c3b4d033e63c6aed94941c67a26de17700e0
+Homepage: https://gnupg.org/related_software/libksba/
+Description: Library for using X.509 certificates and CMS (Cryptographic Message Syntax) easily accessible
+
+Package: libksba-static
+Version: 1.3.5-2
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 296
+Depends: libksba (= 1.3.5-2)
+Filename: arm/libksba-static_1.3.5-2_arm.deb
+Size: 82054
+MD5sum: e480d649cd152d1b04a99665bc7c15b0
+SHA1: 8adb8b65aa949de2a1d6f3cdd853f49f9f490f85
+SHA256: 183403858ef101a07bf4870360d87f331a46f06fbe92cbe6f6081d3c26524d3b
+Homepage: https://gnupg.org/related_software/libksba/
+Description: Static libraries for libksba
+
+Package: liblzma
+Version: 5.2.4-7
+Architecture: arm
+Essential: yes
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 596
+Breaks: liblzma-dev
+Replaces: liblzma-dev
+Filename: arm/liblzma_5.2.4-7_arm.deb
+Size: 138742
+MD5sum: bfe5fb35fda3e1c4f3f66e10d90ee7cf
+SHA1: c18978b973a85a7929471e067138e2531ae6e129
+SHA256: be38abbf60b7c62963e463bb62917d0d83da035ca1ae891eecbda7129f4ea4fa
+Homepage: https://tukaani.org/xz/
+Description: XZ-format compression library
+
+Package: liblzma-static
+Version: 5.2.4-7
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 260
+Depends: liblzma (= 5.2.4-7)
+Filename: arm/liblzma-static_5.2.4-7_arm.deb
+Size: 72586
+MD5sum: 57b2b266754b56c8eab94fe6e24d6984
+SHA1: c2ba9b7f34b86bc22e71cbd782d8b325577a249a
+SHA256: 629489d568a76eece14bc88f3d2c6c00e6c7fb013877cfb1997e10ad1e9e65df
+Homepage: https://tukaani.org/xz/
+Description: Static libraries for liblzma
+
+Package: libmpfr
+Version: 4.0.2-2
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 832
+Depends: libgmp
+Breaks: libmpfr-dev
+Replaces: libmpfr-dev
+Filename: arm/libmpfr_4.0.2-2_arm.deb
+Size: 251232
+MD5sum: 3f98ad7054ec70e2d1f48fd40a98beb8
+SHA1: 441802fd268421b5413aa8146491b155e14fd7a2
+SHA256: 8ca593e241d3adda6bc70c9aa022520d2c70931827e4529126841cbeebc24d0a
+Homepage: https://www.mpfr.org/
+Description: C library for multiple-precision floating-point computations with correct rounding
+
+Package: libmpfr-static
+Version: 4.0.2-2
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 724
+Depends: libmpfr (= 4.0.2-2)
+Filename: arm/libmpfr-static_4.0.2-2_arm.deb
+Size: 185998
+MD5sum: 5f4837a06dd32d7dcd174a9ddbb828c2
+SHA1: f48e256446a0caeb8eab9db982bb2bea05154f7f
+SHA256: b87e075651fba8951a58d8e05306ef4d10541f12f122730a3d3f84fb1c4ec29d
+Homepage: https://www.mpfr.org/
+Description: Static libraries for libmpfr
+
+Package: libnettle
+Version: 3.5.1-2
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 1068
+Depends: libgmp
+Breaks: libnettle-dev
+Replaces: libnettle-dev
+Filename: arm/libnettle_3.5.1-2_arm.deb
+Size: 296706
+MD5sum: 6adb3cac23ce61d8062cc452e948ef2e
+SHA1: c93e8294f6fd346da221791a3f8e0641aae6a77a
+SHA256: 89d40ca1fd53383a06b5e00c5bceb5de5f5e8a8ab88c2116a42fc4f586000cbb
+Homepage: https://www.lysator.liu.se/~nisse/nettle/
+Description: Cryptographic library that is designed to fit easily in more or less any context
+
+Package: libnettle-static
+Version: 3.5.1-2
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 2072
+Depends: libnettle (= 3.5.1-2)
+Filename: arm/libnettle-static_3.5.1-2_arm.deb
+Size: 442182
+MD5sum: cccf54e9ce3bff83746c453a912ed910
+SHA1: 217a652738067454225b184e18a0233962ecb739
+SHA256: c657dd329d24e1f7a53973fd4bd40863de41d66847ce2619df4cbbeb8c34d313
+Homepage: https://www.lysator.liu.se/~nisse/nettle/
+Description: Static libraries for libnettle
+
+Package: libnghttp2
+Version: 1.39.2
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 424
+Breaks: libnghttp2-dev
+Replaces: libnghttp2-dev
+Filename: arm/libnghttp2_1.39.2_arm.deb
+Size: 88376
+MD5sum: 934ac60417551828b58ba6de9745057f
+SHA1: 1b2ede5e3441fc5134a7c1ab3ce107caf07a7a0d
+SHA256: 994672b9ad084b1c57a26e42a056f33cfa3e55c57bf7ea22bc12fd0fd9a38bec
+Homepage: https://nghttp2.org/
+Description: nghttp HTTP 2.0 library
+
+Package: libnghttp2-static
+Version: 1.39.2
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 236
+Depends: libnghttp2 (= 1.39.2)
+Filename: arm/libnghttp2-static_1.39.2_arm.deb
+Size: 56738
+MD5sum: e7717d5eef29738d212b10b7a77e1296
+SHA1: 5188d9b7e31db385ec83206360cbb50b5270a7e9
+SHA256: d8f7f55bb351e673ef614913e6fed34afa908181fed6bbb49e7e8567a86db136
+Homepage: https://nghttp2.org/
+Description: Static libraries for libnghttp2
+
+Package: libnpth
+Version: 1.6-1
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 108
+Breaks: libnpth-dev
+Replaces: libnpth-dev
+Filename: arm/libnpth_1.6-1_arm.deb
+Size: 10594
+MD5sum: 23d4f4a32122f04970269a772bc09a4c
+SHA1: c7cdee20138a8741f04dac24f70705388795cd65
+SHA256: 391f109dacc272dfc5fb1adac09da6f7e4c104c3d53a4ccc6eec21a62889f0be
+Homepage: https://www.gnupg.org/related_software/npth/
+Description: New GNU Portable Threads Library
+
+Package: libnpth-static
+Version: 1.6-1
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 64
+Depends: libnpth (= 1.6-1)
+Filename: arm/libnpth-static_1.6-1_arm.deb
+Size: 4354
+MD5sum: 2b0e2215700d8f75516547dfb712dade
+SHA1: a5f221a4f4983a965f647db85c04f531990bb924
+SHA256: d58f91ceca598c43e659bef202555470d9563567538e0c27e39deb3c878ab2bc
+Homepage: https://www.gnupg.org/related_software/npth/
+Description: Static libraries for libnpth
+
+Package: libpcreposix
+Version: 8.43-5
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 56
+Depends: pcre (= 8.43-5)
+Filename: arm/libpcreposix_8.43-5_arm.deb
+Size: 3170
+MD5sum: 23ef182642d742c07a805322218d7e6d
+SHA1: ab863c3410156d2542b80c87d339e95f462b7bdc
+SHA256: 4f9cb1f601456e6ced2c7d424714944dc4c42aa841bcff5ca17d54407a2bb332
+Homepage: https://www.pcre.org
+Description: Posix-compatible runtime libraries for libpcre
+
+Package: libsqlite
+Version: 3.30.1
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 1392
+Depends: zlib
+Breaks: libsqlite-dev
+Replaces: libsqlite-dev
+Filename: arm/libsqlite_3.30.1_arm.deb
+Size: 521136
+MD5sum: a0b88a9b91fd9cfaeeffedef9f9ffa14
+SHA1: 8e7d3839d4747e6b33b3dfb9e1f116b0012e7c5f
+SHA256: d30c4d55202f663f436000dd14c6dc953b11a0db0d99c710e331629398eb489f
+Homepage: https://www.sqlite.org
+Description: Library implementing a self-contained and transactional SQL database engine
+
+Package: libsqlite-static
+Version: 3.30.1
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 896
+Depends: libsqlite (= 3.30.1)
+Filename: arm/libsqlite-static_3.30.1_arm.deb
+Size: 421940
+MD5sum: ccb534b3b06777c868e2cbd3054230a3
+SHA1: 500edf79e9c77fc6a226ad23b4b0c1304c72f8d4
+SHA256: 8b1d31d0d6e392ece73616f4474823cb60f7eb178744a373e5fdfde33277ca79
+Homepage: https://www.sqlite.org
+Description: Static libraries for libsqlite
+
+Package: libunistring
+Version: 0.9.10-3
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 2652
+Depends: libandroid-support, libiconv
+Breaks: libunistring-dev
+Replaces: libunistring-dev
+Filename: arm/libunistring_0.9.10-3_arm.deb
+Size: 473260
+MD5sum: 04d46c57e3e4934204d24da0cc74226b
+SHA1: 6561fd8bc4da620e5f3d64a9d6076236fd43a8c3
+SHA256: ac13e690447f182f8908d82bbcca32e94e5c6648613a55ed36e9a598aace6596
+Homepage: https://www.gnu.org/software/libunistring/
+Description: Library providing functions for manipulating Unicode strings
+
+Package: libunistring-static
+Version: 0.9.10-3
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 2204
+Depends: libunistring (= 0.9.10-3)
+Filename: arm/libunistring-static_0.9.10-3_arm.deb
+Size: 402542
+MD5sum: 71425e37888c0282df455469fbfddf5a
+SHA1: 6ab9990e9b893c3af18a0bae3697c40e5228d47a
+SHA256: 8354babf801776949229b8d5bb7aee36d6a4cb96266d327a565fc23c5b260315
+Homepage: https://www.gnu.org/software/libunistring/
+Description: Static libraries for libunistring
+
+Package: ncurses
+Version: 6.1.20190928
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 1416
+Breaks: ncurses-dev, ncurses-utils (<< 6.1.20190511-4)
+Replaces: ncurses-dev, ncurses-utils (<< 6.1.20190511-4)
+Filename: arm/ncurses_6.1.20190928_arm.deb
+Size: 484704
+MD5sum: 88a34ecabed8f8f0f239ff6544dfb2f0
+SHA1: e4b91ae27b641437202005c85edd966e544fcf82
+SHA256: 47187a851f5b32d0f4f08e26d1a6b94389e8e4f8bb311e12899ebae1fdc69ccf
+Homepage: https://invisible-island.net/ncurses/
+Description: Library for text-based user interfaces in a terminal-independent manner
+
+Package: ncurses-static
+Version: 6.1.20190928
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 604
+Depends: ncurses (= 6.1.20190928)
+Filename: arm/ncurses-static_6.1.20190928_arm.deb
+Size: 146998
+MD5sum: 2c6b2f7ec4bd1fc538d892ef4b8bf494
+SHA1: af3a5295a67dfe487de2a7c2dcfbb969131ed19b
+SHA256: 6b136dbc3a201d5797eb365825cf869e850ef94828454a1a9d637c46798785b8
+Homepage: https://invisible-island.net/ncurses/
+Description: Static libraries for ncurses
+
+Package: ncurses-ui-libs
+Version: 6.1.20190928
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 128
+Depends: ncurses (= 6.1.20190928)
+Filename: arm/ncurses-ui-libs_6.1.20190928_arm.deb
+Size: 31144
+MD5sum: 10eb86c3f49b4c764d5e020022d4bdb8
+SHA1: 61cfbe10146e7aa72f671e72d56c1365a52a5653
+SHA256: 54054e7b1fea64fce8da89fcc174cfae1d23f7f2a90ee40e22094c60c5253ec4
+Homepage: https://invisible-island.net/ncurses/
+Description: Libraries for terminal user interfaces based on ncurses
+
+Package: ncurses-ui-libs-static
+Version: 6.1.20190928
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 216
+Depends: ncurses (= 6.1.20190928)
+Filename: arm/ncurses-ui-libs-static_6.1.20190928_arm.deb
+Size: 35464
+MD5sum: 0bef4881cc0afdfa203d76e2cde22623
+SHA1: 1c077575edf82a67734baa92471a5eaf5a123f2d
+SHA256: 7d1aac7bb5f5be7f671e43319a1d0b9a2c14b590f02ed9a87c9c1dfe0178afa9
+Homepage: https://invisible-island.net/ncurses/
+Description: Static libraries for terminal user interfaces based on ncurses
+
+Package: ncurses-utils
+Version: 6.1.20190928
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 252
+Depends: ncurses (= 6.1.20190928)
+Filename: arm/ncurses-utils_6.1.20190928_arm.deb
+Size: 81806
+MD5sum: b439d9c20e9be9f6f1cceced4fd372b5
+SHA1: 55506500e9575eaaa2c734d63b47369fe131b63c
+SHA256: e7d5d1f5a71f92611d050c21af389234e9bcc9973ed4bf5eab9710716cc3169a
+Homepage: https://invisible-island.net/ncurses/
+Description: Tools for working with terminals
+
+Package: net-tools
+Version: 1.60.2017.02.21-2
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 480
+Filename: arm/net-tools_1.60.2017.02.21-2_arm.deb
+Size: 107296
+MD5sum: 4eec436f86f476fdd4575a3438dcea07
+SHA1: 4839b39aff13ef519f3732a735b7a9078949ce1f
+SHA256: c7222a2171f51d819841f2169ee074f9e353a9305a002cf8c401ba43fd8147c5
+Homepage: http://net-tools.sourceforge.net/
+Description: Configuration tools for Linux networking
+
+Package: nettle
+Version: 3.5.1-2
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 128
+Depends: libnettle (= 3.5.1-2)
+Filename: arm/nettle_3.5.1-2_arm.deb
+Size: 19200
+MD5sum: 3f97c70b50f815f915df1288141e69da
+SHA1: 66f5f731d2004b7bd95978dbbc721cf47c16cf8d
+SHA256: 61e041f2c454aecda38aae3bf6e1c1a5462b900959a9996fd90a67fbe166b981
+Homepage: https://www.lysator.liu.se/~nisse/nettle/
+Description: Low level cryptographic tools
+
+Package: openssl
+Version: 1.1.1d-1
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 3548
+Depends: ca-certificates
+Conflicts: libcurl (<< 7.61.0-1)
+Breaks: openssl-tool (<< 1.1.1b-1), openssl-dev
+Replaces: openssl-tool (<< 1.1.1b-1), openssl-dev
+Filename: arm/openssl_1.1.1d-1_arm.deb
+Size: 1135056
+MD5sum: 9f3c6afb7dcf7e3f62f29e4f78604533
+SHA1: a99d8a80820f706bb4b4926f8de743dfb950ab22
+SHA256: 3bcd2284777ca3e3ca0e21c1683f1bf3da64d5721ed34fbc46b2e516c341fe5c
+Homepage: https://www.openssl.org/
+Description: Library implementing the SSL and TLS protocols as well as general purpose cryptography functions
+
+Package: openssl-static
+Version: 1.1.1d-1
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 4048
+Depends: openssl (= 1.1.1d-1)
+Filename: arm/openssl-static_1.1.1d-1_arm.deb
+Size: 1125232
+MD5sum: 296c26a44df7cd685e2dfcb0e59f2515
+SHA1: a42566ea85447ceb4b49073bfacacdfcc085ab47
+SHA256: 3560cefa2ff53b9c05bef176af97a5117dc59e721bb35a4877dfcb61645d4368
+Homepage: https://www.openssl.org/
+Description: Static libraries for openssl
+
+Package: openssl-tool
+Version: 1.1.1d-1
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 488
+Depends: openssl (= 1.1.1d-1)
+Filename: arm/openssl-tool_1.1.1d-1_arm.deb
+Size: 183958
+MD5sum: 60ea7ac3f0376fb93c3fbb203017126d
+SHA1: d1e38d1c6e0a74882d95d6c35cfeea30736e577c
+SHA256: 93cee8c190c33a9f5d82aed6397e5361160ba573a39ede46c12070e381dcea78
+Homepage: https://www.openssl.org/
+Description: The openssl command line cryptographic tool
+
+Package: patch
+Version: 2.7.6-3
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 204
+Filename: arm/patch_2.7.6-3_arm.deb
+Size: 81060
+MD5sum: edce8033b060826ff1d0e986f1e0909d
+SHA1: 4472417d3eb677bf68840ff648cddc1ac58d8a58
+SHA256: 55bbee53afcedefe06bee4047a7b64691e5a0524de29104eb71743ff5a3b392f
+Homepage: https://savannah.gnu.org/projects/patch/
+Description: GNU patch which applies diff files to create patched files
+
+Package: pcre
+Version: 8.43-5
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 2648
+Breaks: pcre-dev
+Replaces: pcre-dev
+Filename: arm/pcre_8.43-5_arm.deb
+Size: 653724
+MD5sum: 14249871280a5f232f18ebb78d979092
+SHA1: f9c910abe9c0fc9fdfc0dc4f20218eb8fbf2c587
+SHA256: f4c73a9973ecfe99ea482fedab12a6c6d933ac3e5886caa6a3df00625fc3f917
+Homepage: https://www.pcre.org
+Description: Library implementing regular expression pattern matching using the same syntax and semantics as Perl 5
+
+Package: pcre-static
+Version: 8.43-5
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 476
+Depends: pcre (= 8.43-5)
+Filename: arm/pcre-static_8.43-5_arm.deb
+Size: 142112
+MD5sum: 0413efde9ece9b4a85eedb94047dd210
+SHA1: 8bfdad3714c061b207b574b6eca60c80c1a41d69
+SHA256: 1220c29c542de561a5dc22cf39f11ab6d46dcb1b7ccc1814947466b523565cb3
+Homepage: https://www.pcre.org
+Description: Static libraries for pcre
+
+Package: pinentry
+Version: 1.1.0-4
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 152
+Depends: libandroid-support, libassuan, libiconv, ncurses
+Filename: arm/pinentry_1.1.0-4_arm.deb
+Size: 37102
+MD5sum: 7e52f1a99023c37016b0bb504391961f
+SHA1: c6057495435f62031753a89c0078f1d0e2f06f21
+SHA256: 1ccaba3f4a7b8fc173812c7b15e4865ad77db833108ab5a192a3e5dcf41eddae
+Homepage: https://www.gnupg.org/related_software/pinentry/index.html
+Description: Dialog allowing secure password entry
+
+Package: procps
+Version: 3.3.15-6
+Architecture: arm
+Essential: yes
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 592
+Depends: ncurses
+Breaks: procps-dev
+Replaces: procps-dev
+Filename: arm/procps_3.3.15-6_arm.deb
+Size: 133448
+MD5sum: 69a95f90d555f09227daa6ccd61ce19a
+SHA1: 1a68501d3708e22a53cf7af7cd83c0edddba38ba
+SHA256: 13b7e00ee8431f3b4c5be99e77eac4fd2d632e7d57dc619c34ba959de1afadad
+Homepage: https://gitlab.com/procps-ng/procps
+Description: Utilities that give information about processes using the /proc filesystem
+
+Package: procps-static
+Version: 3.3.15-6
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 136
+Depends: procps (= 3.3.15-6)
+Filename: arm/procps-static_3.3.15-6_arm.deb
+Size: 28032
+MD5sum: fdc3961c8d9c48b2faadb3c40500eefd
+SHA1: 84775cdceeaff308a9f5eb774f5fe5b7c7603604
+SHA256: 513ac7bf1ea0023847ff4ccd528e9500c15c8669a3de0e97e57baf34a6be3e4b
+Homepage: https://gitlab.com/procps-ng/procps
+Description: Static libraries for procps
+
+Package: psmisc
+Version: 23.2-1
+Architecture: arm
+Essential: yes
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.5-1
-Homepage: https://launchpad.net/pastebinit
-Depends: python
-Description: Command-line pastebin client
-Filename: all/pastebinit_1.5-1_all.deb
-SHA1: 112ff7b6ea1459970dbc6c56471cc5ac2b006c3c
-SHA256: 0003f168bcf0397ca4b910b7d0a1635400796c052029811de0bbbe39ab2523f7
-Size: 7858
+Installed-Size: 200
+Depends: ncurses
+Filename: arm/psmisc_23.2-1_arm.deb
+Size: 40846
+MD5sum: 4a66d1ec0e221e838c39968430936071
+SHA1: c67f2edd2b6ac69c52bcd592c326513cb7abe646
+SHA256: 8023717ffc4a188ef3d24d1a18d1715420d9f411f2e8f406db815e6b4fa8bc5a
+Homepage: https://gitlab.com/psmisc/psmisc
+Description: Some small useful utilities that use the proc filesystem
 
-Package: pathpicker
-Architecture: all
-Installed-Size: 564
+Package: readline
+Version: 8.0.1
+Architecture: arm
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.9.2
-Homepage: https://facebook.github.io/PathPicker/
-Depends: bash,python
-Description: Facebook PathPicker - a terminal-based file picker
-Filename: all/pathpicker_0.9.2_all.deb
-SHA1: db6bd817bce962f6349fdddfebbd448596a9234e
-SHA256: 81d553ca1eefc107f1b9e8e3e0507a4c008ae7147904d67835e6e7fdc76ff725
-Size: 39102
+Installed-Size: 1000
+Depends: libandroid-support, ncurses
+Breaks: bash (<< 5.0), readline-dev
+Replaces: readline-dev
+Filename: arm/readline_8.0.1_arm.deb
+Size: 217788
+MD5sum: 942bde3ca3d8ef5282ff96a1bc9764d6
+SHA1: 52c25d6c5e7809379dd2608b08049920d0420bec
+SHA256: fc2b0e413b0e2d2c55875876aae07196cfb8d46cceadb8dbd6b245b74967744a
+Homepage: https://tiswww.case.edu/php/chet/readline/rltop.html
+Description: Library that allow users to edit command lines as they are typed in
 
-Package: ranger
-Architecture: all
-Installed-Size: 1272
+Package: readline-static
+Version: 8.0.1
+Architecture: arm
 Maintainer: Fredrik Fornwall @fornwall
-Version: 1.9.2-2
-Homepage: https://ranger.github.io/
-Depends: python, file
-Description: File manager with VI key bindings
-Filename: all/ranger_1.9.2-2_all.deb
-SHA1: 91dd3cc661fc246f768ad2022ae89c6271362a99
-SHA256: ad9d9123b9382b9ae3f507abc1c8686fad081182d91d09c13b31c41aa2b6d7de
-Size: 170866
+Installed-Size: 436
+Depends: readline (= 8.0.1)
+Filename: arm/readline-static_8.0.1_arm.deb
+Size: 107046
+MD5sum: c215163c7759d864c6f450be645581a7
+SHA1: 458b6db059c01a8aa82a0941434533a386a84750
+SHA256: 19f48fd638494181e070e536cfaee83a11543310e05552db8a08b284e2e70471
+Homepage: https://tiswww.case.edu/php/chet/readline/rltop.html
+Description: Static libraries for readline
 
-Package: root-repo
-Architecture: all
-Installed-Size: 80
-Maintainer: Henrik Grimler @Grimler91
-Version: 1.5
-Homepage: https://github.com/termux/termux-root-packages
-Depends: termux-keyring
-Description: Package repository containing programs for rooted devices
-Filename: all/root-repo_1.5_all.deb
-SHA1: 443a26a8a0ee3b3ed0ff752bbf5a1a0e858a60fa
-SHA256: a7607c45183a63a0bb7f883d96ab9c036f893e3493e6b04ee8905c12cb683bc2
-Size: 986
-
-Package: ruby-ri
-Architecture: all
-Installed-Size: 72944
+Package: resolv-conf
+Version: 1.2
+Architecture: arm
 Maintainer: Fredrik Fornwall @fornwall
-Version: 2.6.5
-Homepage: https://www.ruby-lang.org/
-Depends: ruby (= 2.6.5)
-Description: Ruby documentation index
-Filename: all/ruby-ri_2.6.5_all.deb
-SHA1: cb8669f98c7bf61d47549298d5d7565a54e37151
-SHA256: 648d4f2719b934d0150b46b50ebd1a8f02ef3d945be7c3e5462acae114be2766
-Size: 1733040
-
-Package: rust-std-wasm32
-Architecture: all
-Installed-Size: 41280
-Maintainer: Kevin Cotugno @kcotugno
-Version: 1.39.0
-Homepage: https://www.rust-lang.org/
-Depends: rust (= 1.39.0)
-Description: rust std for wasm32-unknown-unknown target
-Filename: all/rust-std-wasm32_1.39.0_all.deb
-SHA1: f59df44bfb5ee0982bdac65dc038bb6c55cf7ca9
-SHA256: 389dac6fe96a8d92c59e9f52757cbbf8f743ac41cd558a3b9de6d4113e992e12
-Size: 9709206
+Installed-Size: 64
+Filename: arm/resolv-conf_1.2_arm.deb
+Size: 1098
+MD5sum: 97e601c0740455cfb188267dd9034b9f
+SHA1: 32394861770800ced933207a608232fef9b91432
+SHA256: 823fa84893bc803caa9c43b3f2fcf2e467d5cb0ff038dd283300af08fabb3cc2
+Homepage: http://man7.org/linux/man-pages/man5/resolv.conf.5.html
+Description: Resolver configuration file
 
 Package: science-repo
-Architecture: all
-Installed-Size: 80
-Maintainer: Henrik Grimler @Grimler91
 Version: 1.0
-Homepage: https://github.com/termux/science-packages
+Architecture: all
+Maintainer: Henrik Grimler @Grimler91
+Installed-Size: 72
 Depends: termux-keyring
-Description: Package repository containing science software
 Filename: all/science-repo_1.0_all.deb
-SHA1: 619dc636f9c1f7d742cfdf40985d0f3cee27b5cc
-SHA256: 2d92330c7f99f8a77e45e1a010f8a9eb734c712daa38db54b703e948f717506a
-Size: 972
+Size: 1220
+MD5sum: 2eabcc1f2b7c142aabe0ccc631b232d9
+SHA1: 72d6c24e5d06f3712a3dd3657649582f8f446a64
+SHA256: ede4579d4aa2035646d6f2db7042d0d8f75f14e40b4e18a247a36bd1f876b5f1
+Homepage: https://github.com/termux/science-packages
+Description: Package repository containing science software
 
-Package: screenfetch
-Architecture: all
-Installed-Size: 292
-Maintainer: Pierre Rudloff @Rudloff
-Version: 3.9.1
-Homepage: https://github.com/KittyKatt/screenFetch
-Depends: bash
-Description: Bash Screenshot Information Tool
-Filename: all/screenfetch_3.9.1_all.deb
-SHA1: b5f9e05fe7f2adfd481295420a873da0740c84d1
-SHA256: 4960a387c0c19e0ef353e9a29e331a9ca2ede795923e3da32d1383c96912a810
-Size: 50590
-
-Package: sensible-utils
-Architecture: all
-Installed-Size: 84
+Package: sed
+Version: 4.7-1
+Architecture: arm
+Essential: yes
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.0.12
-Homepage: https://packages.debian.org/sid/sensible-utils
-Description: Small utilities used by programs to sensibly select and spawn an appropriate browser, editor, or pager
-Filename: all/sensible-utils_0.0.12_all.deb
-SHA1: dc91f8cfb989260c64fbb6763022f761c21e8122
-SHA256: 1efc7b878234fd37f341aafb20adb413543127b7ed35edd6c89cb75536e6ecbb
-Size: 3622
+Installed-Size: 376
+Filename: arm/sed_4.7-1_arm.deb
+Size: 113084
+MD5sum: b2c4f44380e333d014f29b8d26e1faf9
+SHA1: f12367ac8ecedc54c9dfaf1853ba072bfd5d9347
+SHA256: c5c8a66d8430f62b5dc628519aeaab5987de88d24b8e00c4ca4593c4cd4993e4
+Homepage: https://www.gnu.org/software/sed/
+Description: GNU stream editor for filtering/transforming text
 
-Package: stow
-Architecture: all
-Installed-Size: 1104
+Package: sqlite
+Version: 3.30.1
+Architecture: arm
 Maintainer: Fredrik Fornwall @fornwall
-Version: 2.3.1
-Homepage: https://www.gnu.org/software/stow/
-Depends: perl
-Description: Tool for managing the installation of multiple software packages into a single directory
-Filename: all/stow_2.3.1_all.deb
-SHA1: 61e3f790c8e553f46fad9088b9f4ca52c9f59fde
-SHA256: ae0beb3a8e0a00d5708da1523973dc6f4fd20a6f4875b8f38bacbb0843e943d7
-Size: 368498
+Installed-Size: 792
+Depends: readline, libsqlite (= 3.30.1)
+Filename: arm/sqlite_3.30.1_arm.deb
+Size: 446426
+MD5sum: d6c22e29d061107a65f948e74d16db41
+SHA1: c963493f15aa5b4e16740582cfc6594b1cc5c584
+SHA256: 076458abe9453c51d849f333e7ca18f3e5c4a98e0e66acfdea8b8ee0fca1fbe3
+Homepage: https://www.sqlite.org
+Description: Command line shell for SQLite
+
+Package: tar
+Version: 1.32-4
+Architecture: arm
+Essential: yes
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 1072
+Depends: libandroid-glob, libiconv
+Filename: arm/tar_1.32-4_arm.deb
+Size: 331100
+MD5sum: f2e81650168ce8c2512a7c97dd550534
+SHA1: 03a02ae553f05e52a8856b05032d21adacb69803
+SHA256: 4f970f7aa06d8bbca3d186a4a7b022ad73084991a961eddc69ba0d8d1d2b61e2
+Homepage: https://www.gnu.org/software/tar/
+Description: GNU tar for manipulating tar archives
 
 Package: termux-am
-Architecture: all
-Installed-Size: 72
-Maintainer: Michal Bednarski @michalbednarski
 Version: 0.3
-Homepage: https://github.com/termux/TermuxAm
+Architecture: all
+Maintainer: Michal Bednarski @michalbednarski
+Installed-Size: 92
 Conflicts: termux-tools (<< 0.51)
-Description: Android Oreo-compatible am command reimplementation
 Filename: all/termux-am_0.3_all.deb
-SHA1: c27cb387077e87f4546228b70a5dba2327c15b17
-SHA256: bcf22a1fde775c66bb227f3254743f660a1169c3f7fcdce93644a8d21cbee3f7
-Size: 17008
+Size: 17154
+MD5sum: f8f1d01641d99f388ce03f4112c1182c
+SHA1: 99872a9dfe8339f5f46b6ea89703eeee5764832f
+SHA256: c32cc9cd078661b10283ac49e23d4125b2afb0a296848da920a6df5a8a3a02dc
+Homepage: https://github.com/termux/TermuxAm
+Description: Android Oreo-compatible am command reimplementation
 
-Package: termux-apt-repo
-Architecture: all
-Installed-Size: 40
+Package: termux-exec
+Version: 0.4-1
+Architecture: arm
+Essential: yes
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.4
-Homepage: https://github.com/termux/termux-apt-repo
-Depends: binutils, python, tar
-Description: Script to create Termux apt repositories
-Filename: all/termux-apt-repo_0.4_all.deb
-SHA1: 847c9b332c7741d27387b7ec491601da1c9615a7
-SHA256: 5d58235302fee377d3dfe63a15684fbb177ce2d3457b8bb24b3aafabe62c1f39
-Size: 3582
-
-Package: termux-create-package
-Architecture: all
-Installed-Size: 36
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.7
-Homepage: https://github.com/termux/termux-create-package
-Depends: python
-Description: Utility to create Termux packages
-Filename: all/termux-create-package_0.7_all.deb
-SHA1: 749a13f4ce4aafcaaf21c5cda91c1806a321da2e
-SHA256: d0fa07716ce67c8f1389f4ad017ea3f233d1fa86cabb5172286a956f3a826e6e
-Size: 2826
+Installed-Size: 68
+Filename: arm/termux-exec_0.4-1_arm.deb
+Size: 2738
+MD5sum: 9098ee31cf23d29fe5ecafe990e22ac9
+SHA1: 3c12a309b8e351d2295bfbfd1d2221ebeb2532b1
+SHA256: bd72d8fc294e6c34d7fe3c3aa3656d6d833baf110701189b6530901f8c4ade33
+Homepage: https://github.com/termux/termux-exec
+Description: An execve() wrapper to make /bin and /usr/bin shebangs work
 
 Package: termux-keyring
-Architecture: all
-Installed-Size: 120
-Maintainer: Fredrik Fornwall @fornwall
 Version: 1.2
+Architecture: all
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 104
+Filename: all/termux-keyring_1.2_all.deb
+Size: 31960
+MD5sum: 7f454c28e63be3586285420eea9ad9e8
+SHA1: 337b5b5b5ce9db8bd03cddc524c03875b9b8623e
+SHA256: 6d437791082fc197b1cb328a1767cb0dead59815f2fe6531616c47fb235d8f30
 Homepage: https://github.com/termux
 Description: GPG public keys for the official Termux repositories
-Filename: all/termux-keyring_1.2_all.deb
-SHA1: 1da0e5c88b2449dad52fb11ab33563f6a6a2e0c7
-SHA256: 3fd5f932b6e69ac6d8b1ec4c4e1f1c0334a9b48c2fc5315fae827641e4b73d6b
-Size: 31676
 
 Package: termux-licenses
-Architecture: all
-Installed-Size: 404
-Maintainer: Fredrik Fornwall @fornwall
 Version: 1.0
-Homepage: https://termux.com
-Essential: yes
-Description: Contains LICENSE files for common licenses
-Filename: all/termux-licenses_1.0_all.deb
-SHA1: 0a43f1cfa39114e1efd61d8d3fba5a7e9d5895ce
-SHA256: f958d4f73c4d9f46b3fc959e990bfbcd66a6dda56b29efe348b80eb0eb62c5ce
-Size: 54728
-
-Package: termux-services
 Architecture: all
-Installed-Size: 72
+Essential: yes
 Maintainer: Fredrik Fornwall @fornwall
-Version: 0.0.5
-Homepage: https://github.com/Neo-Oli/termux-services/
-Depends: busybox, coreutils
-Description: Service daemon for Termux
-Filename: all/termux-services_0.0.5_all.deb
-SHA1: 5f26adf00c5f9f92a81ab1d6dcf3cee092a7a321
-SHA256: fe40387c3d342e1e4d68ed919055b4dea972471a770c2e65b26f06e0c6008287
-Size: 1796
+Installed-Size: 424
+Filename: all/termux-licenses_1.0_all.deb
+Size: 55252
+MD5sum: 75547e8ddd3df1033cd7e7e0d61fc093
+SHA1: ded0c66aa0f86881d726c20daa1ece2e752bd027
+SHA256: 68421fe39eb33dbdf2d2f42d5790fe3aea043decf79f908aa928ca2806bffef9
+Homepage: https://termux.com
+Description: Contains LICENSE files for common licenses
 
 Package: termux-tools
-Architecture: all
-Installed-Size: 144
-Maintainer: Fredrik Fornwall @fornwall
 Version: 0.72
-Homepage: https://termux.com/
-Depends: bzip2, coreutils, curl, dash, diffutils, findutils, gawk, grep, gzip, less, procps, psmisc, sed, tar, termux-am, termux-exec, xz-utils
+Architecture: all
 Essential: yes
-Conflicts: procps (<< 3.3.15-2)
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 164
+Depends: bzip2, coreutils, curl, dash, diffutils, findutils, gawk, grep, gzip, less, procps, psmisc, sed, tar, termux-am, termux-exec, xz-utils
 Recommends: ed, dos2unix, inetutils, net-tools, patch, unzip, util-linux
-Suggests: termux-api
-Description: Basic system tools for Termux
+Conflicts: procps (<< 3.3.15-2)
 Filename: all/termux-tools_0.72_all.deb
-SHA1: 23efd8fc7d42219e79bb56d3828f95bae680286f
-SHA256: 74c6a80a3b096317856f98d096795261e5f021a86f1264b91d8c59fac63caf90
-Size: 4844
+Size: 4852
+MD5sum: ab67ce48678d4ced3f06161bf575be6d
+SHA1: 542b063058b822e957289db7bce21874efe39c48
+SHA256: 00e61698b34d36b90fa1acd98aab5de29f4b1ff5c4fce48d6e1851069d665221
+Homepage: https://termux.com/
+Description: Basic system tools for Termux
 
-Package: texlive
-Architecture: all
-Installed-Size: 57428
-Maintainer: Henrik Grimler @Grimler91
-Version: 20190410-2
-Homepage: https://www.tug.org/texlive/
-Depends: perl, texlive-bin (>= 20190410)
-Conflicts: texlive (<< 20170524-5), texlive-bin (<< 20190410), texlive-tlmgr (<< 20190410)
-Recommends: texlive-tlmgr
-Replaces: texlive-bin (<< 20190410), texlive-tlmgr (<< 20190410)
-Description: TeX Live is a distribution of the TeX typesetting system.
-Filename: all/texlive_20190410-2_all.deb
-SHA1: 0700b7d40c16c124da0e4cddd637873194211255
-SHA256: ee6ac7f18446b903e5e440dad772eea2570d0b61250852042f0cfa7a48d3584f
-Size: 6572248
+Package: tor
+Version: 0.4.1.6
+Architecture: arm
+Maintainer: Vishal Biswas @vishalbiswas
+Installed-Size: 10824
+Depends: libevent, openssl, liblzma, zlib
+Filename: arm/tor_0.4.1.6_arm.deb
+Size: 2071380
+MD5sum: 6031736b3a583aa0bb59c7002f1afe00
+SHA1: 15eda61a5b6291021bb377942c927c251f89a944
+SHA256: 0bb951e523f9c34deb3f2f587bd686e84eb0a52407e282b7dcdc66c78f0ffd13
+Homepage: https://www.torproject.org
+Description: The Onion Router anonymizing overlay network
 
-Package: texlive-bibtexextra
-Architecture: all
-Installed-Size: 25696
-Maintainer: Henrik Grimler @Grimler91
-Version: 20190410-2
-Homepage: https://www.tug.org/texlive/
-Depends: texlive-binextra, texlive (= 20190410-2)
-Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
-Description: Texlive's collection-bibtexextra
-Filename: all/texlive-bibtexextra_20190410-2_all.deb
-SHA1: 9403b08125c78a27bd4911ff47f4882c0600226c
-SHA256: 97432e69518f6690c433922078fc1f1d44065276ec22807299d4a06088ad77ab
-Size: 2863980
-
-Package: texlive-binextra
-Architecture: all
-Installed-Size: 46168
-Maintainer: Henrik Grimler @Grimler91
-Version: 20190410-2
-Homepage: https://www.tug.org/texlive/
-Depends: texlive (= 20190410-2)
-Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
-Description: Texlive's collection-binextra
-Filename: all/texlive-binextra_20190410-2_all.deb
-SHA1: 33903dd74f0fa3b1c537ca4dd60dd87240b37040
-SHA256: 4a615c3839eac4ef379c17885b2ebe0243361000c8acc5dbdc4d0b7c01232399
-Size: 30860140
-
-Package: texlive-context
-Architecture: all
-Installed-Size: 62596
-Maintainer: Henrik Grimler @Grimler91
-Version: 20190410-2
-Homepage: https://www.tug.org/texlive/
-Depends: texlive-mathscience, texlive-fontsrecommended, texlive-metapost, texlive-xetex, texlive (= 20190410-2)
-Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
-Description: Texlive's collection-context
-Filename: all/texlive-context_20190410-2_all.deb
-SHA1: 14aceb5e8e6890d483cc4dd3e34e344d8c0456cf
-SHA256: a1aad558fd5223c552cbd65544170e04184a1ba6aaf9ffa1eee4f533654443db
-Size: 8336304
-
-Package: texlive-fontsextra
-Architecture: all
-Installed-Size: 1280324
-Maintainer: Henrik Grimler @Grimler91
-Version: 20190410-2
-Homepage: https://www.tug.org/texlive/
-Depends: texlive-plaingeneric, texlive (= 20190410-2)
-Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
-Description: Texlive's collection-fontsextra
-Filename: all/texlive-fontsextra_20190410-2_all.deb
-SHA1: 142f7f35a0a4ddb991bd7a5455ddb3fa53baa649
-SHA256: c5233307b6335eef5c02f72947911a74e1aebb812ce556b0dbe1bc6bf729f5e4
-Size: 430937570
-
-Package: texlive-fontsrecommended
-Architecture: all
-Installed-Size: 170508
-Maintainer: Henrik Grimler @Grimler91
-Version: 20190410-2
-Homepage: https://www.tug.org/texlive/
-Depends: texlive (= 20190410-2)
-Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
-Description: Texlive's collection-fontsrecommended
-Filename: all/texlive-fontsrecommended_20190410-2_all.deb
-SHA1: 6db0f0817f981a1d4cc20c2bf6355b28313dc67f
-SHA256: cbcd513d25c4f40b8383230fd992859628adcf13d46db5860ff1f8b796dd1b82
-Size: 93809716
-
-Package: texlive-fontutils
-Architecture: all
-Installed-Size: 2848
-Maintainer: Henrik Grimler @Grimler91
-Version: 20190410-2
-Homepage: https://www.tug.org/texlive/
-Depends: texlive (= 20190410-2)
-Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
-Description: Texlive's collection-fontutils
-Filename: all/texlive-fontutils_20190410-2_all.deb
-SHA1: 8e2d08102bddbbb181f49f738c41a8dcda430b0e
-SHA256: 3c79dacb048d267663155bf0ee9a3323037e39d9e10c8974557056bc102e1d51
-Size: 304542
-
-Package: texlive-formatsextra
-Architecture: all
-Installed-Size: 10748
-Maintainer: Henrik Grimler @Grimler91
-Version: 20190410-2
-Homepage: https://www.tug.org/texlive/
-Depends: texlive-langcyrillic, texlive-mathscience, texlive-fontsrecommended, texlive-plaingeneric, texlive (= 20190410-2)
-Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
-Description: Texlive's collection-formatsextra
-Filename: all/texlive-formatsextra_20190410-2_all.deb
-SHA1: 642d2c46b299103da5cd473248abb5da9e681312
-SHA256: e594d44c6c1e15c37c5e00ce0a87147328ee0687ef264d63874cf94f45cf8a07
-Size: 1646844
-
-Package: texlive-full
-Architecture: all
-Installed-Size: 14948
-Maintainer: Henrik Grimler @Grimler91
-Version: 20190410-2
-Homepage: https://www.tug.org/texlive/
-Depends: texlive-binextra, texlive-context, texlive-fontsextra, texlive-fontsrecommended, texlive-fontutils, texlive-formatsextra, texlive-games, texlive-humanities, texlive-langarabic, texlive-langchinese, texlive-langcjk, texlive-langcyrillic, texlive-langczechslovak, texlive-langenglish, texlive-langeuropean, texlive-langfrench, texlive-langgerman, texlive-langgreek, texlive-langitalian, texlive-langjapanese, texlive-langkorean, texlive-langother, texlive-langpolish, texlive-langportuguese, texlive-langspanish, texlive-latexextra, texlive-latexrecommended, texlive-luatex, texlive-mathscience, texlive-metapost, texlive-music, texlive-pictures, texlive-plaingeneric, texlive-pstricks, texlive-publishers, texlive-xetex, texlive (= 20190410-2)
-Conflicts: texlive-tlmgr
-Description: Texlive-full, meta package that depends on all texlive-collections
-Filename: all/texlive-full_20190410-2_all.deb
-SHA1: 3ad48a98d0b09583cf75eafcdf861003c9f2d6f1
-SHA256: ffa6a334555f91500b5bd87a1655044b37ea3813c95de2c15e916ac5d05fbe86
-Size: 2045944
-
-Package: texlive-games
-Architecture: all
-Installed-Size: 4392
-Maintainer: Henrik Grimler @Grimler91
-Version: 20190410-2
-Homepage: https://www.tug.org/texlive/
-Depends: texlive (= 20190410-2)
-Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
-Description: Texlive's collection-games
-Filename: all/texlive-games_20190410-2_all.deb
-SHA1: 5167725dbc1071d89176d892488da776684257a8
-SHA256: 3b137a5f2ee7052afbff5ae30fe65850f9734b3b9f41b905961f471ca7f49cfb
-Size: 430346
-
-Package: texlive-humanities
-Architecture: all
-Installed-Size: 2464
-Maintainer: Henrik Grimler @Grimler91
-Version: 20190410-2
-Homepage: https://www.tug.org/texlive/
-Depends: texlive-latexextra, texlive (= 20190410-2)
-Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
-Description: Texlive's collection-humanities
-Filename: all/texlive-humanities_20190410-2_all.deb
-SHA1: f502cbdccd74c97f4fb688a607a33b5820ef32f5
-SHA256: 9c8f3620812b7811333a6900fadd401969569eb91a4ef799533df0c9daa9e356
-Size: 304000
-
-Package: texlive-langarabic
-Architecture: all
-Installed-Size: 25800
-Maintainer: Henrik Grimler @Grimler91
-Version: 20190410-2
-Homepage: https://www.tug.org/texlive/
-Depends: texlive (= 20190410-2)
-Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
-Description: Texlive's collection-langarabic
-Filename: all/texlive-langarabic_20190410-2_all.deb
-SHA1: 77681cffcf6fced7cad60cab891b67a626bff091
-SHA256: 9caab58e08f0bd035250d92a07dd49daacd88ded3a958b03171a604988a825c8
-Size: 3524010
-
-Package: texlive-langchinese
-Architecture: all
-Installed-Size: 98032
-Maintainer: Henrik Grimler @Grimler91
-Version: 20190410-2
-Homepage: https://www.tug.org/texlive/
-Depends: texlive-langcjk, texlive-fontutils, texlive (= 20190410-2)
-Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
-Description: Texlive's collection-langchinese
-Filename: all/texlive-langchinese_20190410-2_all.deb
-SHA1: bf7aa2a07d5adbd7578444557a40a5b1dff8af6d
-SHA256: 9d767e90dea138c5056180c181f31a961b7a007909ed9f230550796c0016954f
-Size: 34564912
-
-Package: texlive-langcjk
-Architecture: all
-Installed-Size: 113052
-Maintainer: Henrik Grimler @Grimler91
-Version: 20190410-2
-Homepage: https://www.tug.org/texlive/
-Depends: texlive-langother, texlive (= 20190410-2)
-Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
-Description: Texlive's collection-langcjk
-Filename: all/texlive-langcjk_20190410-2_all.deb
-SHA1: bcdfba69027bacde07757b7d00eaa0c11dec3cf4
-SHA256: bade5b340e5c4fadc19b7c192388d7b0d49916bec65ed8609953e3bcadfc9942
-Size: 54304806
-
-Package: texlive-langcyrillic
-Architecture: all
-Installed-Size: 17052
-Maintainer: Henrik Grimler @Grimler91
-Version: 20190410-2
-Homepage: https://www.tug.org/texlive/
-Depends: texlive-fontsextra, texlive-fontsrecommended, texlive-langgreek, texlive-latexrecommended, texlive (= 20190410-2)
-Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
-Description: Texlive's collection-langcyrillic
-Filename: all/texlive-langcyrillic_20190410-2_all.deb
-SHA1: c557e0e90c70ad7620c3c95f533694a1e24495fa
-SHA256: 52891f2bbfff8fc4d83b65e821265b9ba08d439140c87e918bcc6dda59643a58
-Size: 3083970
-
-Package: texlive-langczechslovak
-Architecture: all
-Installed-Size: 5264
-Maintainer: Henrik Grimler @Grimler91
-Version: 20190410-2
-Homepage: https://www.tug.org/texlive/
-Depends: texlive-fontsextra, texlive-luatex, texlive (= 20190410-2)
-Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
-Description: Texlive's collection-langczechslovak
-Filename: all/texlive-langczechslovak_20190410-2_all.deb
-SHA1: e74c8f9c2a4cb147f3f382ba4177f883851841b0
-SHA256: d2b8e4272531f0604d19b4ba877f09c364a74dd6d57df7b8b6e55630310469b4
-Size: 1970864
-
-Package: texlive-langenglish
-Architecture: all
-Installed-Size: 300
-Maintainer: Henrik Grimler @Grimler91
-Version: 20190410-2
-Homepage: https://www.tug.org/texlive/
-Depends: texlive (= 20190410-2)
-Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
-Description: Texlive's collection-langenglish
-Filename: all/texlive-langenglish_20190410-2_all.deb
-SHA1: 89f0ac93d7fe5f50e407be821df813d34a67f68d
-SHA256: 23bd95981cdd9c24ea018775106656402a21a889ee17b0008e5c842e5f6bcd59
-Size: 42390
-
-Package: texlive-langeuropean
-Architecture: all
-Installed-Size: 8020
-Maintainer: Henrik Grimler @Grimler91
-Version: 20190410-2
-Homepage: https://www.tug.org/texlive/
-Depends: texlive (= 20190410-2)
-Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
-Description: Texlive's collection-langeuropean
-Filename: all/texlive-langeuropean_20190410-2_all.deb
-SHA1: 7b312a5e973c08f268b4f701ede3a2dad4e20bd4
-SHA256: eefe7a93c0cdebb740ae4868e79118c3e018a69c03e86be75fa3b68cf6abf1d4
-Size: 1350704
-
-Package: texlive-langfrench
-Architecture: all
-Installed-Size: 1348
-Maintainer: Henrik Grimler @Grimler91
-Version: 20190410-2
-Homepage: https://www.tug.org/texlive/
-Depends: texlive (= 20190410-2)
-Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
-Description: Texlive's collection-langfrench
-Filename: all/texlive-langfrench_20190410-2_all.deb
-SHA1: bcbc86c5c94425f651c25b7aac51cd937b2e9a90
-SHA256: e47276040fc18b4e0789efc719d922972a0b62020b20ae459a764880cdd01420
-Size: 128708
-
-Package: texlive-langgerman
-Architecture: all
-Installed-Size: 3232
-Maintainer: Henrik Grimler @Grimler91
-Version: 20190410-2
-Homepage: https://www.tug.org/texlive/
-Depends: texlive (= 20190410-2)
-Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
-Description: Texlive's collection-langgerman
-Filename: all/texlive-langgerman_20190410-2_all.deb
-SHA1: 301000f4de814f279583375b798dbab0c5870bb7
-SHA256: 92a73af75dd58825a09c2849c50e00afcdced1e9ce53e4aaefe53162351e9e15
-Size: 313618
-
-Package: texlive-langgreek
-Architecture: all
-Installed-Size: 89636
-Maintainer: Henrik Grimler @Grimler91
-Version: 20190410-2
-Homepage: https://www.tug.org/texlive/
-Depends: texlive (= 20190410-2)
-Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
-Description: Texlive's collection-langgreek
-Filename: all/texlive-langgreek_20190410-2_all.deb
-SHA1: e163304216accfaf1c4e52138015770e59ce2848
-SHA256: e70d77ab6b92046b8ba5f3daefab85943eb000b919fb9b0673debcce1a1566a5
-Size: 68297418
-
-Package: texlive-langitalian
-Architecture: all
-Installed-Size: 176
-Maintainer: Henrik Grimler @Grimler91
-Version: 20190410-2
-Homepage: https://www.tug.org/texlive/
-Depends: texlive (= 20190410-2)
-Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
-Description: Texlive's collection-langitalian
-Filename: all/texlive-langitalian_20190410-2_all.deb
-SHA1: a6ae15589c3eea234d3c1ca0559d30067abb2159
-SHA256: 46dade54921f388ce96e8d54729c1c73f6c50ae65793ad045f4f4d034026f15e
-Size: 15346
-
-Package: texlive-langjapanese
-Architecture: all
-Installed-Size: 407384
-Maintainer: Henrik Grimler @Grimler91
-Version: 20190410-2
-Homepage: https://www.tug.org/texlive/
-Depends: texlive-langcjk, texlive-langchinese, texlive (= 20190410-2)
-Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
-Description: Texlive's collection-langjapanese
-Filename: all/texlive-langjapanese_20190410-2_all.deb
-SHA1: 282b4ab8d13679b57e606ab180ba08871ecd76d0
-SHA256: 845fccd3776906fc930fcfd7ddde7af23649ddf90a11cbab410448c9169c3af1
-Size: 24529490
-
-Package: texlive-langkorean
-Architecture: all
-Installed-Size: 92284
-Maintainer: Henrik Grimler @Grimler91
-Version: 20190410-2
-Homepage: https://www.tug.org/texlive/
-Depends: texlive-langjapanese, texlive-langcjk, texlive-latexrecommended, texlive (= 20190410-2)
-Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
-Description: Texlive's collection-langkorean
-Filename: all/texlive-langkorean_20190410-2_all.deb
-SHA1: 8c2de5914c00b086b4f431e96e3733187f3ddb5f
-SHA256: 14a398a8489562059fd5365fcf98a1f631fddec15872b830612a0ed8dd78b4c9
-Size: 49890318
-
-Package: texlive-langother
-Architecture: all
-Installed-Size: 41324
-Maintainer: Henrik Grimler @Grimler91
-Version: 20190410-2
-Homepage: https://www.tug.org/texlive/
-Depends: texlive (= 20190410-2)
-Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
-Description: Texlive's collection-langother
-Filename: all/texlive-langother_20190410-2_all.deb
-SHA1: 00a1dbe58bdd905100e6a4b855774f0e70cfa7e2
-SHA256: 395b221d1408641e6f4f6f53a89b94df99fd6abdf2aa33112e350e13b1625734
-Size: 20951656
-
-Package: texlive-langpolish
-Architecture: all
-Installed-Size: 6408
-Maintainer: Henrik Grimler @Grimler91
-Version: 20190410-2
-Homepage: https://www.tug.org/texlive/
-Depends: texlive (= 20190410-2)
-Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
-Description: Texlive's collection-langpolish
-Filename: all/texlive-langpolish_20190410-2_all.deb
-SHA1: e6765de3bc7f14fe633d248a57f27d3ccbb58f3a
-SHA256: c90fd460c6909690d6f72ba32baff6d783c2b2874d6c5d94ff9c3c3d184a44f4
-Size: 2513576
-
-Package: texlive-langportuguese
-Architecture: all
-Installed-Size: 152
-Maintainer: Henrik Grimler @Grimler91
-Version: 20190410-2
-Homepage: https://www.tug.org/texlive/
-Depends: texlive (= 20190410-2)
-Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
-Description: Texlive's collection-langportuguese
-Filename: all/texlive-langportuguese_20190410-2_all.deb
-SHA1: 58d665cabcba33af2f773b290d34ed5fc0ab14f6
-SHA256: ff637f907a5b8d2277b31b6c6d6b29d9288f44ed4cfc199eb2a4b4481876f5d9
-Size: 12742
-
-Package: texlive-langspanish
-Architecture: all
-Installed-Size: 428
-Maintainer: Henrik Grimler @Grimler91
-Version: 20190410-2
-Homepage: https://www.tug.org/texlive/
-Depends: texlive (= 20190410-2)
-Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
-Description: Texlive's collection-langspanish
-Filename: all/texlive-langspanish_20190410-2_all.deb
-SHA1: f27f38891a02c3bb2f877ea406f2375ef8a48fc9
-SHA256: 766ce587de1e20c3268dfef7c0f979e6445adbf6004985199c3b030b403dd345
-Size: 40718
-
-Package: texlive-latexextra
-Architecture: all
-Installed-Size: 63184
-Maintainer: Henrik Grimler @Grimler91
-Version: 20190410-2
-Homepage: https://www.tug.org/texlive/
-Depends: texlive-fontsextra, texlive (= 20190410-2)
-Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
-Description: Texlive's collection-latexextra
-Filename: all/texlive-latexextra_20190410-2_all.deb
-SHA1: bde2fd9c0eaf06fee23162203510ba09bac0d818
-SHA256: f9e1a61cebc8cf858453e9b5c74df393af7ef6a409113ac000bcb390c2486633
-Size: 12509490
-
-Package: texlive-latexrecommended
-Architecture: all
-Installed-Size: 13908
-Maintainer: Henrik Grimler @Grimler91
-Version: 20190410-2
-Homepage: https://www.tug.org/texlive/
-Depends: texlive-fontsrecommended, texlive-latexextra, texlive-pictures, texlive-plaingeneric, texlive (= 20190410-2)
-Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
-Description: Texlive's collection-latexrecommended
-Filename: all/texlive-latexrecommended_20190410-2_all.deb
-SHA1: 64daa954865c64893c61ebeece167023e12114d8
-SHA256: a0ade2eab31ae0eb8e84f77b2a856c711ef44ac38ee754675c82030a67267265
-Size: 1472648
-
-Package: texlive-luatex
-Architecture: all
-Installed-Size: 9564
-Maintainer: Henrik Grimler @Grimler91
-Version: 20190410-2
-Homepage: https://www.tug.org/texlive/
-Depends: texlive (= 20190410-2)
-Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
-Description: Texlive's collection-luatex
-Filename: all/texlive-luatex_20190410-2_all.deb
-SHA1: 684c7120c131e3387af32d06c98d54275aef5abf
-SHA256: 38a524418b1242d287d6cf3377e369de1040a319d0de5d4e050240ecb043bff9
-Size: 912082
-
-Package: texlive-mathscience
-Architecture: all
-Installed-Size: 15540
-Maintainer: Henrik Grimler @Grimler91
-Version: 20190410-2
-Homepage: https://www.tug.org/texlive/
-Depends: texlive-langgreek, texlive (= 20190410-2)
-Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
-Description: Texlive's collection-mathscience
-Filename: all/texlive-mathscience_20190410-2_all.deb
-SHA1: 84fcb3845ee42c925873c312128b10e51db46fde
-SHA256: bf926de2e7720999ad1f6a8370cf09bea16b16137fd2e6e4a3a58c74ee576a10
-Size: 3093906
-
-Package: texlive-metapost
-Architecture: all
-Installed-Size: 3328
-Maintainer: Henrik Grimler @Grimler91
-Version: 20190410-2
-Homepage: https://www.tug.org/texlive/
-Depends: texlive (= 20190410-2)
-Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
-Description: Texlive's collection-metapost
-Filename: all/texlive-metapost_20190410-2_all.deb
-SHA1: f74ee8345faf8f274084d8986542946caa59335d
-SHA256: a6958371f43113d97ffaa9b46411321f214aa3ab2a2bb3dc9894ebfdf99347ca
-Size: 462270
-
-Package: texlive-music
-Architecture: all
-Installed-Size: 38472
-Maintainer: Henrik Grimler @Grimler91
-Version: 20190410-2
-Homepage: https://www.tug.org/texlive/
-Depends: texlive (= 20190410-2)
-Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
-Description: Texlive's collection-music
-Filename: all/texlive-music_20190410-2_all.deb
-SHA1: 91fcc48ab7696b3c64de553ea289cb6191e7620a
-SHA256: 0969a8c581ba50ccca0cc8ad2d9930525f6c471c0a57884fddde3338cc823791
-Size: 14776578
-
-Package: texlive-pictures
-Architecture: all
-Installed-Size: 29636
-Maintainer: Henrik Grimler @Grimler91
-Version: 20190410-2
-Homepage: https://www.tug.org/texlive/
-Depends: texlive-latexextra, texlive (= 20190410-2)
-Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
-Description: Texlive's collection-pictures
-Filename: all/texlive-pictures_20190410-2_all.deb
-SHA1: d3bd936c76bd4b1e13ebc417f787e7129feb8dea
-SHA256: 6be0d6f7167809670c5c75791ec9a024b31cab7869b2bc97e7a2803a74485629
-Size: 8104740
-
-Package: texlive-plaingeneric
-Architecture: all
-Installed-Size: 41124
-Maintainer: Henrik Grimler @Grimler91
-Version: 20190410-2
-Homepage: https://www.tug.org/texlive/
-Depends: texlive (= 20190410-2)
-Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
-Description: Texlive's collection-plaingeneric
-Filename: all/texlive-plaingeneric_20190410-2_all.deb
-SHA1: f7be4d50c8fce5bf6b4ada77e5852b1ccd6bdf67
-SHA256: d4e400bc6f7a423df3c04899f4e356ad5430709257a6f87a280825c231238a3a
-Size: 1685014
-
-Package: texlive-pstricks
-Architecture: all
-Installed-Size: 41936
-Maintainer: Henrik Grimler @Grimler91
-Version: 20190410-2
-Homepage: https://www.tug.org/texlive/
-Depends: texlive-plaingeneric, texlive (= 20190410-2)
-Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
-Description: Texlive's collection-pstricks
-Filename: all/texlive-pstricks_20190410-2_all.deb
-SHA1: 8d98753bb0699a7241d31072c6731d72b2bd8ffa
-SHA256: 06ab29c06b1b9102107261ec34a8a6aa0e0fea03440fb6d967fa345f4aebf275
-Size: 26497282
-
-Package: texlive-publishers
-Architecture: all
-Installed-Size: 59592
-Maintainer: Henrik Grimler @Grimler91
-Version: 20190410-2
-Homepage: https://www.tug.org/texlive/
-Depends: texlive (= 20190410-2)
-Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
-Description: Texlive's collection-publishers
-Filename: all/texlive-publishers_20190410-2_all.deb
-SHA1: 87859eea37b80ebf1556a13571d3483b606c2f49
-SHA256: 951a40cb191abc4221956c6ce1504a561b366b736e3b661b841ff6d698d9b294
-Size: 13225434
-
-Package: texlive-tlmgr
-Architecture: all
-Installed-Size: 2496
-Maintainer: Henrik Grimler @Grimler91
-Version: 20190410-2
-Homepage: https://www.tug.org/texlive/tlmgr.html
-Depends: perl, wget, gnupg (>= 2.2.9-1), xz-utils, texlive (>= 20190410)
-Conflicts: texlive (<< 20180414-1)
-Description: TeX Lives package manager
-Filename: all/texlive-tlmgr_20190410-2_all.deb
-SHA1: 8c4803d90d912e13a87fa17c251f0185c56c2e13
-SHA256: b5b528da2229e0fdb9c2905b946fdf4c39d0e3de9f6e17596e4f82fe82bdfb28
-Size: 351940
-
-Package: texlive-xetex
-Architecture: all
-Installed-Size: 16936
-Maintainer: Henrik Grimler @Grimler91
-Version: 20190410-2
-Homepage: https://www.tug.org/texlive/
-Depends: texlive (= 20190410-2)
-Conflicts: texlive-bin (<< 20190410), texlive (<< 20190410)
-Description: Texlive's collection-xetex
-Filename: all/texlive-xetex_20190410-2_all.deb
-SHA1: 6623d0e96709a3bc6cbfb3788a861cd8f95e3449
-SHA256: 6b7a070272ced2ade8c82db9663574d5d00f47ddbd2857d3b8a997fb39b45c6a
-Size: 2612018
-
-Package: translate-shell
-Architecture: all
-Installed-Size: 248
-Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
-Version: 0.9.6.11-3
-Homepage: https://www.soimort.org/translate-shell
-Depends: bash, curl, gawk, less, rlwrap
-Recommends: hunspell, mpv
-Description: Command-line translator using Google Translate, Bing Translator, Yandex.Translate, etc.
-Filename: all/translate-shell_0.9.6.11-3_all.deb
-SHA1: 89be2d1bb72fdc578a15de6267450d85ddb36c1c
-SHA256: 2dd21b144c85bd786c4be2b58174d923677fa11fe623e89db70f55d96ec28cd3
-Size: 38988
-
-Package: tsu
-Architecture: all
-Installed-Size: 72
+Package: unzip
+Version: 6.0-5
+Architecture: arm
 Maintainer: Fredrik Fornwall @fornwall
-Version: 2.3
-Homepage: https://github.com/cswl/tsu
-Description: A su wrapper for Termux
-Filename: all/tsu_2.3_all.deb
-SHA1: 321dea3374eb12c466121f637175264e394b0ee3
-SHA256: 18553ae675509b61da04237c34a7827a2e63020a4096d9f493d46bacdcec861c
-Size: 2334
-
-Package: unstable-repo
-Architecture: all
-Installed-Size: 52
-Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
-Version: 3.0
-Homepage: https://github.com/termux/unstable-packages
-Depends: termux-keyring
-Description: Package repository containing new/unstable programs and libraries.
-Filename: all/unstable-repo_3.0_all.deb
-SHA1: 1da2da660de755dcd800e0a3e6c3346f863c9af8
-SHA256: 04cc282787ffb1900a075dd2692993ac42f4a13a7adab717fbfa6aa0a37187f6
-Size: 1074
-
-Package: vcsh
-Architecture: all
-Installed-Size: 84
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.20151229
-Homepage: https://github.com/RichiH/vcsh
-Depends: git
-Description: Config manager based on Git
-Filename: all/vcsh_1.20151229_all.deb
-SHA1: 1c207c383471378a807a6ec9ff566fb209431d73
-SHA256: 7832b70a0e192a1c9119d2992bca5377c3da6286de0a0d1237492e3719abc877
-Size: 11990
-
-Package: vim-runtime
-Architecture: all
-Installed-Size: 22412
-Maintainer: Fredrik Fornwall @fornwall
-Version: 8.1.2350
-Homepage: https://www.vim.org
-Description: Vi IMproved - Runtime files
-Filename: all/vim-runtime_8.1.2350_all.deb
-SHA1: 8b345f8867fab3e4b911b2c6b267bddaa263235b
-SHA256: 55e526017c2f483fd7eb7f717d641006867c7677dcd76ad097499c60a1c9dccc
-Size: 4080092
-
-Package: x11-repo
-Architecture: all
-Installed-Size: 52
-Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
-Version: 3.0
-Homepage: https://github.com/termux/x11-packages
-Depends: termux-keyring
-Description: Package repository containing X11 programs and libraries
-Filename: all/x11-repo_3.0_all.deb
-SHA1: d947431ec2a1f71aeca0c1f6980505f23d115447
-SHA256: 305fbcc696aa2286a695c09514fb3020868ec0e958471782afd3fe8602999315
-Size: 1058
-
-Package: xcb-proto
-Architecture: all
-Installed-Size: 1056
-Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
-Version: 1.13-10
-Homepage: https://xcb.freedesktop.org/
-Conflicts: xcbproto
-Replaces: xcbproto
-Description: XML-XCB protocol descriptions
-Filename: all/xcb-proto_1.13-10_all.deb
-SHA1: a96c225496e36a574b5e5379c427f8d09aed8377
-SHA256: aa7530953ddf1ab5f629562e61df7b0e7bbb394d793caaaa5e76fe65cd0f7c33
-Size: 102278
-
-Package: xorg-util-macros
-Architecture: all
-Installed-Size: 144
-Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
-Version: 1.19.2-6
-Homepage: https://xorg.freedesktop.org/
-Description: X.Org Autotools macros
-Filename: all/xorg-util-macros_1.19.2-6_all.deb
-SHA1: e8b372302e3f859021b77c57fec7e5c47226da30
-SHA256: 89211ea65a02644579754c3a4a571208a06d2e4e2a216024883470906ebdedf8
-Size: 21498
-
-Package: xorgproto
-Architecture: all
-Installed-Size: 1748
-Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
-Version: 2019.2-4
-Homepage: https://xorg.freedesktop.org/
-Depends: xorg-util-macros
-Conflicts: x11-proto
-Replaces: x11-proto
-Description: X.Org X11 Protocol headers
-Filename: all/xorgproto_2019.2-4_all.deb
-SHA1: e73bd7ddceb3422fbbe160c77003cc2d0fd86cd1
-SHA256: a747a372486b9c403cb9314dae776ff4e3853af7fc62b300bcd9a72a2340d4dc
-Size: 174284
-
-Package: xtrans
-Architecture: all
 Installed-Size: 316
-Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
-Version: 1.4.0-6
-Homepage: https://xorg.freedesktop.org/
-Description: X transport library
-Filename: all/xtrans_1.4.0-6_all.deb
-SHA1: 035e907d8dce09a7c4ec731868eefe4265f916bc
-SHA256: 202080aaa47e59929f8275738e01a252d03ddd0849c9e2be27fce58588758e16
-Size: 42650
+Depends: libbz2
+Filename: arm/unzip_6.0-5_arm.deb
+Size: 115488
+MD5sum: 5a11674397fa682538a0a813e144f24c
+SHA1: 2a8fcb5f0bfdd2a07d2b99c6b0ee07c701adcbe0
+SHA256: d103e6744db29c31614d678670b5b5ea4b2347bdb5d01106a51c0c5d2f355ab7
+Homepage: http://www.info-zip.org/
+Description: Tools for working with zip files
 
-Package: yarn
-Architecture: all
-Installed-Size: 5268
-Maintainer: Pierre Rudloff @Rudloff
-Version: 1.19.1
-Homepage: https://yarnpkg.com/
-Depends: nodejs | nodejs-lts
-Description: Fast, reliable, and secure dependency management
-Filename: all/yarn_1.19.1_all.deb
-SHA1: c5e624a8dbb1b99c8feedf3778ce1e1f3a096e7a
-SHA256: f1475943bc9308a69491beabb3d20f895075fe33a57423343b6a835aa1d393dd
-Size: 889640
+Package: util-linux
+Version: 2.34-2
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 2976
+Depends: ncurses, libcrypt, zlib
+Breaks: util-linux-dev
+Replaces: util-linux-dev
+Filename: arm/util-linux_2.34-2_arm.deb
+Size: 577020
+MD5sum: 56442d702d77122939e7c6b9836aa883
+SHA1: 41f0ac27b5e95090d1fb00f46d71b246aebb767e
+SHA256: dd5a6e292878d7a5bb3dba8481d57e92c631271d9931ef6e6ba8640c46642770
+Homepage: https://en.wikipedia.org/wiki/Util-linux
+Description: Miscellaneous system utilities
+
+Package: util-linux-static
+Version: 2.34-2
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 900
+Depends: util-linux (= 2.34-2)
+Filename: arm/util-linux-static_2.34-2_arm.deb
+Size: 174922
+MD5sum: 3c1ad22a048dd2fc6a04c9947eaa20ae
+SHA1: fa6b1ba2bd10b2f87232f0aeb0b34a3a30329c39
+SHA256: 64b5579425edbe2ffb3f20e9603f74a94b475d04ef781ab84f1a5e1f8f1ea572
+Homepage: https://en.wikipedia.org/wiki/Util-linux
+Description: Static libraries for util-linux
+
+Package: xz-utils
+Version: 5.2.4-7
+Architecture: arm
+Essential: yes
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 220
+Depends: liblzma (= 5.2.4-7)
+Filename: arm/xz-utils_5.2.4-7_arm.deb
+Size: 62258
+MD5sum: e630802962e9355f5230acdaf5ff3864
+SHA1: a423c83504c6435d3f6382159703e7592e67b553
+SHA256: 2026481bbb5be525ada200d8c25dc73e3c5acb811eab3612e0be49f721e6598b
+Homepage: https://tukaani.org/xz/
+Description: XZ-format compression tools
+
+Package: zlib
+Version: 1.2.11-4
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 260
+Breaks: ndk-sysroot (<< 19b-3), zlib-dev
+Replaces: ndk-sysroot (<< 19b-3), zlib-dev
+Filename: arm/zlib_1.2.11-4_arm.deb
+Size: 67232
+MD5sum: b767d51948ad808733c85c690eebc121
+SHA1: d1fda0ec015213baf8cf7306df04bd925b80214f
+SHA256: fe1588feb2a784544fbde041b4b74ea8e65988688176a069b421ad0517d35630
+Homepage: https://www.zlib.net/
+Description: Compression library implementing the deflate compression method found in gzip and PKZIP
+
+Package: zlib-static
+Version: 1.2.11-4
+Architecture: arm
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 132
+Depends: zlib (= 1.2.11-4)
+Filename: arm/zlib-static_1.2.11-4_arm.deb
+Size: 38812
+MD5sum: 8ba3ae9f221e20e04cbe91b3945b2910
+SHA1: 9c5a6bcca46327ab9ecc11bf2b7eee6af284220e
+SHA256: 41e83bb351f5a96bb7b055a90a4bd8e7a8c8dd26d11b4363ef9dee8f8aa75104
+Homepage: https://www.zlib.net/
+Description: Static libraries for zlib
 
