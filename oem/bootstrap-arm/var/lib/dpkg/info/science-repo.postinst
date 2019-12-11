@@ -1,4 +1,0 @@
-#!/data/data/com.termux/files/usr/bin/sh
-echo Downloading updated package list ...
-apt update
-exit 0
