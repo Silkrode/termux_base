@@ -23,7 +23,7 @@ Architecture: all
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 36
 Depends: tor, apt (= 1.4.9-19)
-Filename: aall/apt-transport-tor_1.4.9-19_all.deb
+Filename: all/apt-transport-tor_1.4.9-19_all.deb
 Size: 852
 MD5sum: 9b854f0e97927bf04c9e2e2a7c013f57
 SHA1: de2d7edfb5ff0789c682fe70e338a19fedcf43d5
@@ -83,7 +83,7 @@ Version: 20191129
 Architecture: all
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 264
-Filename: aall/ca-certificates_20191129_all.deb
+Filename: all/ca-certificates_20191129_all.deb
 Size: 120408
 MD5sum: 3366579d4d4d8027c4698e7725638ec9
 SHA1: d49ce20e6146e5e5d5e678242a8c04c20c5ffbc9
@@ -97,7 +97,7 @@ Architecture: all
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 208
 Depends: ca-certificates (= 20191129)
-Filename: aall/ca-certificates-java_20191129_all.deb
+Filename: all/ca-certificates-java_20191129_all.deb
 Size: 109198
 MD5sum: 51a07299f7d76c13e87ad2f28186b566
 SHA1: ffe175c1cb662551c3d34afa4c51b498e1fb2c6a
@@ -258,7 +258,7 @@ Architecture: all
 Maintainer: Henrik Grimler @Grimler91
 Installed-Size: 52
 Depends: termux-keyring
-Filename: aall/game-repo_1.1_all.deb
+Filename: all/game-repo_1.1_all.deb
 Size: 1048
 MD5sum: 3685048310037faa76cfd9aff169e1f5
 SHA1: 989ad90f2283d5a5751978bc6664929a09121bc2
@@ -1317,7 +1317,7 @@ Architecture: all
 Maintainer: Henrik Grimler @Grimler91
 Installed-Size: 52
 Depends: termux-keyring
-Filename: aall/science-repo_1.0_all.deb
+Filename: all/science-repo_1.0_all.deb
 Size: 1058
 MD5sum: 22447a1f1efd06a759c12f1425c8f2cb
 SHA1: 97638fddfa49163f7426e8e7ae18c7db0f27f34b
@@ -1374,7 +1374,7 @@ Architecture: all
 Maintainer: Michal Bednarski @michalbednarski
 Installed-Size: 72
 Conflicts: termux-tools (<< 0.51)
-Filename: aall/termux-am_0.3_all.deb
+Filename: all/termux-am_0.3_all.deb
 Size: 17012
 MD5sum: 19591e4662697976457f6dad4dbf2958
 SHA1: 75171f8de5fd56d6da999ab91f37a1e7d4dd7e4f
@@ -1401,7 +1401,7 @@ Version: 1.2
 Architecture: all
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 84
-Filename: aall/termux-keyring_1.2_all.deb
+Filename: all/termux-keyring_1.2_all.deb
 Size: 31802
 MD5sum: eb27f97309ee55ec9d29c529d68c89ed
 SHA1: f13ae17ffe4285eec65a7b83016be08ade56eb0d
@@ -1415,7 +1415,7 @@ Architecture: all
 Essential: yes
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 404
-Filename: aall/termux-licenses_1.0_all.deb
+Filename: all/termux-licenses_1.0_all.deb
 Size: 54676
 MD5sum: 3a9c7ab6b3ec9565ecda035e7ae4633d
 SHA1: 2acbb51d62253beb06056016a2bca61efd6f566c
@@ -1432,7 +1432,7 @@ Installed-Size: 144
 Depends: bzip2, coreutils, curl, dash, diffutils, findutils, gawk, grep, gzip, less, procps, psmisc, sed, tar, termux-am, termux-exec, xz-utils
 Recommends: ed, dos2unix, inetutils, net-tools, patch, unzip, util-linux
 Conflicts: procps (<< 3.3.15-2)
-Filename: aall/termux-tools_0.72_all.deb
+Filename: all/termux-tools_0.72_all.deb
 Size: 4618
 MD5sum: f51ea9bf9962f493d8d2e2c1ebf2b58d
 SHA1: bb4209338aa3aa0ea378af79d89b893c87d29692
