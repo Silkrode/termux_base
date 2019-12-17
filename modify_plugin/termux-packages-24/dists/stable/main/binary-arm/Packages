@@ -9,7 +9,7 @@ Recommends: game-repo, science-repo
 Suggests: unstable-repo
 Conflicts: apt-transport-https
 Replaces: apt-transport-https
-Filename:  arm/apt_1.4.9-19_arm.deb
+Filename: ./arm/apt_1.4.9-19_arm.deb
 Size: 748456
 MD5sum: 2239da8af16418cbd250a3cddbe2e3f5
 SHA1: a0dcb03f9f0dbca54f6a7d6552ba56b10dbd6ca0
@@ -23,7 +23,7 @@ Architecture: all
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 36
 Depends: tor, apt (= 1.4.9-19)
-Filename:  all/apt-transport-tor_1.4.9-19_all.deb
+Filename: ./all/apt-transport-tor_1.4.9-19_all.deb
 Size: 852
 MD5sum: 0da943edb3528cd8cf54c277e543d61b
 SHA1: aa0c3cc3f91ba0af34a362e24827b446f5c95101
@@ -41,7 +41,7 @@ Depends: libandroid-support, libiconv, ncurses, readline (>= 8.0), termux-tools
 Recommends: command-not-found
 Breaks: bash-dev
 Replaces: bash-dev
-Filename:  arm/bash_5.0.11_arm.deb
+Filename: ./arm/bash_5.0.11_arm.deb
 Size: 789624
 MD5sum: 1a42dade85a0761f2ef2ae038e8a176c
 SHA1: 737146bb0825745574fd7bdc1272ac12a868d39b
@@ -55,7 +55,7 @@ Architecture: arm
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 540
 Conflicts: coreutils (<< 8.25-4)
-Filename:  arm/busybox_1.30.1-9_arm.deb
+Filename: ./arm/busybox_1.30.1-9_arm.deb
 Size: 288408
 MD5sum: ccbb9dd03722aac2f66e125cff5ff6e9
 SHA1: 12738f3c578087a0f4834d9a79c3e5fb56ef1e58
@@ -70,7 +70,7 @@ Essential: yes
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 128
 Depends: libbz2 (= 1.0.8-5)
-Filename:  arm/bzip2_1.0.8-5_arm.deb
+Filename: ./arm/bzip2_1.0.8-5_arm.deb
 Size: 29334
 MD5sum: 1b1965712af12d423164ad7b7e019e7d
 SHA1: 99233ea6cc2ae72e2fb1f77c3d8f83a60b708105
@@ -83,7 +83,7 @@ Version: 20191129
 Architecture: all
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 264
-Filename:  all/ca-certificates_20191129_all.deb
+Filename: ./all/ca-certificates_20191129_all.deb
 Size: 120418
 MD5sum: 903c6110c5b67cb262da39ac7c80858c
 SHA1: 324b0ffca001b3002d7bd17c3da848c73b3fa7d6
@@ -97,7 +97,7 @@ Architecture: all
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 208
 Depends: ca-certificates (= 20191129)
-Filename:  all/ca-certificates-java_20191129_all.deb
+Filename: ./all/ca-certificates-java_20191129_all.deb
 Size: 109166
 MD5sum: a7675881a8d7d0ccda13beb7d5a314c8
 SHA1: 5c82b1a8bbd47aa62abc94fb95879438af94c8ec
@@ -110,7 +110,7 @@ Version: 1.42
 Architecture: arm
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 216
-Filename:  arm/command-not-found_1.42_arm.deb
+Filename: ./arm/command-not-found_1.42_arm.deb
 Size: 44566
 MD5sum: 5c469c0885ad8887206a655411e3eb32
 SHA1: 4e9a43fb421e7ca2fd5c4c1c377bdc70c9150dcc
@@ -127,7 +127,7 @@ Installed-Size: 2180
 Depends: libandroid-support, libgmp, libiconv
 Breaks: chroot, busybox (<< 1.30.1-4)
 Replaces: chroot, busybox (<< 1.30.1-4)
-Filename:  arm/coreutils_8.31-8_arm.deb
+Filename: ./arm/coreutils_8.31-8_arm.deb
 Size: 708132
 MD5sum: 855816b2f5729d612bb9ab042db3fe58
 SHA1: d44bfde7e68f9a41d588c8583e974ebfbe1d6d92
@@ -142,7 +142,7 @@ Essential: yes
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 252
 Depends: libcurl (= 7.66.0-1)
-Filename:  arm/curl_7.66.0-1_arm.deb
+Filename: ./arm/curl_7.66.0-1_arm.deb
 Size: 144996
 MD5sum: f3c94c189593c5e9128a4acde301ee95
 SHA1: cefc902d36bcc9c6f41382a967719842670f39f4
@@ -156,7 +156,7 @@ Architecture: arm
 Essential: yes
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 144
-Filename:  arm/dash_0.5.10.2-2_arm.deb
+Filename: ./arm/dash_0.5.10.2-2_arm.deb
 Size: 62886
 MD5sum: 4286606eddef42181101476634c24e7a
 SHA1: 1104894a59b2d4b6f2ac570afb36e613ea49cef7
@@ -171,7 +171,7 @@ Essential: yes
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 496
 Depends: libiconv
-Filename:  arm/diffutils_3.7-2_arm.deb
+Filename: ./arm/diffutils_3.7-2_arm.deb
 Size: 146070
 MD5sum: 2aece552dacf2fa6847d7d57c4c68e27
 SHA1: 15f9e91929c0765f23003acdd34a24dc3f944522
@@ -185,7 +185,7 @@ Architecture: arm
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 424
 Depends: libgnutls, resolv-conf, gnupg (= 2.2.17)
-Filename:  arm/dirmngr_2.2.17_arm.deb
+Filename: ./arm/dirmngr_2.2.17_arm.deb
 Size: 172760
 MD5sum: d229dad39c7999bec832f1072642f48f
 SHA1: 71ba2fef7771a63f7a6ea8d15c113a77ba43ac82
@@ -199,7 +199,7 @@ Architecture: arm
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 316
 Depends: libandroid-support
-Filename:  arm/dos2unix_7.4.1_arm.deb
+Filename: ./arm/dos2unix_7.4.1_arm.deb
 Size: 59050
 MD5sum: 6627a150b9411290e7ff6066080e9790
 SHA1: 1fd9cf1fc67341c8b4de5e2698f33602837ecce7
@@ -216,7 +216,7 @@ Installed-Size: 752
 Depends: bzip2, coreutils, diffutils, gzip, less, libbz2, liblzma, tar, xz-utils, zlib
 Breaks: dpkg-dev
 Replaces: dpkg-dev
-Filename:  arm/dpkg_1.19.7-9_arm.deb
+Filename: ./arm/dpkg_1.19.7-9_arm.deb
 Size: 198622
 MD5sum: 2d79c7e33e43eb20560bebf52bb10736
 SHA1: 112d51818e330654a341651ac2067e16ca935b0a
@@ -229,7 +229,7 @@ Version: 1.15
 Architecture: arm
 Maintainer: Oliver Schmidhauser @Neo-Oli
 Installed-Size: 156
-Filename:  arm/ed_1.15_arm.deb
+Filename: ./arm/ed_1.15_arm.deb
 Size: 35910
 MD5sum: 7e61cda241385bfc849c2ec694ceba2b
 SHA1: 4224cd4af2bd3bab512181e4454ccb53ff4fd653
@@ -244,7 +244,7 @@ Essential: yes
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 740
 Depends: libandroid-support
-Filename:  arm/findutils_4.7.0_arm.deb
+Filename: ./arm/findutils_4.7.0_arm.deb
 Size: 233956
 MD5sum: 6d36a6c4bde16c72904c4bfa2a68ecab
 SHA1: e92210584d2c93905f213d659dc84c65c07e496f
@@ -258,7 +258,7 @@ Architecture: all
 Maintainer: Henrik Grimler @Grimler91
 Installed-Size: 52
 Depends: termux-keyring
-Filename:  all/game-repo_1.1_all.deb
+Filename: ./all/game-repo_1.1_all.deb
 Size: 1048
 MD5sum: eeddb29c87cc08fab4574a96e9318ca1
 SHA1: b95cf9d02bf48299a4604eda4b0f2ae4a701fd5f
@@ -275,7 +275,7 @@ Installed-Size: 2712
 Depends: libandroid-support, libgmp, libmpfr, readline
 Breaks: gawk-dev
 Replaces: gawk-dev
-Filename:  arm/gawk_5.0.1-4_arm.deb
+Filename: ./arm/gawk_5.0.1-4_arm.deb
 Size: 690176
 MD5sum: 42f4c22a0d9d94023d59e57003dec899
 SHA1: 490202feea07b9117904702db37fe2660635b72d
@@ -289,7 +289,7 @@ Architecture: arm
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 128
 Depends: gawk (= 5.0.1-4)
-Filename:  arm/gawk-static_5.0.1-4_arm.deb
+Filename: ./arm/gawk-static_5.0.1-4_arm.deb
 Size: 22214
 MD5sum: deea7f31545aa531f8dcc8dc733709c9
 SHA1: bb2df11bedb15e9c497ddd9bbf43b6f70f68b19a
@@ -305,7 +305,7 @@ Installed-Size: 3268
 Depends: libassuan,libbz2,libgcrypt,libksba,libsqlite,libnpth,readline,pinentry,libgpg-error,zlib
 Conflicts: gnupg2 (<< 2.2.9-1)
 Replaces: gnupg2 (<< 2.2.9-1)
-Filename:  arm/gnupg_2.2.17_arm.deb
+Filename: ./arm/gnupg_2.2.17_arm.deb
 Size: 985182
 MD5sum: 609a7f9165cc4627b5500e9cfd451886
 SHA1: addd03f1ce4d94c466896d0d657fd52129daa534
@@ -319,7 +319,7 @@ Architecture: arm
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 956
 Depends: libgnutls (= 3.6.10)
-Filename:  arm/gnutls_3.6.10_arm.deb
+Filename: ./arm/gnutls_3.6.10_arm.deb
 Size: 237798
 MD5sum: e4229c2171affcbf4fa701547731debc
 SHA1: 02f9e0cdc51ef18378990061a4316acb35e25315
@@ -333,7 +333,7 @@ Architecture: arm
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 300
 Depends: libbz2, libgcrypt, libgpg-error, zlib
-Filename:  arm/gpgv_2.2.17_arm.deb
+Filename: ./arm/gpgv_2.2.17_arm.deb
 Size: 141904
 MD5sum: b1083bedf385f56d076052a7fbcf7577
 SHA1: af811884f8187bacc20bfff13a062a8094d6e74c
@@ -348,7 +348,7 @@ Essential: yes
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 320
 Depends: libandroid-support, pcre
-Filename:  arm/grep_3.3-2_arm.deb
+Filename: ./arm/grep_3.3-2_arm.deb
 Size: 110940
 MD5sum: 961d4a36fe6a962a14b45d0bcb6e08d1
 SHA1: bcf3a56ec1b9122335b411b63e7dd69a7fd4a035
@@ -362,7 +362,7 @@ Architecture: arm
 Essential: yes
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 292
-Filename:  arm/gzip_1.10-2_arm.deb
+Filename: ./arm/gzip_1.10-2_arm.deb
 Size: 75690
 MD5sum: 2d0ea4bd2b9c81d8de21e251acd322b0
 SHA1: d5deea165fddefc54a560b21b9c0461062a91dac
@@ -376,7 +376,7 @@ Architecture: arm
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 52
 Depends: libiconv (= 1.16-3)
-Filename:  arm/iconv_1.16-3_arm.deb
+Filename: ./arm/iconv_1.16-3_arm.deb
 Size: 10952
 MD5sum: d249ad08dbbd8c3f58b3d741d52d4f40
 SHA1: 0a3609158725a1d3562aa27820aefc4d645557cd
@@ -390,7 +390,7 @@ Architecture: arm
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 940
 Depends: readline
-Filename:  arm/inetutils_1.9.4-7_arm.deb
+Filename: ./arm/inetutils_1.9.4-7_arm.deb
 Size: 233842
 MD5sum: 6087f3106192a82b79d99efeb0818205
 SHA1: eec47c4e4d2760a9ae5eaab7f9e0d94d9dee0d6c
@@ -405,7 +405,7 @@ Essential: yes
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 208
 Depends: ncurses
-Filename:  arm/less_551-1_arm.deb
+Filename: ./arm/less_551-1_arm.deb
 Size: 83504
 MD5sum: 8a5348eebe2e65377ff3a080ebf0554b
 SHA1: a2872ef9c1d99bbbea2cfd1413acde9b8b219990
@@ -420,7 +420,7 @@ Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 60
 Breaks: libandroid-glob-dev
 Replaces: libandroid-glob-dev
-Filename:  arm/libandroid-glob_0.6_arm.deb
+Filename: ./arm/libandroid-glob_0.6_arm.deb
 Size: 6604
 MD5sum: aaf0ded4f7d4dd5525c9f0e2cd15cf56
 SHA1: 2a0a06b2bd4b08715bcb8f53719d93bf54d06f30
@@ -434,7 +434,7 @@ Architecture: arm
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 36
 Depends: libandroid-glob (= 0.6)
-Filename:  arm/libandroid-glob-static_0.6_arm.deb
+Filename: ./arm/libandroid-glob-static_0.6_arm.deb
 Size: 4388
 MD5sum: 239358d10152202e660bc0ee90e22cd7
 SHA1: 5158ca7f929f480529ac04dee6115b7fde5a5713
@@ -449,7 +449,7 @@ Essential: yes
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 64
 Pre-Depends: dpkg (>= 1.19.4-3)
-Filename:  arm/libandroid-support_25-2_arm.deb
+Filename: ./arm/libandroid-support_25-2_arm.deb
 Size: 7278
 MD5sum: 40895b20844ddcdc78b53558848a6e24
 SHA1: 035ac78f90f5e2fc451040bfc26dff1237b79e3b
@@ -463,7 +463,7 @@ Architecture: arm
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 64
 Depends: libandroid-support (= 25-2)
-Filename:  arm/libandroid-support-static_25-2_arm.deb
+Filename: ./arm/libandroid-support-static_25-2_arm.deb
 Size: 8148
 MD5sum: cbc05cc3f0ed839aa5173fb70dfe2210
 SHA1: a33b79fd15b194fbe8d33267498607c2e8c6b534
@@ -479,7 +479,7 @@ Installed-Size: 308
 Depends: libgpg-error
 Breaks: libassuan-dev
 Replaces: libassuan-dev
-Filename:  arm/libassuan_2.5.3-1_arm.deb
+Filename: ./arm/libassuan_2.5.3-1_arm.deb
 Size: 71004
 MD5sum: 7060ea4b2b250721ad8b7606cbf585ac
 SHA1: 512342841b3c4d9e2556022dff2ac0dbc6311b9a
@@ -493,7 +493,7 @@ Architecture: arm
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 128
 Depends: libassuan (= 2.5.3-1)
-Filename:  arm/libassuan-static_2.5.3-1_arm.deb
+Filename: ./arm/libassuan-static_2.5.3-1_arm.deb
 Size: 30214
 MD5sum: 098744329996b19b5da5597ce749e01c
 SHA1: 7b63981108a1b1930de88dcda9990edd4b1dda9f
@@ -509,7 +509,7 @@ Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 104
 Breaks: libbz2-dev
 Replaces: libbz2-dev
-Filename:  arm/libbz2_1.0.8-5_arm.deb
+Filename: ./arm/libbz2_1.0.8-5_arm.deb
 Size: 27682
 MD5sum: 5381c98fa3a2200c780a933481c624fc
 SHA1: dddf53a992343eb752d4f19ec3caf9ad6c080e00
@@ -523,7 +523,7 @@ Architecture: arm
 Essential: yes
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 588
-Filename:  arm/libc++_20_arm.deb
+Filename: ./arm/libc++_20_arm.deb
 Size: 164138
 MD5sum: 768d99c7bfd4dc5108c49e6f62ee7eca
 SHA1: 14ae9ac5e80af9311c2c5f5303e916b15cf74afe
@@ -539,7 +539,7 @@ Installed-Size: 68
 Depends: openssl
 Breaks: libcrypt-dev
 Replaces: libcrypt-dev
-Filename:  arm/libcrypt_0.2-2_arm.deb
+Filename: ./arm/libcrypt_0.2-2_arm.deb
 Size: 10618
 MD5sum: e519b31b78c416f1d229311b82ec234c
 SHA1: e5ca004c7c95f70b944d56dde89064956496d2a4
@@ -557,7 +557,7 @@ Depends: libnghttp2, openssl (>= 1.1.1), zlib
 Conflicts: apt (<< 1.4.8-8)
 Breaks: libcurl-dev
 Replaces: libcurl-dev
-Filename:  arm/libcurl_7.66.0-1_arm.deb
+Filename: ./arm/libcurl_7.66.0-1_arm.deb
 Size: 812926
 MD5sum: b35e771985d04122e1942ab3437a8369
 SHA1: 36e3612e3c918cdd93838ae51151f62e3ee4f3ab
@@ -571,7 +571,7 @@ Architecture: arm
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 684
 Depends: libcurl (= 7.66.0-1)
-Filename:  arm/libcurl-static_7.66.0-1_arm.deb
+Filename: ./arm/libcurl-static_7.66.0-1_arm.deb
 Size: 215036
 MD5sum: 1c4dc2959d79a25749ae3398217147ca
 SHA1: 63ee2d3b79e45070d5ff4bf68035aab82dba9441
@@ -586,7 +586,7 @@ Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 892
 Breaks: libevent-dev
 Replaces: libevent-dev
-Filename:  arm/libevent_2.1.11-1_arm.deb
+Filename: ./arm/libevent_2.1.11-1_arm.deb
 Size: 176532
 MD5sum: c01ea213d1bd19f11f5488d83800f655
 SHA1: 481e08637c9b016730eab1fabeff88c5e2958d9a
@@ -602,7 +602,7 @@ Installed-Size: 1120
 Depends: libgpg-error
 Breaks: libgcrypt-dev
 Replaces: libgcrypt-dev
-Filename:  arm/libgcrypt_1.8.5_arm.deb
+Filename: ./arm/libgcrypt_1.8.5_arm.deb
 Size: 380368
 MD5sum: b863d1aacb81b8c5b7e2e32566d38de5
 SHA1: bc919ba125019f840d687bb23f37b8bdde42089e
@@ -616,7 +616,7 @@ Architecture: arm
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 1056
 Depends: libgcrypt (= 1.8.5)
-Filename:  arm/libgcrypt-static_1.8.5_arm.deb
+Filename: ./arm/libgcrypt-static_1.8.5_arm.deb
 Size: 346158
 MD5sum: 21a7e2bf31278afbd905259d983d368a
 SHA1: c4d5a5400aa03c89c734f1e2c6e7e4ec8b9f55d4
@@ -631,7 +631,7 @@ Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 1064
 Breaks: libgmp-dev
 Replaces: libgmp-dev
-Filename:  arm/libgmp_6.1.2-4_arm.deb
+Filename: ./arm/libgmp_6.1.2-4_arm.deb
 Size: 299458
 MD5sum: af1bdf997b68ce6257a5b104272cad58
 SHA1: 3ef90b5f02d03b180b7c87570a779f4818cbad4f
@@ -645,7 +645,7 @@ Architecture: arm
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 1044
 Depends: libgmp (= 6.1.2-4)
-Filename:  arm/libgmp-static_6.1.2-4_arm.deb
+Filename: ./arm/libgmp-static_6.1.2-4_arm.deb
 Size: 207984
 MD5sum: 30940c54e0dd58479e565524c5248fa1
 SHA1: 0a3667d2e06df47b0a888699e512c048248d67cf
@@ -661,7 +661,7 @@ Installed-Size: 8580
 Depends: libgmp, libnettle, ca-certificates, libidn2, libunistring
 Breaks: libgnutls-dev
 Replaces: libgnutls-dev
-Filename:  arm/libgnutls_3.6.10_arm.deb
+Filename: ./arm/libgnutls_3.6.10_arm.deb
 Size: 1916584
 MD5sum: c1144b26b5bd70a8eb89a043b5d1595d
 SHA1: 271df024cc164a3d94a52dc129e3ddf22b7b03e2
@@ -675,7 +675,7 @@ Architecture: arm
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 2376
 Depends: libgnutls (= 3.6.10)
-Filename:  arm/libgnutls-static_3.6.10_arm.deb
+Filename: ./arm/libgnutls-static_3.6.10_arm.deb
 Size: 673488
 MD5sum: 2892b6cf963c3496b6c465b9f8ffdabd
 SHA1: 8dc88c681fec7e8aa1a014f96d773d878cfe61c3
@@ -690,7 +690,7 @@ Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 468
 Breaks: libgpg-error-dev
 Replaces: libgpg-error-dev
-Filename:  arm/libgpg-error_1.36-1_arm.deb
+Filename: ./arm/libgpg-error_1.36-1_arm.deb
 Size: 93176
 MD5sum: 4d371357f06c89b42b2c4203cc67d948
 SHA1: 57388eeb2fd13ef5e61846c6f75bd9e37672f40c
@@ -704,7 +704,7 @@ Architecture: arm
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 168
 Depends: libgpg-error (= 1.36-1)
-Filename:  arm/libgpg-error-static_1.36-1_arm.deb
+Filename: ./arm/libgpg-error-static_1.36-1_arm.deb
 Size: 47086
 MD5sum: 598ac4bf60adf7e5a83c23364697955c
 SHA1: bc0675290ddab6ca4bccb3aef0430a0af2239521
@@ -719,7 +719,7 @@ Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 1108
 Breaks: libandroid-support (<= 24), libiconv-dev, libandroid-support-dev
 Replaces: libandroid-support (<= 24), libiconv-dev, libandroid-support-dev
-Filename:  arm/libiconv_1.16-3_arm.deb
+Filename: ./arm/libiconv_1.16-3_arm.deb
 Size: 547252
 MD5sum: c6b7315c00842f6a63e7ced1f79601cb
 SHA1: 95cddb950e0d5b9897b0e0eee3dbb540b0e77e07
@@ -733,7 +733,7 @@ Architecture: arm
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 1052
 Depends: libiconv (= 1.16-3)
-Filename:  arm/libiconv-static_1.16-3_arm.deb
+Filename: ./arm/libiconv-static_1.16-3_arm.deb
 Size: 541122
 MD5sum: ca61e4a0b065d5881039ca4a7da89ea8
 SHA1: 6c727582d6e15532f4dfb6034279ffa6e45e5f7c
@@ -749,7 +749,7 @@ Installed-Size: 368
 Depends: libunistring, libandroid-support
 Breaks: libidn2-dev
 Replaces: libidn2-dev
-Filename:  arm/libidn2_2.2.0-1_arm.deb
+Filename: ./arm/libidn2_2.2.0-1_arm.deb
 Size: 82554
 MD5sum: 01ce803679fd1573b43d44fafb677982
 SHA1: eacb8a1a35d3ccf4297aa050bda32ae35ec0c4a4
@@ -763,7 +763,7 @@ Architecture: arm
 Maintainer: lokesh @hax4us
 Installed-Size: 172
 Depends: libidn2 (= 2.2.0-1)
-Filename:  arm/libidn2-static_2.2.0-1_arm.deb
+Filename: ./arm/libidn2-static_2.2.0-1_arm.deb
 Size: 41566
 MD5sum: f198e9b297a0b2c3c9c9f7dffda2323d
 SHA1: 1a6a52a809bcec82fd694b71c762dd6151b1e2ce
@@ -779,7 +779,7 @@ Installed-Size: 316
 Depends: libgpg-error
 Breaks: libksba-dev
 Replaces: libksba-dev
-Filename:  arm/libksba_1.3.5-2_arm.deb
+Filename: ./arm/libksba_1.3.5-2_arm.deb
 Size: 93704
 MD5sum: fdd09a35d101b3ef4c734668d836de10
 SHA1: d717ebc094caf7f3db629d7e0fc4177312b09008
@@ -793,7 +793,7 @@ Architecture: arm
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 276
 Depends: libksba (= 1.3.5-2)
-Filename:  arm/libksba-static_1.3.5-2_arm.deb
+Filename: ./arm/libksba-static_1.3.5-2_arm.deb
 Size: 81910
 MD5sum: 2e5623868301357e2f2d98ec5bfefacc
 SHA1: 6d5c7b5f29e2d8c1207045c604ccfa43571ef363
@@ -809,7 +809,7 @@ Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 576
 Breaks: liblzma-dev
 Replaces: liblzma-dev
-Filename:  arm/liblzma_5.2.4-7_arm.deb
+Filename: ./arm/liblzma_5.2.4-7_arm.deb
 Size: 137942
 MD5sum: 44975c2c2893d68dbad7c69820bbd92b
 SHA1: 67c4bab115b481b904f8af3d25b327218d633b9f
@@ -823,7 +823,7 @@ Architecture: arm
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 240
 Depends: liblzma (= 5.2.4-7)
-Filename:  arm/liblzma-static_5.2.4-7_arm.deb
+Filename: ./arm/liblzma-static_5.2.4-7_arm.deb
 Size: 72540
 MD5sum: c675c708e088c8c33b392813e5cfbd72
 SHA1: 38370fa1e4d066b1ad6939316be07477a2073109
@@ -839,7 +839,7 @@ Installed-Size: 812
 Depends: libgmp
 Breaks: libmpfr-dev
 Replaces: libmpfr-dev
-Filename:  arm/libmpfr_4.0.2-2_arm.deb
+Filename: ./arm/libmpfr_4.0.2-2_arm.deb
 Size: 250708
 MD5sum: 857c18eeee4dd023e931ecff5c074e4b
 SHA1: 79cdb755670efbcd5e0ffe39cb8b690d7f71d6e1
@@ -853,7 +853,7 @@ Architecture: arm
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 704
 Depends: libmpfr (= 4.0.2-2)
-Filename:  arm/libmpfr-static_4.0.2-2_arm.deb
+Filename: ./arm/libmpfr-static_4.0.2-2_arm.deb
 Size: 185894
 MD5sum: 14c67afe7ab8500f961f36de868ef717
 SHA1: 0e9d3d408810a44299e71c8f5093a68614141c07
@@ -869,7 +869,7 @@ Installed-Size: 1048
 Depends: libgmp
 Breaks: libnettle-dev
 Replaces: libnettle-dev
-Filename:  arm/libnettle_3.5.1-2_arm.deb
+Filename: ./arm/libnettle_3.5.1-2_arm.deb
 Size: 295844
 MD5sum: 057b4dbed8114b96f541e29503dc251f
 SHA1: a945b1c59d78446bd5b5078a27d48fc9593b46f4
@@ -883,7 +883,7 @@ Architecture: arm
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 2048
 Depends: libnettle (= 3.5.1-2)
-Filename:  arm/libnettle-static_3.5.1-2_arm.deb
+Filename: ./arm/libnettle-static_3.5.1-2_arm.deb
 Size: 441722
 MD5sum: 19595df5fdbf888bb103d68e28fc46d2
 SHA1: 28b95ae145bafd02fdb1880113321d967773bde8
@@ -898,7 +898,7 @@ Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 404
 Breaks: libnghttp2-dev
 Replaces: libnghttp2-dev
-Filename:  arm/libnghttp2_1.39.2_arm.deb
+Filename: ./arm/libnghttp2_1.39.2_arm.deb
 Size: 88128
 MD5sum: c2a2239984346c2faa10f052072567ef
 SHA1: 1164ef560b16fa8a6aba7333072d45116d32fa3c
@@ -912,7 +912,7 @@ Architecture: arm
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 216
 Depends: libnghttp2 (= 1.39.2)
-Filename:  arm/libnghttp2-static_1.39.2_arm.deb
+Filename: ./arm/libnghttp2-static_1.39.2_arm.deb
 Size: 56596
 MD5sum: 732b5cd308a1971f89293ad764953c4d
 SHA1: 2a123e59e451ff5679e5f1ebea3c16e5f941b760
@@ -927,7 +927,7 @@ Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 88
 Breaks: libnpth-dev
 Replaces: libnpth-dev
-Filename:  arm/libnpth_1.6-1_arm.deb
+Filename: ./arm/libnpth_1.6-1_arm.deb
 Size: 10450
 MD5sum: 3d82f54db0d1e5a07f3a62905fdb4c36
 SHA1: 6c1fbb97b7894f5b72dbfc4b92d106e4d4bfa015
@@ -941,7 +941,7 @@ Architecture: arm
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 44
 Depends: libnpth (= 1.6-1)
-Filename:  arm/libnpth-static_1.6-1_arm.deb
+Filename: ./arm/libnpth-static_1.6-1_arm.deb
 Size: 4308
 MD5sum: 28eb213572eae0b0dcc928f162a9be50
 SHA1: c77c7181ffc38a2714a364ed0860d3a4642e71f9
@@ -955,7 +955,7 @@ Architecture: arm
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 36
 Depends: pcre (= 8.43-5)
-Filename:  arm/libpcreposix_8.43-5_arm.deb
+Filename: ./arm/libpcreposix_8.43-5_arm.deb
 Size: 3060
 MD5sum: 6fded3340b01312861006acc9528e810
 SHA1: 157e6bbedde1ac2b6c7d1fc4bef66710d8f748ac
@@ -971,7 +971,7 @@ Installed-Size: 1372
 Depends: zlib
 Breaks: libsqlite-dev
 Replaces: libsqlite-dev
-Filename:  arm/libsqlite_3.30.1_arm.deb
+Filename: ./arm/libsqlite_3.30.1_arm.deb
 Size: 520980
 MD5sum: 4169663d28cfa7e36861ee77e13a95e0
 SHA1: ce3e328f9d095e696e3253b99a981652573e9513
@@ -985,7 +985,7 @@ Architecture: arm
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 876
 Depends: libsqlite (= 3.30.1)
-Filename:  arm/libsqlite-static_3.30.1_arm.deb
+Filename: ./arm/libsqlite-static_3.30.1_arm.deb
 Size: 422388
 MD5sum: af49f8f4a3f7413ae035552dfb5857f3
 SHA1: c8776c6528181ff53dc3e921602e978a7acf5b7d
@@ -1001,7 +1001,7 @@ Installed-Size: 2632
 Depends: libandroid-support, libiconv
 Breaks: libunistring-dev
 Replaces: libunistring-dev
-Filename:  arm/libunistring_0.9.10-3_arm.deb
+Filename: ./arm/libunistring_0.9.10-3_arm.deb
 Size: 476560
 MD5sum: ed486f74a657d9468397b933b097e918
 SHA1: 8baf39be4b1e37cc279351a8bdd6716cafd69f57
@@ -1015,7 +1015,7 @@ Architecture: arm
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 2184
 Depends: libunistring (= 0.9.10-3)
-Filename:  arm/libunistring-static_0.9.10-3_arm.deb
+Filename: ./arm/libunistring-static_0.9.10-3_arm.deb
 Size: 400640
 MD5sum: 8c21510323f00fc1abb3635f11817bee
 SHA1: 88e942d088a3990dcc5615090f9f9c8abe57c1db
@@ -1030,7 +1030,7 @@ Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 1392
 Breaks: ncurses-dev, ncurses-utils (<< 6.1.20190511-4)
 Replaces: ncurses-dev, ncurses-utils (<< 6.1.20190511-4)
-Filename:  arm/ncurses_6.1.20190928_arm.deb
+Filename: ./arm/ncurses_6.1.20190928_arm.deb
 Size: 480368
 MD5sum: da6d32cdf218e9b6d90f1e5f53209633
 SHA1: 9351589ccbb1683be4e4979a97e83cb914405efc
@@ -1044,7 +1044,7 @@ Architecture: arm
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 584
 Depends: ncurses (= 6.1.20190928)
-Filename:  arm/ncurses-static_6.1.20190928_arm.deb
+Filename: ./arm/ncurses-static_6.1.20190928_arm.deb
 Size: 147066
 MD5sum: 747e500fdbbc29b0c2278e6662e44e3d
 SHA1: 3e2c7ac4511c1ea0b74aefb19d4cf71bbb16152c
@@ -1058,7 +1058,7 @@ Architecture: arm
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 108
 Depends: ncurses (= 6.1.20190928)
-Filename:  arm/ncurses-ui-libs_6.1.20190928_arm.deb
+Filename: ./arm/ncurses-ui-libs_6.1.20190928_arm.deb
 Size: 31022
 MD5sum: 339f5bee9ec2f35cb79cdeb0dfd2e1c6
 SHA1: 1516e3b4bb79dc06981df2bde29043739ba51aae
@@ -1072,7 +1072,7 @@ Architecture: arm
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 196
 Depends: ncurses (= 6.1.20190928)
-Filename:  arm/ncurses-ui-libs-static_6.1.20190928_arm.deb
+Filename: ./arm/ncurses-ui-libs-static_6.1.20190928_arm.deb
 Size: 35372
 MD5sum: 39c17dae6d22d18bf9fcee55514a3a75
 SHA1: 2592f7ced5bdf6dd076a8731640d3b1abbf4f8bd
@@ -1086,7 +1086,7 @@ Architecture: arm
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 232
 Depends: ncurses (= 6.1.20190928)
-Filename:  arm/ncurses-utils_6.1.20190928_arm.deb
+Filename: ./arm/ncurses-utils_6.1.20190928_arm.deb
 Size: 81566
 MD5sum: 739b85ca474dd1f959da48ae65f980a1
 SHA1: 689bbab33cabfdbbac15f946cdf9594d8b52fa41
@@ -1099,7 +1099,7 @@ Version: 1.60.2017.02.21-2
 Architecture: arm
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 460
-Filename:  arm/net-tools_1.60.2017.02.21-2_arm.deb
+Filename: ./arm/net-tools_1.60.2017.02.21-2_arm.deb
 Size: 107656
 MD5sum: 513f467179d9ebf752c05a7ca93b4828
 SHA1: 4e82d06309a3769b82c29996987ca9dc88d8bd28
@@ -1113,7 +1113,7 @@ Architecture: arm
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 108
 Depends: libnettle (= 3.5.1-2)
-Filename:  arm/nettle_3.5.1-2_arm.deb
+Filename: ./arm/nettle_3.5.1-2_arm.deb
 Size: 19050
 MD5sum: 9f6aebce0d6649cad46f8841860ea3df
 SHA1: 09a6467577c9598b68b33e2274b48cfe571d5d3a
@@ -1130,7 +1130,7 @@ Depends: ca-certificates
 Conflicts: libcurl (<< 7.61.0-1)
 Breaks: openssl-tool (<< 1.1.1b-1), openssl-dev
 Replaces: openssl-tool (<< 1.1.1b-1), openssl-dev
-Filename:  arm/openssl_1.1.1d-1_arm.deb
+Filename: ./arm/openssl_1.1.1d-1_arm.deb
 Size: 1133694
 MD5sum: ba68bca17249301570f16cff8b984c99
 SHA1: 571d0b753b5998de17765ec5b82d56b5e8536813
@@ -1144,7 +1144,7 @@ Architecture: arm
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 4024
 Depends: openssl (= 1.1.1d-1)
-Filename:  arm/openssl-static_1.1.1d-1_arm.deb
+Filename: ./arm/openssl-static_1.1.1d-1_arm.deb
 Size: 1124544
 MD5sum: 3e363dbb0fa6bed20820ff78db394018
 SHA1: 4f8b2de897b2c64dfbb0cfe5e2c967021b29263c
@@ -1158,7 +1158,7 @@ Architecture: arm
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 468
 Depends: openssl (= 1.1.1d-1)
-Filename:  arm/openssl-tool_1.1.1d-1_arm.deb
+Filename: ./arm/openssl-tool_1.1.1d-1_arm.deb
 Size: 184910
 MD5sum: 8cec7db1a9907f87ccddd24ae21958d5
 SHA1: 6918c22bffe76dd22773bef7d934a55d025086a1
@@ -1171,7 +1171,7 @@ Version: 2.7.6-3
 Architecture: arm
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 184
-Filename:  arm/patch_2.7.6-3_arm.deb
+Filename: ./arm/patch_2.7.6-3_arm.deb
 Size: 80968
 MD5sum: 7489d9fc39ab4bab68be4cf93bdd42e2
 SHA1: 21aaed3bdd2296e4ebe6e17349af011753f2c468
@@ -1186,7 +1186,7 @@ Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 2628
 Breaks: pcre-dev
 Replaces: pcre-dev
-Filename:  arm/pcre_8.43-5_arm.deb
+Filename: ./arm/pcre_8.43-5_arm.deb
 Size: 652610
 MD5sum: fd08c0f43d0cb25131af9af7ad97e50f
 SHA1: 5abdbf2ca76d10410516fc333ccd7c59380082e6
@@ -1200,7 +1200,7 @@ Architecture: arm
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 456
 Depends: pcre (= 8.43-5)
-Filename:  arm/pcre-static_8.43-5_arm.deb
+Filename: ./arm/pcre-static_8.43-5_arm.deb
 Size: 141952
 MD5sum: 7633e5fadacd06bbf94f0f10fce9de12
 SHA1: f8d15c0e76aa0e0276cf32215f610ee0080842a3
@@ -1214,7 +1214,7 @@ Architecture: arm
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 132
 Depends: libandroid-support, libassuan, libiconv, ncurses
-Filename:  arm/pinentry_1.1.0-4_arm.deb
+Filename: ./arm/pinentry_1.1.0-4_arm.deb
 Size: 37000
 MD5sum: 4f53f6f7d27446596603326b1dd94ab7
 SHA1: ccd25d572e8dc012c2cd263de51ea84b53772c6d
@@ -1231,7 +1231,7 @@ Installed-Size: 568
 Depends: ncurses
 Breaks: procps-dev
 Replaces: procps-dev
-Filename:  arm/procps_3.3.15-6_arm.deb
+Filename: ./arm/procps_3.3.15-6_arm.deb
 Size: 132790
 MD5sum: 3742e594f9139e39302e2f029fb52ae7
 SHA1: 7ecb7a30c9279cb467b50f69b3135aa40178a37d
@@ -1245,7 +1245,7 @@ Architecture: arm
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 116
 Depends: procps (= 3.3.15-6)
-Filename:  arm/procps-static_3.3.15-6_arm.deb
+Filename: ./arm/procps-static_3.3.15-6_arm.deb
 Size: 28002
 MD5sum: 3035aeb484fe2b6e5f4fa1e374738257
 SHA1: 4a75505db269d94c6efe4300ffc487fc0c598300
@@ -1260,7 +1260,7 @@ Essential: yes
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 176
 Depends: ncurses
-Filename:  arm/psmisc_23.2-1_arm.deb
+Filename: ./arm/psmisc_23.2-1_arm.deb
 Size: 40664
 MD5sum: 708a4ea181bb06da3e2f079a43b40cb1
 SHA1: 54efadd4b2d80a4562bb8642f47a2075553486f2
@@ -1276,7 +1276,7 @@ Installed-Size: 980
 Depends: libandroid-support, ncurses
 Breaks: bash (<< 5.0), readline-dev
 Replaces: readline-dev
-Filename:  arm/readline_8.0.1_arm.deb
+Filename: ./arm/readline_8.0.1_arm.deb
 Size: 217042
 MD5sum: 8ba08aafbdfdacbbb20937fbefd90351
 SHA1: 9578f2686d4f7a8351868bc48e9ceeb30214d39f
@@ -1290,7 +1290,7 @@ Architecture: arm
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 412
 Depends: readline (= 8.0.1)
-Filename:  arm/readline-static_8.0.1_arm.deb
+Filename: ./arm/readline-static_8.0.1_arm.deb
 Size: 107400
 MD5sum: d72489a4f009715b9311acd1a7f6d8c1
 SHA1: ffeb1b967ad012ef8ed5469aefd94cd3b75f8c8c
@@ -1303,7 +1303,7 @@ Version: 1.2
 Architecture: arm
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 44
-Filename:  arm/resolv-conf_1.2_arm.deb
+Filename: ./arm/resolv-conf_1.2_arm.deb
 Size: 940
 MD5sum: add48fcaf2cd792657e9fa3dd6560ab8
 SHA1: 7c95729e10ddeba8ec6abf1ed07f37fb4f935d0e
@@ -1317,7 +1317,7 @@ Architecture: all
 Maintainer: Henrik Grimler @Grimler91
 Installed-Size: 52
 Depends: termux-keyring
-Filename:  all/science-repo_1.0_all.deb
+Filename: ./all/science-repo_1.0_all.deb
 Size: 1050
 MD5sum: c160354ce4202524bdb740accdb56b02
 SHA1: 84b414f154e93c572b66ab3d99f8803a4c56440b
@@ -1331,7 +1331,7 @@ Architecture: arm
 Essential: yes
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 356
-Filename:  arm/sed_4.7-1_arm.deb
+Filename: ./arm/sed_4.7-1_arm.deb
 Size: 112800
 MD5sum: d57ea00f9f0a308a827cb22296f20077
 SHA1: ffa2cf770dba77f814af0c3cfe153443842db356
@@ -1345,7 +1345,7 @@ Architecture: arm
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 772
 Depends: readline, libsqlite (= 3.30.1)
-Filename:  arm/sqlite_3.30.1_arm.deb
+Filename: ./arm/sqlite_3.30.1_arm.deb
 Size: 446400
 MD5sum: accda568250d87e3497c716eedaebc80
 SHA1: e2809b581d8034989a43a0e73f266cd6839e3de3
@@ -1360,7 +1360,7 @@ Essential: yes
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 1052
 Depends: libandroid-glob, libiconv
-Filename:  arm/tar_1.32-4_arm.deb
+Filename: ./arm/tar_1.32-4_arm.deb
 Size: 330932
 MD5sum: a99318abbb130bcecf5f7eb7ad92f4e8
 SHA1: 626e18aa03511431b30f3a0ebfb6618ce66575ba
@@ -1374,7 +1374,7 @@ Architecture: all
 Maintainer: Michal Bednarski @michalbednarski
 Installed-Size: 72
 Conflicts: termux-tools (<< 0.51)
-Filename:  all/termux-am_0.3_all.deb
+Filename: ./all/termux-am_0.3_all.deb
 Size: 17012
 MD5sum: 5e7b20f30bb5a4b725660b178904cd36
 SHA1: 59a9ea51b4ce4df0e23ea0148015a70896465480
@@ -1388,7 +1388,7 @@ Architecture: arm
 Essential: yes
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 48
-Filename:  arm/termux-exec_0.4-1_arm.deb
+Filename: ./arm/termux-exec_0.4-1_arm.deb
 Size: 2622
 MD5sum: 878eb9be994cfff799981806d172b61d
 SHA1: 872b218d80bbfcd6dcaf6a68013a9fc723d8a54c
@@ -1401,7 +1401,7 @@ Version: 1.2
 Architecture: all
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 84
-Filename:  all/termux-keyring_1.2_all.deb
+Filename: ./all/termux-keyring_1.2_all.deb
 Size: 31800
 MD5sum: e00e6361766ad59822744b5951a7e451
 SHA1: f2414dca75294618b4025767d80fb65f7c2a52d9
@@ -1415,7 +1415,7 @@ Architecture: all
 Essential: yes
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 404
-Filename:  all/termux-licenses_1.0_all.deb
+Filename: ./all/termux-licenses_1.0_all.deb
 Size: 54628
 MD5sum: d5a9ba6e9a49de325725d8ede3f09fc1
 SHA1: 1d1bdd18ff55004d88b086bfea6e8abe62f546b8
@@ -1432,7 +1432,7 @@ Installed-Size: 144
 Depends: bzip2, coreutils, curl, dash, diffutils, findutils, gawk, grep, gzip, less, procps, psmisc, sed, tar, termux-am, termux-exec, xz-utils
 Recommends: ed, dos2unix, inetutils, net-tools, patch, unzip, util-linux
 Conflicts: procps (<< 3.3.15-2)
-Filename:  all/termux-tools_0.72_all.deb
+Filename: ./all/termux-tools_0.72_all.deb
 Size: 4616
 MD5sum: 75f582a2ca3962376a53b455180446cc
 SHA1: c78bd3ea66955b07bcbcf820fb1a823e5839d474
@@ -1446,7 +1446,7 @@ Architecture: arm
 Maintainer: Vishal Biswas @vishalbiswas
 Installed-Size: 10800
 Depends: libevent, openssl, liblzma, zlib
-Filename:  arm/tor_0.4.1.6_arm.deb
+Filename: ./arm/tor_0.4.1.6_arm.deb
 Size: 2074676
 MD5sum: f0209bcfbfdf5eed1b2bc03656f32a37
 SHA1: 8edcab766fc5ad2c68d1ef63faa41a134644eb02
@@ -1460,7 +1460,7 @@ Architecture: arm
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 292
 Depends: libbz2
-Filename:  arm/unzip_6.0-5_arm.deb
+Filename: ./arm/unzip_6.0-5_arm.deb
 Size: 115260
 MD5sum: 848ba83d0a28ecb8025fcb40b222c64d
 SHA1: 33cff9511b4e8018dc27afc4608452011b7bf7bc
@@ -1476,7 +1476,7 @@ Installed-Size: 2952
 Depends: ncurses, libcrypt, zlib
 Breaks: util-linux-dev
 Replaces: util-linux-dev
-Filename:  arm/util-linux_2.34-2_arm.deb
+Filename: ./arm/util-linux_2.34-2_arm.deb
 Size: 575790
 MD5sum: 86dcb59d7dde932da4de154f54c84d39
 SHA1: b39ca1841b6f056da246a66db4d051b2993df4df
@@ -1490,7 +1490,7 @@ Architecture: arm
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 880
 Depends: util-linux (= 2.34-2)
-Filename:  arm/util-linux-static_2.34-2_arm.deb
+Filename: ./arm/util-linux-static_2.34-2_arm.deb
 Size: 174724
 MD5sum: ce0469713b64607160c14cdf1f806318
 SHA1: 1642a86b34681e721f27ca0cf0099c6f765cc1d3
@@ -1505,7 +1505,7 @@ Essential: yes
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 200
 Depends: liblzma (= 5.2.4-7)
-Filename:  arm/xz-utils_5.2.4-7_arm.deb
+Filename: ./arm/xz-utils_5.2.4-7_arm.deb
 Size: 61974
 MD5sum: 68abe020cdf266cc820cfaefc315c6af
 SHA1: 10dc873beb3b8570289ca6f5efebf4475fc4705a
@@ -1520,7 +1520,7 @@ Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 240
 Breaks: ndk-sysroot (<< 19b-3), zlib-dev
 Replaces: ndk-sysroot (<< 19b-3), zlib-dev
-Filename:  arm/zlib_1.2.11-4_arm.deb
+Filename: ./arm/zlib_1.2.11-4_arm.deb
 Size: 67104
 MD5sum: b2981ca548bc8b2547981b194518a043
 SHA1: 53ce9350181f00fe41c4fc3ddeaf8f9b097868f4
@@ -1534,7 +1534,7 @@ Architecture: arm
 Maintainer: Fredrik Fornwall @fornwall
 Installed-Size: 112
 Depends: zlib (= 1.2.11-4)
-Filename:  arm/zlib-static_1.2.11-4_arm.deb
+Filename: ./arm/zlib-static_1.2.11-4_arm.deb
 Size: 38760
 MD5sum: b957fffadd15db621a3004991e4b4f19
 SHA1: 1ee52fa13dbe2ccfd94ebbe06ddbe257069a713e
